@@ -1,2 +1,3 @@
-# wechathttps://github.com/motianhuo/wechat
+# wechat
+https://github.com/motianhuo/wechat
 高仿微信
