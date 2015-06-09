@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/timestampe_bg"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="3dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="3dp"
+        android:textSize="12sp"
+        android:textColor="@color/gray_white"
+        android:text="2015年6月2日17:59:19" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timestamp"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_bg_gray2"
+        android:orientation="vertical"
+        android:padding="16dp" >
+
+        <RelativeLayout
+        android:id="@+id/layout_msg1"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"  >
+
+            <ImageView
+            android:id="@+id/img_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user_ba" />
+
+            <TextView
+                android:id="@+id/tvname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="夏天到了，你还准备去哪呢？ 撒大大四大阿萨飒飒"
+                android:gravity="center|left"
+                android:padding="5dp" 
+                android:layout_alignParentBottom="true"
+                android:background="#d0000000"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+           
+        </RelativeLayout>
+        
+         <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/black2" />
+        
+         <LinearLayout
+        android:id="@+id/layout_msg2"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/setting_item_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"  >
+             
+             <TextView
+            android:id="@+id/txt_title2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="夏天到了，你还准备去哪呢？"
+            android:gravity="center_vertical"
+            android:lines="2"
+            android:layout_marginRight="15dp"
+            android:layout_weight="2"
+            android:textSize="16sp" />
+             
+               <ImageView
+                android:id="@+id/img_photo2"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gr" />
+         </LinearLayout>
+         <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip" 
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/black2" />
+    <LinearLayout
+        android:id="@+id/layout_msg3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:background="@drawable/setting_item_selector"
+        android:paddingBottom="5dp"
+        android:orientation="horizontal"  >
+             
+             <TextView
+            android:id="@+id/txt_title3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="夏天到了，你还准备去哪呢？"
+            android:gravity="center_vertical"
+            android:lines="2"
+            android:layout_marginRight="15dp"
+            android:layout_weight="2"
+            android:textSize="16sp" />
+             
+               <ImageView
+                android:id="@+id/img_photo3"
+                android:layout_width="50.0dip"
+                android:layout_height="50.0dip"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gr" />
+         </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

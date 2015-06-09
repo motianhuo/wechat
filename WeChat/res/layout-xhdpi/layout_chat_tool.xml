@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_alignParentBottom="true"
+		android:background="@drawable/menu_bg"
+	android:orientation="vertical">
+
+    <!-- 聊天窗口 底部工具栏 -->
+	<LinearLayout
+		android:id="@+id/custom_botton"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+		android:paddingTop="4dp"
+		android:paddingBottom="4dp"
+		android:orientation="horizontal">
+		<LinearLayout
+		    android:id="@+id/view_photo"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:orientation="vertical">
+			<ImageView
+				android:layout_margin="5dp"
+				android:layout_width="60.0dip"
+				android:layout_height="60.0dip"
+				android:contentDescription="@string/app_name"
+				android:src="@drawable/chat_tool_photo" />
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:textSize="12sp"
+				android:text="@string/attach_picture"
+				android:textColor="@color/black1" />
+		</LinearLayout>
+		<LinearLayout
+		    android:id="@+id/view_camera"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:orientation="vertical">
+			<ImageView
+				android:layout_margin="5dp"
+				android:layout_width="60.0dip"
+				android:layout_height="60.0dip"
+				android:contentDescription="@string/app_name"
+				android:src="@drawable/chat_tool_camera" />
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:textSize="12sp"
+				android:text="@string/attach_take_pic"
+				android:textColor="@color/black1" />
+		</LinearLayout>
+	
+		<LinearLayout
+		    android:id="@+id/view_location"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:orientation="vertical">
+			<ImageView
+				android:layout_margin="5dp"
+				android:layout_width="60.0dip"
+				android:layout_height="60.0dip"
+				android:contentDescription="@string/app_name"
+				android:src="@drawable/chat_tool_location" />
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:textSize="12sp"
+				android:text="@string/attach_location"
+				android:textColor="@color/black1" />
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		    android:id="@+id/view_location_video"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+		android:visibility="visible"
+		android:paddingTop="4dp"
+		android:orientation="horizontal">
+			<LinearLayout
+		    android:id="@+id/view_file"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:orientation="vertical">
+			<ImageView
+				android:layout_margin="5dp"
+				android:layout_width="60.0dip"
+				android:layout_height="60.0dip"
+				android:contentDescription="@string/app_name"
+				android:src="@drawable/chat_tool_send_file" />
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:textSize="12sp"
+				android:text="@string/attach_file"
+				android:textColor="@color/black1" />
+		</LinearLayout>
+		<LinearLayout
+		    android:id="@+id/view_audio"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:orientation="vertical">
+			<ImageView
+				android:layout_margin="5dp"
+				android:layout_width="60.0dip"
+				android:layout_height="60.0dip"
+				android:contentDescription="@string/app_name"
+				android:src="@drawable/chat_tool_audio" />
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:textSize="12sp"
+				android:text="@string/attach_voice_call"
+				android:textColor="@color/black1" />
+		</LinearLayout>
+		<LinearLayout
+		    android:id="@+id/view_video"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:orientation="vertical">
+			<ImageView
+				android:layout_margin="5dp"
+				android:layout_width="60.0dip"
+				android:layout_height="60.0dip"
+				android:contentDescription="@string/app_name"
+				android:src="@drawable/chat_tool_video" />
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:textSize="12sp"
+				android:text="@string/attach_video_call"
+				android:textColor="@color/black1" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

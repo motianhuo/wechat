@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="13dp" >
+
+    <TextView
+        android:id="@+id/timestamp"
+        style="@style/chat_text_date_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_chat_activity" >
+
+        <ImageView
+            android:id="@+id/iv_userhead"
+            android:layout_width="@dimen/size_avatar"
+            android:layout_height="@dimen/size_avatar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/margin_chat_activity"
+            android:background="@drawable/head"
+            android:scaleType="fitXY" />
+   <TextView
+            android:id="@+id/tv_userid"
+            style="@style/chat_text_name_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp" 
+            android:layout_toRightOf="@id/iv_userhead" />
+        <RelativeLayout
+            android:id="@+id/row_recv_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_userid"
+            android:layout_marginLeft="@dimen/margin_chat_activity"
+            android:layout_toRightOf="@id/iv_userhead"
+             >
+
+            <ImageView
+                android:background="@drawable/chatfrom_bg"
+                android:id="@+id/iv_sendPicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            android:padding="17dp"
+                android:scaleType="fitCenter" />
+
+            <LinearLayout
+                android:id="@+id/ll_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                android:indeterminateDrawable="@drawable/small_prograssbar"
+				android:indeterminateOnly="true"
+				android:layout_gravity="center"
+				android:indeterminateBehavior="repeat"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/percentage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0%"
+                    android:textColor="@android:color/white"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </RelativeLayout>
+
+     
+    </RelativeLayout>
+
+</LinearLayout>

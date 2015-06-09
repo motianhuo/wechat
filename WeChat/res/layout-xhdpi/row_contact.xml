@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E0E0E0"
+        android:paddingBottom="2dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="2dp"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/mm_listitem"
+        android:duplicateParentState="true" >
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/head" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="11dp"
+            android:layout_toLeftOf="@+id/unread_msg_number"
+            android:layout_toRightOf="@id/avatar"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="4dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="#323232"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/signature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="4dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="#888888"
+                android:textSize="13sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/unread_msg_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/unread_count_bg"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:text="7"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</LinearLayout>

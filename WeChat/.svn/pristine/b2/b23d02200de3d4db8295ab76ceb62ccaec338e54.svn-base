@@ -1,0 +1,63 @@
+package com.juns.wechat;
+
+public interface Constants {
+
+	// 聊天
+	public static final String NEW_FRIENDS_USERNAME = "item_new_friends";
+	String isFriend = "isFriend";
+	String LoginState = "LoginState";
+	String UserInfo = "UserInfo";
+	String URL = "URL";
+	String Title = "Title";
+	String ID = "id";
+	String NAME = "NAME";
+	String AccessToken = "AccessToken";
+	String PWD = "PWD";
+	String VersionInfo = "VersionInfo";
+	String SeeMe = "SeeMe";
+	String LokeMe = "LokeMe";
+	String IsMsg = "IsMsg";
+	String IsVideo = "IsVideo";
+	String IsZhen = "IsZhen";
+	String User_ID = "User_ID";
+	String GROUP_ID = "GROUP_ID";
+	String TYPE = "TYPE";
+	// JSON status
+	String Value = "value";
+	String Result = "result";
+	String NET_ERROR = "网络错误，请稍后再试！";
+	// 主机地址
+	// public static String IP = "http://219.143.88.132:9915";
+	String MAIN_ENGINE = App.IP + "/walk_ios/interface/getResult.do?methodID=";
+
+	// 发送验证码 codeType 1注册 2修改密码
+	String SendCodeURL = MAIN_ENGINE + "001";
+	// 用户注册001
+	String RegistURL = MAIN_ENGINE + "002";
+	// 用户登录003
+	String Login_URL = MAIN_ENGINE + "003";
+	// 更新用户信息
+	String UpdateInfoURL = MAIN_ENGINE + "004";
+	// 检查版本
+	String getVersionURL = MAIN_ENGINE + "020";
+	// 更新用户信息
+	String updateUserInfoURL = MAIN_ENGINE + "004";
+	// 我的群组
+	String getGroupListURL = MAIN_ENGINE + "025";
+	// 反馈
+	String FeedbackURL = MAIN_ENGINE + "019";
+	// 获取群组信息
+	String getGroupInfoURL = MAIN_ENGINE + "027";
+	// 获取用户信息
+	String getUserInfoURL = MAIN_ENGINE + "005";
+	// 查询所有好友033
+	String getAllFriendURL = MAIN_ENGINE + "033";
+	// 举报018
+	String JuBaoURL = MAIN_ENGINE + "018";
+	// 加入群组
+	String addGroupURL = MAIN_ENGINE + "031";
+	// 退出群组
+	String exitGroupURL = MAIN_ENGINE + "029";
+	// 新建群组
+	String newGroupURL = MAIN_ENGINE + "024";
+}

@@ -1,0 +1,229 @@
+package com.juns.wechat.view.fragment;
+
+import java.util.Collections;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.PixelFormat;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+import android.view.WindowManager;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.LinearLayout.LayoutParams;
+import android.widget.ListView;
+import android.widget.SectionIndexer;
+import android.widget.TextView;
+
+import com.juns.wechat.Constants;
+import com.juns.wechat.GloableParams;
+import com.juns.wechat.R;
+import com.juns.wechat.bean.User;
+import com.juns.wechat.chat.ChatActivity;
+import com.juns.wechat.common.PingYinUtil;
+import com.juns.wechat.common.PinyinComparator;
+import com.juns.wechat.common.Utils;
+import com.juns.wechat.common.ViewHolder;
+import com.juns.wechat.view.activity.FriendMsgActivity;
+import com.juns.wechat.widght.SideBar;
+
+//通讯录
+
+public class Fragment_Friends extends Fragment implements OnClickListener,
+		OnItemClickListener {
+	private Activity ctx;
+	private View layout, layout_head;
+	private ListView lvContact;
+	private SideBar indexBar;
+	private TextView mDialogText;
+	private WindowManager mWindowManager;
+
+	@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container,
+			Bundle savedInstanceState) {
+		if (layout == null) {
+			ctx = this.getActivity();
+			layout = ctx.getLayoutInflater().inflate(R.layout.fragment_friends,
+					null);
+			mWindowManager = (WindowManager) ctx
+					.getSystemService(Context.WINDOW_SERVICE);
+			initViews();
+			initData();
+			setOnListener();
+		} else {
+			ViewGroup parent = (ViewGroup) layout.getParent();
+			if (parent != null) {
+				parent.removeView(layout);
+			}
+		}
+		return layout;
+	}
+
+	private void initViews() {
+		lvContact = (ListView) layout.findViewById(R.id.lvContact);
+
+		mDialogText = (TextView) LayoutInflater.from(getActivity()).inflate(
+				R.layout.list_position, null);
+		mDialogText.setVisibility(View.INVISIBLE);
+		indexBar = (SideBar) layout.findViewById(R.id.sideBar);
+		indexBar.setListView(lvContact);
+		WindowManager.LayoutParams lp = new WindowManager.LayoutParams(
+				LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT,
+				WindowManager.LayoutParams.TYPE_APPLICATION,
+				WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE
+						| WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE,
+				PixelFormat.TRANSLUCENT);
+		mWindowManager.addView(mDialogText, lp);
+		indexBar.setTextView(mDialogText);
+		layout_head = ctx.getLayoutInflater().inflate(
+				R.layout.layout_head_friend, null);
+		lvContact.addHeaderView(layout_head);
+		lvContact.setAdapter(new ContactAdapter(getActivity()));
+	}
+
+	@Override
+	public void onDestroyView() {
+		super.onDestroyView();
+		mWindowManager.removeView(mDialogText);
+	}
+
+	private void initData() {
+
+	}
+
+	private void setOnListener() {
+		lvContact.setOnItemClickListener(this);
+		layout_head.findViewById(R.id.layout_addfriend)
+				.setOnClickListener(this);
+		layout_head.findViewById(R.id.layout_search).setOnClickListener(this);
+		layout_head.findViewById(R.id.layout_group).setOnClickListener(this);
+		layout_head.findViewById(R.id.layout_public).setOnClickListener(this);
+	}
+
+	@Override
+	public void onClick(View v) {
+		switch (v.getId()) {
+		case R.id.layout_search:
+			Utils.showLongToast(getActivity(), "搜索好友及公众号");
+			break;
+		case R.id.layout_addfriend:
+			Utils.showLongToast(getActivity(), "添加好友");
+			break;
+		case R.id.layout_group:
+			Utils.showLongToast(getActivity(), "群聊");
+			break;
+		case R.id.layout_public:
+			Utils.showLongToast(getActivity(), "公众号");
+			break;
+		default:
+			break;
+		}
+	}
+
+	@Override
+	public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
+		User user = GloableParams.UserInfos.get(arg2 - 1);
+		Intent intent = new Intent(getActivity(), FriendMsgActivity.class);
+		intent.putExtra(Constants.NAME, user.getUser_name());
+		intent.putExtra(Constants.TYPE, ChatActivity.CHATTYPE_SINGLE);
+		intent.putExtra(Constants.User_ID, user.getAccount());
+		getActivity().startActivity(intent);
+		getActivity().overridePendingTransition(R.anim.push_left_in,
+				R.anim.push_left_out);
+
+	}
+
+	static class ContactAdapter extends BaseAdapter implements SectionIndexer {
+		private Context mContext;
+
+		@SuppressWarnings("unchecked")
+		public ContactAdapter(Context mContext) {
+			this.mContext = mContext;
+			// 排序(实现了中英文混排)
+			Collections.sort(GloableParams.UserInfos, new PinyinComparator());
+		}
+
+		@Override
+		public int getCount() {
+			return GloableParams.UserInfos.size();
+		}
+
+		@Override
+		public Object getItem(int position) {
+			return GloableParams.UserInfos.get(position);
+		}
+
+		@Override
+		public long getItemId(int position) {
+			return position;
+		}
+
+		@Override
+		public View getView(int position, View convertView, ViewGroup parent) {
+			User user = GloableParams.UserInfos.get(position);
+			if (convertView == null) {
+				convertView = LayoutInflater.from(mContext).inflate(
+						R.layout.contact_item, null);
+
+			}
+			ImageView ivAvatar = ViewHolder.get(convertView,
+					R.id.contactitem_avatar_iv);
+			TextView tvCatalog = ViewHolder.get(convertView,
+					R.id.contactitem_catalog);
+			TextView tvNick = ViewHolder
+					.get(convertView, R.id.contactitem_nick);
+			String catalog = PingYinUtil.converterToFirstSpell(
+					user.getUser_name()).substring(0, 1);
+			if (position == 0) {
+				tvCatalog.setVisibility(View.VISIBLE);
+				tvCatalog.setText(catalog);
+			} else {
+				User Nextuser = GloableParams.UserInfos.get(position - 1);
+				String lastCatalog = PingYinUtil.converterToFirstSpell(
+						Nextuser.getUser_name()).substring(0, 1);
+				if (catalog.equals(lastCatalog)) {
+					tvCatalog.setVisibility(View.GONE);
+				} else {
+					tvCatalog.setVisibility(View.VISIBLE);
+					tvCatalog.setText(catalog);
+				}
+			}
+
+			ivAvatar.setImageResource(R.drawable.head);
+			tvNick.setText(user.getUser_name());
+			return convertView;
+		}
+
+		@Override
+		public int getPositionForSection(int section) {
+			for (int i = 0; i < GloableParams.UserInfos.size(); i++) {
+				User user = GloableParams.UserInfos.get(i);
+				String l = PingYinUtil.converterToFirstSpell(
+						user.getUser_name()).substring(0, 1);
+				char firstChar = l.toUpperCase().charAt(0);
+				if (firstChar == section) {
+					return i;
+				}
+			}
+			return 0;
+		}
+
+		@Override
+		public int getSectionForPosition(int position) {
+			return 0;
+		}
+
+		@Override
+		public Object[] getSections() {
+			return null;
+		}
+	}
+
+}

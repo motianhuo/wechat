@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="59dp"
+     android:id="@+id/list_item_layout"
+    android:gravity="center_vertical" >
+
+    <RelativeLayout
+        android:id="@+id/avatar_container"
+        android:layout_width="59dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true" >
+
+      <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/head" />
+
+        <TextView
+            android:id="@+id/unread_msg_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/unread_count_bg"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@id/avatar_container"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="6dp"
+        android:textColor="#888888"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/msg_state"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="7dp"
+        android:layout_toRightOf="@id/avatar_container"
+        android:src="@drawable/msg_state_fail_resend"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_toLeftOf="@id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/msg_state"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:padding="7dp"
+        android:textColor="#888888"
+        android:textSize="14sp" />
+
+</RelativeLayout>

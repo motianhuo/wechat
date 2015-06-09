@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Light.CustomDialog" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff555555</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+
+    <style name="Theme.Light.FullScreenDialogAct" parent="@style/BaseDialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff555555</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+
+    <style name="BaseDialog" parent="@android:style/Theme.Dialog" />
+
+    <style name="Style_Dialog_Button">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ff425968</item>
+        <item name="android:background">@drawable/btn_default</item>
+        <item name="android:layout_marginLeft">6.0dip</item>
+        <item name="android:layout_marginRight">6.0dip</item>
+        <item name="android:minHeight">40.0dip</item>
+    </style>
+
+    <style name="ButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">@color/font_value</item>
+        <item name="android:background">@drawable/btn_default</item>
+    </style>
+
+    <style name="TextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/font_value</item>
+        <item name="android:textColorHint">@color/light_notes_color</item>
+        <item name="android:textColorLink">@color/link_color</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+ 
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light.NoTitleBar" />
+
+    <style name="Theme.App" parent="@style/AppBaseTheme">
+        <item name="android:colorForeground">@color/font_value</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="android:textColorLink">@color/link_color</item>
+    </style>
+
+    <style name="Animation.Dialog" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+
+</resources>

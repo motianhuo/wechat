@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mm_listitem_grey"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_row_weixin"
+        android:gravity="center_vertical" >
+
+        <RelativeLayout
+            android:id="@+id/avatar_container"
+            android:layout_width="@dimen/height_row_weixin"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true" >
+
+            <ImageView
+                android:id="@+id/avatar"
+                android:layout_width="@dimen/height_row_weixin"
+                android:layout_height="@dimen/height_row_weixin"
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:src="@drawable/head" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/avatar_container"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <!--
+         <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="6dp"
+        android:textColor="#888888"
+        android:textSize="13sp" />
+        -->
+
+        <ImageView
+            android:id="@+id/msg_state"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@id/avatar_container"
+            android:src="@drawable/msg_state_fail_resend"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/user_state"
+            android:layout_toRightOf="@id/msg_state"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:padding="7dp"
+            android:textColor="#888888"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/user_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="@string/agree"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+         android:visibility="gone"
+           android:id="@+id/ll_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <View
+            style="@style/devide_line_eee"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="3dp"
+            android:background="#dfdfdf" />
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/group_chat"
+               android:textColor="#888888"
+                />
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/tv_groupName"
+                 android:textColor="#888888"
+                />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

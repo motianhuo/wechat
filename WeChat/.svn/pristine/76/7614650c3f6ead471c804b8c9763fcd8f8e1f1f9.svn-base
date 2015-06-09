@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:gravity="center_horizontal"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:scrollbars="none">
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+ 
+		<TextView
+					android:id="@+id/txt_pengyouquan"
+					style="@style/TxtTitle"
+					android:textSize="16sp"
+					android:gravity="center_vertical"
+					android:background="@drawable/setting_item_selector"
+					android:layout_width="fill_parent"
+					android:layout_height="55dp"
+					android:paddingLeft="16dp"
+					android:paddingRight="16dp"
+					android:layout_marginTop="20dp"
+					android:drawablePadding="10dp"
+					android:drawableLeft="@drawable/v2"
+					android:drawableRight="@drawable/right"
+					android:text="朋友圈" />
+		<View
+			android:background="@color/black2"
+			android:layout_width="fill_parent"
+			android:layout_height="1.0dip" />
+		 
+		
+		<TextView
+					android:id="@+id/txt_saoyisao"
+					style="@style/TxtTitle"
+					android:textSize="16sp"
+					android:gravity="center_vertical"
+					android:background="@drawable/setting_item_selector"
+					android:layout_width="fill_parent"
+					android:layout_height="55dp"
+					android:paddingLeft="16dp"
+					android:paddingRight="16dp"
+					android:layout_marginTop="20dp"
+					android:drawablePadding="10dp"
+					android:drawableLeft="@drawable/icon_de_saoyisao"
+					android:drawableRight="@drawable/right"
+					android:text="扫一扫" />
+		<View
+			android:background="@color/black2"
+			android:layout_width="fill_parent"
+			android:layout_height="1.0dip" />
+		<TextView
+					android:id="@+id/txt_yaoyiyao"
+					style="@style/TxtTitle"
+					android:textSize="16sp"
+					android:gravity="center_vertical"
+					android:background="@drawable/setting_item_selector"
+					android:layout_width="fill_parent"
+					android:layout_height="55dp"
+					android:paddingLeft="16dp"
+					android:paddingRight="16dp"
+					android:drawablePadding="10dp"
+					android:drawableLeft="@drawable/icon_de_yao"
+					android:drawableRight="@drawable/right"
+					android:text="摇一摇" />
+		<View
+			android:background="@color/black2"
+			android:layout_width="fill_parent"
+			android:layout_height="1.0dip" />
+		
+		<TextView
+					android:id="@+id/txt_nearby"
+					style="@style/TxtTitle"
+					android:textSize="16sp"
+					android:gravity="center_vertical"
+					android:background="@drawable/setting_item_selector"
+					android:layout_width="fill_parent"
+					android:layout_height="55dp"
+					android:paddingLeft="16dp"
+					android:paddingRight="16dp"
+					android:layout_marginTop="20dp"
+					android:drawablePadding="10dp"
+					android:drawableLeft="@drawable/icon_de_nearby"
+					android:drawableRight="@drawable/right"
+					android:text="附件的人" />
+		<View
+			android:background="@color/black2"
+			android:layout_width="fill_parent"
+			android:layout_height="1.0dip" />
+		<TextView
+					android:id="@+id/txt_piaoliuping"
+					style="@style/TxtTitle"
+					android:textSize="16sp"
+					android:gravity="center_vertical"
+					android:background="@drawable/setting_item_selector"
+					android:layout_width="fill_parent"
+					android:layout_height="55dp"
+					android:paddingLeft="16dp"
+					android:paddingRight="16dp"
+					android:drawablePadding="10dp"
+					android:drawableLeft="@drawable/icon_de_ping"
+					android:drawableRight="@drawable/right"
+					android:text="漂流瓶" />
+		<View
+			android:background="@color/black2"
+			android:layout_width="fill_parent"
+			android:layout_height="1.0dip" />
+		
+		
+		<TextView
+					android:id="@+id/txt_shop"
+					style="@style/TxtTitle"
+					android:textSize="16sp"
+					android:gravity="center_vertical"
+					android:background="@drawable/setting_item_selector"
+					android:layout_width="fill_parent"
+					android:layout_height="55dp"
+					android:paddingLeft="16dp"
+					android:paddingRight="16dp"
+					android:layout_marginTop="20dp"
+					android:drawablePadding="10dp"
+					android:drawableLeft="@drawable/icon_de_shop"
+					android:drawableRight="@drawable/right"
+					android:text="购物" />
+		<View
+			android:background="@color/black2"
+			android:layout_width="fill_parent"
+			android:layout_height="1.0dip" />
+		<TextView
+					android:id="@+id/txt_game"
+					style="@style/TxtTitle"
+					android:textSize="16sp"
+					android:gravity="center_vertical"
+					android:background="@drawable/setting_item_selector"
+					android:layout_width="fill_parent"
+					android:layout_height="55dp"
+					android:paddingLeft="16dp"
+					android:paddingRight="16dp"
+					android:drawablePadding="10dp"
+					android:drawableLeft="@drawable/icon_de_game"
+					android:drawableRight="@drawable/right"
+					android:text="游戏" />
+		<View
+				android:background="@color/black2"
+				android:layout_width="fill_parent"
+				android:layout_height="1.0dip" />
+	 
+	</LinearLayout>
+	</ScrollView>
+</LinearLayout>

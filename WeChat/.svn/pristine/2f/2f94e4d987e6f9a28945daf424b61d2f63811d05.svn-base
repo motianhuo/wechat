@@ -1,0 +1,50 @@
+package com.juns.wechat.view.fragment;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import com.juns.wechat.R;
+
+public class Fragment_Dicover extends Fragment {
+	// 发现
+	private Activity ctx;
+	private View layout;
+
+	@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container,
+			Bundle savedInstanceState) {
+		if (layout == null) {
+			ctx = this.getActivity();
+			layout = ctx.getLayoutInflater().inflate(R.layout.fragment_dicover,
+					null);
+			initViews();
+			initData();
+			setOnListener();
+		} else {
+			ViewGroup parent = (ViewGroup) layout.getParent();
+			if (parent != null) {
+				parent.removeView(layout);
+			}
+		}
+		return layout;
+	}
+
+	private void initViews() {
+		// TODO Auto-generated method stub
+
+	}
+
+	private void setOnListener() {
+		// TODO Auto-generated method stub
+
+	}
+
+	private void initData() {
+		// TODO Auto-generated method stub
+
+	}
+}

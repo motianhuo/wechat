@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	xmlns:app="http://schemas.android.com/apk/res/com.juns.wechat">
+	<com.juns.wechat.widght.swipe.SwipeLayout
+	    android:id="@+id/swipe"
+		app:drag_edge="right"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		
+	    <LinearLayout
+		    android:id="@+id/layout_back"
+			android:background="@color/red"
+			android:gravity="center"
+			android:layout_width="80dp"
+			android:layout_height="65.0dip"> 
+		 <TextView
+				android:id="@+id/txt_del"
+				style="@style/MMFontTitleInList"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="删除"
+				android:textColor="@color/white"
+				android:textSize="18sp"
+				android:singleLine="true" />
+		</LinearLayout>
+	<LinearLayout
+		android:id="@+id/contactitem_layout"
+		style="@style/MMListItem"
+		android:layout_height="65.0dip"
+		android:background="@color/white"
+		android:paddingLeft="12dip">
+			<RelativeLayout
+			android:id="@+id/avatar_container"
+			android:layout_width="59dp"
+			android:layout_marginTop="4dp"
+			android:layout_height="match_parent"
+			android:layout_alignParentLeft="true">
+			<ImageView
+				android:id="@+id/contactitem_avatar_iv"
+				android:layout_width="50.0dip"
+				android:layout_height="50.0dip"
+				android:src="@drawable/head" />
+			<TextView
+				android:id="@+id/unread_msg_number"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"
+				android:background="@drawable/aii"
+				android:gravity="center"
+				android:textColor="@android:color/white"
+				android:textSize="12sp" />
+		</RelativeLayout>
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"
+			android:orientation="vertical"
+			android:paddingLeft="5dip">
+			<TextView
+				android:id="@+id/txt_name"
+				style="@style/MMFontTitleInList"
+				android:textColor="@color/black"
+				android:singleLine="true" />
+			<TextView
+				android:id="@+id/txt_state"
+				style="@style/MMFontTag"
+				android:layout_below="@+id/txt_name" 
+				android:text="已读"
+				android:visibility="gone"
+				android:background="@drawable/btn_bg_blue"
+				android:layout_marginTop="5dp" />
+			<TextView
+				android:id="@+id/txt_content"
+				style="@style/MMFontTitleInList"
+				android:layout_below="@+id/txt_name"
+				android:layout_toRightOf="@+id/txt_state"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:textSize="14sp"
+				android:textColor="@color/black1"
+				android:singleLine="true" />
+		</RelativeLayout>
+		<TextView
+			android:id="@+id/txt_time"
+			style="@style/MMFontTitleInList"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_marginTop="10dp"
+			android:layout_marginRight="10dp"
+			android:gravity="top"
+			android:textSize="12sp"
+			android:singleLine="true" />
+	</LinearLayout>
+	
+		
+	</com.juns.wechat.widght.swipe.SwipeLayout>
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/black2" />
+</LinearLayout>

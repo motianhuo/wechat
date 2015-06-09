@@ -1,0 +1,104 @@
+package com.juns.wechat.view.activity;
+
+import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import com.juns.wechat.R;
+import com.juns.wechat.common.Utils;
+import com.juns.wechat.view.BaseActivity;
+
+//注册
+public class RegisterActivity extends BaseActivity implements OnClickListener {
+	private TextView txt_title;
+	private ImageView img_back;
+	private Button btn_register;
+	private EditText et_usertel, et_password;
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		setContentView(R.layout.activity_register);
+		super.onCreate(savedInstanceState);
+	}
+
+	@Override
+	protected void initControl() {
+		txt_title = (TextView) findViewById(R.id.txt_title);
+		txt_title.setText("注册");
+		img_back = (ImageView) findViewById(R.id.img_back);
+		img_back.setVisibility(View.VISIBLE);
+		btn_register = (Button) findViewById(R.id.btn_register);
+		et_usertel = (EditText) findViewById(R.id.et_usertel);
+		et_password = (EditText) findViewById(R.id.et_password);
+	}
+
+	@Override
+	protected void initView() {
+
+	}
+
+	@Override
+	protected void initData() {
+	}
+
+	@Override
+	protected void setListener() {
+		img_back.setOnClickListener(this);
+		btn_register.setOnClickListener(this);
+		et_usertel.addTextChangedListener(new TextChange());
+		et_password.addTextChangedListener(new TextChange());
+	}
+
+	@Override
+	public void onClick(View v) {
+		switch (v.getId()) {
+		case R.id.img_back:
+			Utils.finish(RegisterActivity.this);
+			break;
+		case R.id.btn_register:
+
+			break;
+		default:
+			break;
+		}
+	}
+
+	// EditText监听器
+	class TextChange implements TextWatcher {
+
+		@Override
+		public void afterTextChanged(Editable arg0) {
+
+		}
+
+		@Override
+		public void beforeTextChanged(CharSequence arg0, int arg1, int arg2,
+				int arg3) {
+
+		}
+
+		@Override
+		public void onTextChanged(CharSequence cs, int start, int before,
+				int count) {
+
+			boolean Sign2 = et_usertel.getText().length() > 0;
+			boolean Sign3 = et_password.getText().length() > 0;
+
+			if (Sign2 & Sign3) {
+				btn_register.setTextColor(0xFFFFFFFF);
+				btn_register.setEnabled(true);
+			} else {
+				btn_register.setTextColor(0xFFD0EFC6);
+				btn_register.setEnabled(false);
+			}
+		}
+
+	}
+
+}

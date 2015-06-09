@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:gravity="center_horizontal"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<include layout="@layout/layout_title" />
+	
+	
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:scrollbars="none">
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			 <TextView
+					android:id="@+id/txt_usersafe"
+					style="@style/TxtTitle"
+					android:textSize="16sp"
+					android:gravity="center_vertical"
+					android:background="@drawable/setting_item_selector"
+					android:layout_width="fill_parent"
+					android:layout_height="50dp"
+					android:paddingLeft="16dp"
+					android:paddingRight="10dp"
+					android:layout_marginTop="20dp"
+					android:drawableRight="@drawable/right"
+					android:text="账号安全" />
+			<View
+				android:background="@color/black2"
+				android:layout_width="fill_parent"
+				android:layout_height="1.0dip" />
+			
+			 
+	 
+			
+			<TextView
+					android:id="@+id/txt_msgtip"
+					style="@style/TxtTitle"
+					android:textSize="16sp"
+				android:layout_marginTop="20dp"
+					android:gravity="center_vertical"
+					android:background="@drawable/setting_item_selector"
+					android:layout_width="fill_parent"
+					android:layout_height="50dp"
+					android:paddingLeft="16dp"
+					android:paddingRight="10dp"
+					android:drawableRight="@drawable/right"
+					android:text="新消息通知" />
+			<View
+				android:background="@color/black2"
+				android:layout_width="fill_parent"
+				android:layout_height="1.0dip" />
+			
+			
+			 
+			
+			<TextView
+					android:id="@+id/txt_yinsi"
+					style="@style/TxtTitle"
+					android:textSize="16sp"
+					android:gravity="center_vertical"
+					android:background="@drawable/setting_item_selector"
+					android:layout_width="fill_parent"
+					android:layout_height="50dp"
+					android:paddingLeft="16dp"
+					android:paddingRight="10dp"
+					android:drawableRight="@drawable/right"
+					android:text="隐私" />
+			<View
+				android:background="@color/black2"
+				android:layout_width="fill_parent"
+				android:layout_height="1.0dip" />
+			<TextView
+					android:id="@+id/txt_tongyong"
+					style="@style/TxtTitle"
+					android:textSize="16sp"
+					android:gravity="center_vertical"
+					android:background="@drawable/setting_item_selector"
+					android:layout_width="fill_parent"
+					android:layout_height="50dp"
+					android:paddingLeft="16dp"
+					android:paddingRight="10dp"
+					android:drawableRight="@drawable/right"
+					android:text="通用" />
+			<View
+				android:background="@color/black2"
+				android:layout_width="fill_parent"
+				android:layout_height="1.0dip" />
+			
+			<TextView
+					android:id="@+id/txt_about"
+					style="@style/TxtTitle"
+					android:textSize="16sp"
+					android:layout_marginTop="20dp"
+					android:gravity="center_vertical"
+					android:background="@drawable/setting_item_selector"
+					android:layout_width="fill_parent"
+					android:layout_height="50dp"
+					android:paddingLeft="16dp"
+					android:paddingRight="10dp"
+					android:drawableRight="@drawable/right"
+					android:text="关于微信" />
+			<View
+				android:background="@color/black2"
+				android:layout_width="fill_parent"
+				android:layout_height="1.0dip" />
+			 
+			<LinearLayout
+				android:gravity="center"
+				android:padding="20.0dip"
+				android:layout_width="fill_parent"
+				android:layout_height="80.0dip">
+				<Button
+					android:textColor="@color/white"
+					android:id="@+id/btnexit"
+					android:background="@drawable/btn_bg_red2"
+					android:padding="10.0dip"
+					android:layout_width="fill_parent"
+					android:layout_height="40.0dip"
+					android:text="退出登录" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

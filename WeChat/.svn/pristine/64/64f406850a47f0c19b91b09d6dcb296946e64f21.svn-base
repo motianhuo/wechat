@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/timestampe_bg"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="3dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="3dp"
+        android:textSize="12sp"
+        android:textColor="@color/gray_white"
+        android:text="2015年6月2日17:59:19" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timestamp"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_bg_gray2"
+        android:orientation="vertical"
+        android:padding="16dp" >
+
+        <TextView
+            android:id="@+id/tvname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="菲儿"
+            android:textSize="18.0dip" />
+
+        <TextView
+            android:id="@+id/tvmsg"
+            style="@style/txt_ContextStyle1"
+            android:layout_marginTop="5dp"
+            android:text="5月3日"
+            android:textColor="@color/black1"
+            android:textSize="12dip" />
+
+        <ImageView
+            android:id="@+id/img_photo"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user_ba" />
+
+        <TextView
+            style="@style/txt_ContextStyle1"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="扫一扫上面的二维码图案，加我微信"
+            android:textColor="@color/black1"
+            android:textSize="14.0dip" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="@color/black2" />
+
+        <TextView
+            android:id="@+id/txt_more"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:drawableRight="@drawable/right"
+            android:gravity="bottom"
+            android:text="阅读全文"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</RelativeLayout>

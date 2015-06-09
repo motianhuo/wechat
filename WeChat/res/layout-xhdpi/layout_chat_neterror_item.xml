@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#FFF3BB"
+    android:clickable="true"
+    android:orientation="vertical" >
+    
+    <ImageView 
+        android:layout_marginLeft="25dp"
+        android:id="@+id/iv_neterror"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/icon_tip"
+        android:layout_centerVertical="true"
+        />
+    <TextView
+        android:id="@+id/tv_connect_errormsg" 
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前网络不可用，请检查网络配置"
+        android:textColor="@color/black"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iv_neterror"
+        />
+    
+  <View
+      android:layout_alignParentBottom="true"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#E3E0D5" />
+
+</RelativeLayout>

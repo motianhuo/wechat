@@ -1,0 +1,38 @@
+package com.juns.wechat;
+
+import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+
+public class MainActivity extends  FragmentActivity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		initControl();
+		initData();
+		initView();
+		setListener();
+	}
+
+	protected void initControl() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	protected void initView() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	protected void initData() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	protected void setListener() {
+		// TODO Auto-generated method stub
+		
+	}
+ 
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:paddingBottom="15dp"
+	android:background="@color/white"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<RelativeLayout
+		android:gravity="center_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="280dp">
+	 
+		<TextView
+			android:textSize="20sp"
+			android:id="@+id/txt_name"
+			android:text="菲儿"
+			android:gravity="right|bottom"
+			android:paddingRight="110dp"
+			android:paddingBottom="10dp"
+			android:background="@drawable/user_ba"
+			android:layout_width="fill_parent"
+			android:textColor="@color/white"
+			android:layout_height="240dp" />
+		<ImageView
+			android:id="@+id/head"
+			android:contentDescription="@string/app_name"
+			android:layout_width="80.0dip"
+			android:layout_height="80.0dip"
+			android:layout_marginRight="15dp"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true"
+			android:src="@drawable/head" />
+	</RelativeLayout>
+	 
+</LinearLayout>

@@ -1,0 +1,239 @@
+package com.juns.wechat.bean;
+
+public class User {
+	private String birthday;
+	private String dynamic;
+	private String email;
+	private String face_image;
+	private String hometown;
+	private String interest;
+	private String is_search;
+	private String job;
+	private String location;
+	private String open_album;
+	private String p_head;
+	private String password;
+	private String registry_time;
+	private String remind;
+	private String sex;
+	private String sign;
+	private String status;
+	private String talk_bg;
+	private String telephone;
+	private String true_name;
+	private String unbinding;
+	private String user_id;
+	private String user_name;
+	private String account;// 转角ID
+	private String remark;// 好友备注
+	private String id;
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public String getRemark() {
+		return remark;
+	}
+
+	public void setRemark(String remark) {
+		this.remark = remark;
+	}
+
+	public String getAccount() {
+		return account;
+	}
+
+	public void setAccount(String account) {
+		this.account = account;
+	}
+
+	public String getBirthday() {
+		return birthday;
+	}
+
+	public void setBirthday(String birthday) {
+		this.birthday = birthday;
+	}
+
+	public String getDynamic() {
+		return dynamic;
+	}
+
+	public void setDynamic(String dynamic) {
+		this.dynamic = dynamic;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getFace_image() {
+		return face_image;
+	}
+
+	public void setFace_image(String face_image) {
+		this.face_image = face_image;
+	}
+
+	public String getHometown() {
+		return hometown;
+	}
+
+	public void setHometown(String hometown) {
+		this.hometown = hometown;
+	}
+
+	public String getInterest() {
+		return interest;
+	}
+
+	public void setInterest(String interest) {
+		this.interest = interest;
+	}
+
+	public String getIs_search() {
+		return is_search;
+	}
+
+	public void setIs_search(String is_search) {
+		this.is_search = is_search;
+	}
+
+	public String getJob() {
+		return job;
+	}
+
+	public void setJob(String job) {
+		this.job = job;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+
+	public void setLocation(String location) {
+		this.location = location;
+	}
+
+	public String getOpen_album() {
+		return open_album;
+	}
+
+	public void setOpen_album(String open_album) {
+		this.open_album = open_album;
+	}
+
+	public String getP_head() {
+		return p_head;
+	}
+
+	public void setP_head(String p_head) {
+		this.p_head = p_head;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getRegistry_time() {
+		return registry_time;
+	}
+
+	public void setRegistry_time(String registry_time) {
+		this.registry_time = registry_time;
+	}
+
+	public String getRemind() {
+		return remind;
+	}
+
+	public void setRemind(String remind) {
+		this.remind = remind;
+	}
+
+	public String getSex() {
+		return sex;
+	}
+
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
+
+	public String getSign() {
+		return sign;
+	}
+
+	public void setSign(String sign) {
+		this.sign = sign;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+	public String getTalk_bg() {
+		return talk_bg;
+	}
+
+	public void setTalk_bg(String talk_bg) {
+		this.talk_bg = talk_bg;
+	}
+
+	public String getTelephone() {
+		return telephone;
+	}
+
+	public void setTelephone(String telephone) {
+		this.telephone = telephone;
+	}
+
+	public String getTrue_name() {
+		return true_name;
+	}
+
+	public void setTrue_name(String true_name) {
+		this.true_name = true_name;
+	}
+
+	public String getUnbinding() {
+		return unbinding;
+	}
+
+	public void setUnbinding(String unbinding) {
+		this.unbinding = unbinding;
+	}
+
+	public String getUser_id() {
+		return user_id;
+	}
+
+	public void setUser_id(String user_id) {
+		this.user_id = user_id;
+	}
+
+	public String getUser_name() {
+		return user_name;
+	}
+
+	public void setUser_name(String user_name) {
+		this.user_name = user_name;
+	}
+
+}

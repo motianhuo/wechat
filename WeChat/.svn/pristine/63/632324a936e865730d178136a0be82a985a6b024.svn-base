@@ -1,0 +1,69 @@
+package com.juns.wechat.view;
+
+import org.apache.http.message.BasicNameValuePair;
+
+import android.app.Activity;
+import android.content.Context;
+import android.os.Bundle;
+import android.view.KeyEvent;
+
+
+public abstract class BaseActivity extends Activity {
+	protected Activity context;
+//	protected FlippingLoadingDialog mLoadingDialog;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		context = this;
+		initControl();
+		initData();
+		initView();
+		setListener();
+	}
+
+	@Override
+	protected void onResume() {
+		super.onResume();
+	}
+
+	public void onPause() {
+		super.onPause();
+	}
+
+	@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event) {
+		if (keyCode == KeyEvent.KEYCODE_BACK) {
+//			Utils.finish(this, 1);
+			return true;
+		}
+		return super.onKeyDown(keyCode, event);
+	}
+
+	protected abstract void initControl();
+
+	protected abstract void initView();
+
+	protected abstract void initData();
+	protected abstract void setListener();
+
+	public void start_Activity(Activity activity, Class<?> cls,
+			BasicNameValuePair... name) {
+//		Utils.start_Activity(activity, cls, 1, name);
+	}
+
+	public void finish(Activity activity) {
+//		Utils.finish(activity, 1);
+	}
+
+	public boolean isNetworkAvailable(Context context) {
+//		return Utils.isNetworkAvailable(context);
+		return true;
+	}
+
+//	public FlippingLoadingDialog getLoadingDialog(String msg) {
+//		if (mLoadingDialog == null)
+//			mLoadingDialog = new FlippingLoadingDialog(this, msg);
+//		return mLoadingDialog;
+//	}
+}

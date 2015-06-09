@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical" >
+
+    <!-- 普通底部导航 -->
+
+    <LinearLayout
+        android:id="@+id/custom_botton"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:gravity="center_vertical"
+        android:paddingTop="4dp"
+        android:background="@drawable/menu_bg"
+        android:orientation="horizontal" >
+
+       
+       <TextView
+                android:id="@+id/menu_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="微信" 
+                android:textSize="10sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:drawablePadding="6dp"
+                 android:textColor="@color/greeny"
+                android:drawableTop="@drawable/menu_chat_pre" />
+       <TextView
+                android:id="@+id/menu_tongxunlu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="通讯录"
+                android:layout_weight="1"
+                android:gravity="center"
+                 android:textSize="12sp"
+                android:drawablePadding="5dp"
+                 android:textColor="@color/black1"
+                android:drawableTop="@drawable/menu_context_nor" />
+       <TextView
+                android:id="@+id/menu_faxian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发现"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textColor="@color/black1"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/menu_dicover_nor" />
+       <TextView
+                android:id="@+id/menu_my"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我"
+                android:layout_weight="1"
+                android:gravity="center"
+                 android:textSize="12sp"
+                android:drawablePadding="5dp"
+                 android:textColor="@color/black1"
+                android:drawableTop="@drawable/menu_me_nor" />
+        
+    </LinearLayout>
+</LinearLayout>

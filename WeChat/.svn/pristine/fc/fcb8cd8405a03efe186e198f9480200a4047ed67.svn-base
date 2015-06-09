@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:background="@color/popbg_color"  
+    android:orientation="vertical" >  
+  
+    <ListView  
+        android:id="@+id/title_list"  
+        android:layout_width="140dp"  
+        android:layout_height="fill_parent"  
+        android:cacheColorHint="#00000000"  
+        android:divider="@color/bar_color"  
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+        android:listSelector="@drawable/titlepop_item_selector"  
+        android:scrollingCache="false" />  
+  
+</LinearLayout>  

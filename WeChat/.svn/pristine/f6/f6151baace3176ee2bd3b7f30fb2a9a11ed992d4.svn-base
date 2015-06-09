@@ -1,0 +1,98 @@
+package com.juns.wechat.view.fragment;
+
+import org.apache.http.message.BasicNameValuePair;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+
+import com.juns.wechat.Constants;
+import com.juns.wechat.R;
+import com.juns.wechat.common.Utils;
+import com.juns.wechat.view.activity.MyCodeActivity;
+import com.juns.wechat.view.activity.PublisListActivity;
+
+//我
+public class Fragment_Profile extends Fragment implements OnClickListener {
+	private Activity ctx;
+	private View layout;
+
+	@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container,
+			Bundle savedInstanceState) {
+		if (layout == null) {
+			ctx = this.getActivity();
+			layout = ctx.getLayoutInflater().inflate(R.layout.fragment_profile,
+					null);
+			initViews();
+			initData();
+			setOnListener();
+		} else {
+			ViewGroup parent = (ViewGroup) layout.getParent();
+			if (parent != null) {
+				parent.removeView(layout);
+			}
+		}
+		return layout;
+	}
+
+	private void initViews() {
+		// TODO Auto-generated method stub
+
+	}
+
+	private void setOnListener() {
+		layout.findViewById(R.id.view_user).setOnClickListener(this);
+		layout.findViewById(R.id.txt_album).setOnClickListener(this);
+		layout.findViewById(R.id.txt_collect).setOnClickListener(this);
+		layout.findViewById(R.id.txt_money).setOnClickListener(this);
+		layout.findViewById(R.id.txt_card).setOnClickListener(this);
+		layout.findViewById(R.id.txt_smail).setOnClickListener(this);
+		layout.findViewById(R.id.txt_setting).setOnClickListener(this);
+	}
+
+	private void initData() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void onClick(View v) {
+		switch (v.getId()) {
+		case R.id.view_user:
+			Utils.start_Activity(getActivity(), MyCodeActivity.class);
+			break;
+		case R.id.txt_album:// 相册
+			Utils.start_Activity(getActivity(), PublisListActivity.class,
+					new BasicNameValuePair(Constants.NAME, "相册"));
+			break;
+		case R.id.txt_collect:// 收藏
+			Utils.start_Activity(getActivity(), PublisListActivity.class,
+					new BasicNameValuePair(Constants.NAME, "收藏"));
+			break;
+		case R.id.txt_money:// 钱包
+			Utils.start_Activity(getActivity(), PublisListActivity.class,
+					new BasicNameValuePair(Constants.NAME, "钱包"));
+			break;
+		case R.id.txt_card:// 相册
+			Utils.start_Activity(getActivity(), PublisListActivity.class,
+					new BasicNameValuePair(Constants.NAME, "卡包"));
+			break;
+		case R.id.txt_smail:// 表情
+			Utils.start_Activity(getActivity(), PublisListActivity.class,
+					new BasicNameValuePair(Constants.NAME, "表情"));
+			break;
+		case R.id.txt_setting:// 设置
+			Utils.start_Activity(getActivity(), PublisListActivity.class,
+					new BasicNameValuePair(Constants.NAME, "设置"));
+			break;
+		default:
+			break;
+		}
+	}
+
+}

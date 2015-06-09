@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false" android:state_enabled="false" android:drawable="@drawable/btn_big_normal_disable" />
+    <item android:state_enabled="true" android:state_pressed="true" android:drawable="@drawable/btn_big_normal_press" />
+    <item android:state_enabled="false" android:drawable="@drawable/btn_big_normal_disable" />
+    <item android:drawable="@drawable/btn_big_normal_normal" />
+</selector>

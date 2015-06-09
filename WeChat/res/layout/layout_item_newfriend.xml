@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+	  
+	<RelativeLayout
+		    android:layout_width="match_parent"
+		android:layout_height="65.0dip"
+		android:background="@drawable/setting_item_selector"
+		android:paddingLeft="10dip">
+		<ImageView
+		    android:id="@+id/img_photo"
+			android:layout_width="45dip"
+			android:layout_height="45dip"
+			android:layout_centerVertical="true"
+			android:src="@drawable/head" />
+		<TextView
+		    android:id="@+id/txt_name"
+                style="@style/MMFontTitleInList"
+			android:text="悠悠"
+			android:textSize="18sp"  
+			android:layout_marginTop="10dp"
+			android:layout_toRightOf="@+id/img_photo"
+			android:layout_marginLeft="10dp"
+			android:singleLine="true" />
+		 
+		 <TextView
+		     android:id="@+id/txt_msg"
+		     android:layout_below="@id/txt_name"
+			android:layout_toRightOf="@+id/img_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+			android:layout_marginLeft="12dp"
+			android:layout_marginTop="2dp"
+			android:textColor="@color/black1"
+        android:text="请求添加你为朋友"
+        android:textSize="12sp" />
+		 
+		 <TextView
+                android:id="@+id/txt_add"
+                style="@style/txt_titleStyle1"
+                android:layout_width="60dp"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:text="接受"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_bg_green"
+                android:textSize="16sp" />
+	</RelativeLayout>
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/black2" />
+		 
+</LinearLayout>

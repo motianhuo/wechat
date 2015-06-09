@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/contactitem_layout"
+		style="@style/MMListItem"
+		android:gravity="top"
+		android:layout_height="wrap_content"
+		android:background="@color/white"
+		android:padding="10dip" >
+		 
+	 
+		<ImageView
+			android:id="@+id/img_head"
+			android:layout_width="50.0dip"
+			android:layout_height="50.0dip"
+			android:scaleType="centerCrop"
+			android:src="@drawable/head" />
+		<RelativeLayout
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"
+			android:orientation="vertical"
+			android:paddingLeft="10dip"
+			android:paddingBottom="5dp">
+			<TextView
+				android:id="@+id/txt_content"
+				style="@style/MMFontTitleInList"
+				android:textColor="@color/blue1"
+				android:textSize="18sp"
+				android:text="老婆" />
+			<TextView
+				android:id="@+id/txt_msg"
+				android:layout_below="@+id/txt_content"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="我是多幸福啊！辛苦了亲爱的！么么哒！~"
+				android:layout_marginTop="5dp"
+				android:layout_marginBottom="5dp"
+				android:textSize="16sp"
+				android:singleLine="true" />
+			
+			<LinearLayout 
+			    android:id="@+id/layout_photo"
+			    android:layout_below="@+id/txt_msg"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+				android:layout_marginBottom="5dp"
+            android:gravity="center_vertical"> 
+			<ImageView
+			    android:id="@+id/img_photo1"
+				android:layout_width="80.0dip"
+				android:layout_height="80.0dip"
+				android:scaleType="centerCrop"
+				android:src="@drawable/gr" />
+			<ImageView
+			    android:id="@+id/img_photo2"
+				android:layout_margin="5dp"
+				android:paddingLeft="10dp"
+				android:layout_width="80.0dip"
+				android:layout_height="80.0dip"
+				android:scaleType="centerCrop"
+				android:src="@drawable/gr" />
+			<ImageView
+			    android:id="@+id/img_photo3"
+				android:layout_margin="5dp"
+				android:paddingLeft="10dp"
+				android:layout_width="80.0dip"
+				android:layout_height="80.0dip"
+				android:scaleType="centerCrop"
+				android:src="@drawable/gr" /> 
+		</LinearLayout>
+			
+			<TextView
+				android:id="@+id/txt_time"
+				android:layout_below="@+id/layout_photo"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="56分钟前"
+				android:textColor="@color/black1"
+				android:textSize="12sp"
+				android:singleLine="true" />
+			
+			<ImageView
+			    android:id="@+id/img_zan"
+			    android:layout_alignParentRight="true"
+				android:layout_below="@+id/layout_photo"
+				android:layout_width="23dp"
+				android:layout_height="16dp"
+				android:scaleType="fitXY"
+				android:src="@drawable/afr" />
+			
+		</RelativeLayout>
+	</LinearLayout>
+	<View
+				android:background="@color/black2"
+				android:layout_width="fill_parent"
+				android:layout_height="1.0dip" />
+</LinearLayout>

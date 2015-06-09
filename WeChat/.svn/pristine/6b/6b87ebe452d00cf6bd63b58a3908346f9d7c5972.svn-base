@@ -1,0 +1,61 @@
+package com.juns.wechat;
+
+import com.easemob.EMCallBack;
+import com.easemob.chat.EMChatManager;
+import com.easemob.chat.EMGroupManager;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+import android.util.Log;
+
+public class SplashActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_start);
+		getChatserive("juns", "1234");
+//		mHandler.sendEmptyMessageDelayed(0, 1200);
+	}
+
+	 
+
+	private Handler mHandler = new Handler() {
+		public void handleMessage(android.os.Message msg) {
+			Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+			startActivity(intent);
+			overridePendingTransition(R.anim.push_up_in, R.anim.push_up_out);
+			finish();
+		}
+	};
+	private void getChatserive(String userName, String password) {
+		EMChatManager.getInstance().login(userName, password, new EMCallBack() {// 回调
+					@Override
+					public void onSuccess() {
+						runOnUiThread(new Runnable() {
+							public void run() {
+								Log.d("main", "登陆聊天服务器成功！");
+								// 加载群组和会话
+								EMGroupManager.getInstance().loadAllGroups();
+								EMChatManager.getInstance()
+										.loadAllConversations();
+								mHandler.sendEmptyMessageDelayed(0, 200);
+							}
+						});
+					}
+
+					@Override
+					public void onProgress(int progress, String status) {
+
+					}
+
+					@Override
+					public void onError(int code, String message) {
+						Log.d("main", "登陆聊天服务器失败！");
+					}
+				});
+	}
+
+}

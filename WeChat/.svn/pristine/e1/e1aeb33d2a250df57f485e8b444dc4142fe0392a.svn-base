@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="top"
+    android:gravity="top"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip" >
+
+    <LinearLayout
+        android:id="@+id/dialog_generic_layout_root"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dip"
+        android:background="@drawable/btn_bg_gray"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/dialog_generic_layout_top"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/dialog_generic_layout_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dip" >
+
+                <ScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:fadingEdge="none" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingBottom="15dip"
+                        android:paddingTop="15dip" >
+
+                        <TextView
+                            android:id="@+id/dialog_generic_htv_message"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="您确定要举办该好友吗？"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#E3E0D5" />
+
+        <LinearLayout
+            android:id="@+id/dialog_generic_layout_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="6dip"
+            android:paddingRight="6dip"  >
+
+            <TextView
+                android:id="@+id/btn_cancel"
+                style="@style/txt_titleStyle1"
+                android:layout_width="0.0dip"
+                android:layout_height="40dp"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@color/black1"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="#E3E0D5" />
+
+            <TextView
+                android:id="@+id/btn_ok"
+                style="@style/txt_titleStyle1"
+                android:layout_width="0.0dip"
+                android:layout_height="40dp"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="@color/blue1"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
