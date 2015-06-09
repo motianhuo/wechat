@@ -1,85 +1,102 @@
-# Android Swipe Layout
+SwipeBackLayout
+===
 
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/daimajia/AndroidSwipeLayout?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-This is the brother of [AndroidViewHover](https://github.com/daimajia/AndroidViewHover).
-
-One year ago, I started to make an app named [EverMemo](https://play.google.com/store/apps/details?id=com.zhan_dui.evermemo) with my good friends. The designer gave me a design picture, the design like this:
-
-![](http://ww1.sinaimg.cn/mw690/610dc034jw1ejoquidvvsg208i0630u4.gif)
-
-I found it was pretty hard to achieve this effect, cause you had to be very familiar with the Android Touch System. It was beyond my ability that moment, and I also noticed that there was no such a concept library...
-
-Time passed, finally...as you see right now.
-
-## Demo
-
-![](http://ww2.sinaimg.cn/mw690/610dc034jw1ejoplapwtqg208n0e74dx.gif)
-
-[Download Demo](https://github.com/daimajia/AndroidSwipeLayout/releases/download/v1.1.8/AndroidSwipeLayout-v1.1.8.apk)
-
-Before I made this, I actually found some libraries (eg.[SwipeListView](https://github.com/47deg/android-swipelistview)) that helps developers to integrate swiping with your UI component. 
-
-But it only works in `ListView`, and it has too many issues that they never care. What a pity!
-
-When I start to make this library, I set some goals:
-
-- Can be easily integrated in anywhere, ListView, GridView, ViewGroup etc.
-- Can receive `onOpen`,`onClose`,`onUpdate` callbacks.
-- Can notifiy the hidden children how much they have shown.
-- Can be nested each other.
-- Can handle complicate situation, just like [this](https://camo.githubusercontent.com/d145d9a9508b3d204b70882c05bc3d9bd433883c/687474703a2f2f7777312e73696e61696d672e636e2f6c617267652f3631306463303334677731656b686f6a7379326172673230386530366e6774312e676966).
+An Android library that help you to build app with swipe back gesture.
 
 
-## Usage
+![](https://github.com/Issacw0ng/SwipeBackLayout/blob/master/art/screenshot.png?raw=true)
 
-### Step 1
-#### Gradle
 
-```groovy
-dependencies {
-    compile 'com.android.support:recyclerview-v7:21.0.0'
-    compile 'com.android.support:support-v4:20.+'
-    compile "com.daimajia.swipelayout:library:1.2.0@aar"
-}
+Demo Apk
+===
+[GooglePlay](https://play.google.com/store/apps/details?id=me.imid.swipebacklayout.demo)
+
+
+Requirement
+===
+The latest android-support-v4.jar should be referenced by your project.
+
+Usage
+===
+1. Add SwipeBackLayout as a dependency to your existing project.
+2. To enable SwipeBackLayout, you can simply make your `Activity` extend `SwipeBackActivity`:
+	* In `onCreate` method, `setContentView()` should be called as usual.
+	* You will have access to the `getSwipeBackLayout()` method so you can customize the `SwipeBackLayout`. 
+3. Make window translucent by adding `<item name="android:windowIsTranslucent">true</item>` to your theme.
+
+Simple Example
+===
+```
+public class DemoActivity extends SwipeBackActivity implements View.OnClickListener {
+    private int[] mBgColors;
+
+    private static int mBgIndex = 0;
+
+    private String mKeyTrackingMode;
+
+    private RadioGroup mTrackingModeGroup;
+
+    private SwipeBackLayout mSwipeBackLayout;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_demo);
+        changeActionBarColor();
+        findViews();
+        mKeyTrackingMode = getString(R.string.key_tracking_mode);
+        mSwipeBackLayout = getSwipeBackLayout();
+
+        mTrackingModeGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+                int edgeFlag;
+                switch (checkedId) {
+                    case R.id.mode_left:
+                        edgeFlag = SwipeBackLayout.EDGE_LEFT;
+                        break;
+                    case R.id.mode_right:
+                        edgeFlag = SwipeBackLayout.EDGE_RIGHT;
+                        break;
+                    case R.id.mode_bottom:
+                        edgeFlag = SwipeBackLayout.EDGE_BOTTOM;
+                        break;
+                    default:
+                        edgeFlag = SwipeBackLayout.EDGE_ALL;
+                }
+                mSwipeBackLayout.setEdgeTrackingEnabled(edgeFlag);
+                saveTrackingMode(edgeFlag);
+            }
+        });
+    }
+...
 ```
 
-#### Maven
-
-```xml
-<dependency>
-	<groupId>com.google.android</groupId>
-	<artifactId>support-v4</artifactId>
-	<version>r6</version>
-</dependency>
-<dependency>
-	<groupId>com.google.android</groupId>
-	<artifactId>recyclerview-v7</artifactId>
-	<version>21.0.0</version>
-</dependency>
-<dependency>
-    <groupId>com.daimajia.swipelayout</groupId>
-    <artifactId>library</artifactId>
-    <version>1.2.0</version>
-    <type>apklib</type>
-</dependency>
+Download
+===
+Download via Jcenter:
+```
+compile 'me.imid.swipebacklayout.lib:library:1.0.0'
 ```
 
-#### Eclipse
 
-[AndroidSwipeLayout-v1.1.8.jar](https://github.com/daimajia/AndroidSwipeLayout/releases/download/v1.1.8/AndroidSwipeLayout-v1.1.8.jar)
+Pull Requests
+===
+I will gladly accept pull requests for fixes and feature enhancements but please do them in the develop branch.
 
-### Step 2
+License
+===
 
-[Wiki Usage](https://github.com/daimajia/AndroidSwipeLayout/wiki/usage)
+   Copyright 2015 Juns
 
-## Wiki
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
 
-[Go to Wiki](https://github.com/daimajia/AndroidSwipeLayout/wiki)
+     http://www.apache.org/licenses/LICENSE-2.0
 
-## About me
-
-A student in mainland China.
-
-Welcome to [offer me an internship](mailto:daimajia@gmail.com). If you have any new idea about this project, feel free to [contact me](mailto:daimajia@gmail.com). :smiley:
-
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
