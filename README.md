@@ -8,8 +8,12 @@ An Android library that help you to build app with swipe back gesture.
 
 
 Demo Apk
-===
-[GooglePlay](https://play.google.com/store/apps/details?id=me.imid.swipebacklayout.demo)
+ 
+
+<a href="https://play.google.com/store/apps/details?id=com.github.jorgecastilloprz.fabprogresscircle">
+  <img alt="Get it on Google Play"
+       src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
+</a>
 
 
 Requirement
