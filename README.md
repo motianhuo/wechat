@@ -8,7 +8,7 @@ An Android library that help you to build app with swipe back gesture.
 
 
 Demo Apk
- 
+===
 
 <a href="https://play.google.com/store/apps/details?id=com.github.jorgecastilloprz.fabprogresscircle">
   <img alt="Get it on Google Play"
