@@ -4,10 +4,10 @@ WeChat
 An Android library that help you to build app with swipe back gesture.
 
 
-![](https://github.com/Issacw0ng/SwipeBackLayout/blob/master/art/screenshot.png?raw=true)
+ 
 
 
-Demo Apk
+Download Apk
 ===
 
 <a href="https://play.google.com/store/apps/details?id=com.github.jorgecastilloprz.fabprogresscircle">
@@ -75,14 +75,7 @@ public class DemoActivity extends SwipeBackActivity implements View.OnClickListe
     }
 ...
 ```
-
-Download
-===
-Download via Jcenter:
-```
-compile 'me.imid.swipebacklayout.lib:library:1.0.0'
-```
-
+ 
 
 Pull Requests
 ===
