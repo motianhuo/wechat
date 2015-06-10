@@ -6,8 +6,11 @@ An Android library that help you to build app with swipe back gesture.
 Image
 ===
   <img   src="http://ww3.sinaimg.cn/bmiddle/6705567egw1esyv3c1r6yj20m80zkq5c.jpg" />
+===
   <img   src="http://ww2.sinaimg.cn/bmiddle/6705567egw1esyv3if3rzj20m80zkwgg.jpg" />
+===
   <img   src="http://ww2.sinaimg.cn/bmiddle/6705567egw1esyv3ld96kj20m80zkjtk.jpg" />
+===
   <img   src="http://ww3.sinaimg.cn/bmiddle/6705567egw1esyv3c1r6yj20m80zkq5c.jpg" />
 ===
 Download Apk
