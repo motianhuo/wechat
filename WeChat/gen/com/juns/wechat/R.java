@@ -593,20 +593,20 @@ containing a value of this type.
         public static final int wp=0x7f020101;
     }
     public static final class id {
-        public static final int action_bar=0x7f0a0001;
-        public static final int actionbar_title=0x7f0a0002;
+        public static final int action_bar=0x7f0a000c;
+        public static final int actionbar_title=0x7f0a000d;
         public static final int alert_message=0x7f0a008d;
         /**  start 二维码 zxing 
  Messages IDs 
          */
-        public static final int auto_focus=0x7f0a0003;
+        public static final int auto_focus=0x7f0a000e;
         public static final int avatar=0x7f0a00ef;
         public static final int avatar_container=0x7f0a00df;
         public static final int badge_delete=0x7f0a00b2;
         public static final int bar_bottom=0x7f0a0022;
         public static final int bmapView=0x7f0a001f;
-        public static final int both=0x7f0a001a;
-        public static final int bottom=0x7f0a0014;
+        public static final int both=0x7f0a0007;
+        public static final int bottom=0x7f0a0003;
         public static final int btn_answer_call=0x7f0a0086;
         public static final int btn_cancel=0x7f0a0090;
         public static final int btn_exit_grp=0x7f0a0058;
@@ -633,7 +633,7 @@ containing a value of this type.
         public static final int check_closetip=0x7f0a0056;
         public static final int check_top=0x7f0a0054;
         public static final int checkbox=0x7f0a00a0;
-        public static final int choice=0x7f0a001c;
+        public static final int choice=0x7f0a000a;
         public static final int chronometer=0x7f0a007b;
         public static final int common_title_msg=0x7f0a003f;
         public static final int contactitem_avatar_iv=0x7f0a00a1;
@@ -642,9 +642,9 @@ containing a value of this type.
         public static final int contactitem_nick=0x7f0a00a2;
         public static final int container_status_btn=0x7f0a010e;
         public static final int custom_botton=0x7f0a00c7;
-        public static final int decode=0x7f0a0004;
-        public static final int decode_failed=0x7f0a0005;
-        public static final int decode_succeeded=0x7f0a0006;
+        public static final int decode=0x7f0a000f;
+        public static final int decode_failed=0x7f0a0010;
+        public static final int decode_succeeded=0x7f0a0011;
         public static final int dialog_generic_btn_button1=0x7f0a0099;
         public static final int dialog_generic_btn_button2=0x7f0a009a;
         public static final int dialog_generic_btn_button3=0x7f0a009b;
@@ -656,22 +656,22 @@ containing a value of this type.
         public static final int dialog_generic_layout_title=0x7f0a0094;
         public static final int dialog_generic_layout_top=0x7f0a0093;
         public static final int dialog_generic_view_titleline=0x7f0a0096;
-        public static final int dismiss=0x7f0a001d;
+        public static final int dismiss=0x7f0a0009;
         public static final int edit=0x7f0a008e;
         public static final int edittext_layout=0x7f0a0027;
-        public static final int encode_failed=0x7f0a0007;
-        public static final int encode_succeeded=0x7f0a0008;
+        public static final int encode_failed=0x7f0a0012;
+        public static final int encode_succeeded=0x7f0a0013;
         public static final int et_code=0x7f0a0066;
         public static final int et_password=0x7f0a005c;
         public static final int et_search=0x7f0a0039;
         public static final int et_sendmessage=0x7f0a0028;
         public static final int et_usertel=0x7f0a005b;
-        public static final int expandable=0x7f0a0013;
-        public static final int expandable_toggle_button=0x7f0a0012;
+        public static final int expandable=0x7f0a001e;
+        public static final int expandable_toggle_button=0x7f0a001d;
         public static final int fragment_container=0x7f0a0061;
         /**  end zxing 
          */
-        public static final int gridview=0x7f0a000f;
+        public static final int gridview=0x7f0a001a;
         public static final int head=0x7f0a0063;
         public static final int header=0x7f0a00f4;
         public static final int horizonMenu=0x7f0a0036;
@@ -704,8 +704,8 @@ containing a value of this type.
         public static final int iv_unread_voice=0x7f0a0113;
         public static final int iv_userhead=0x7f0a00fa;
         public static final int iv_voice=0x7f0a0111;
-        public static final int launch_product_query=0x7f0a0009;
-        public static final int lay_down=0x7f0a0018;
+        public static final int launch_product_query=0x7f0a0014;
+        public static final int lay_down=0x7f0a0004;
         public static final int layout_addfriend=0x7f0a00d0;
         public static final int layout_back=0x7f0a00dd;
         public static final int layout_bar=0x7f0a004e;
@@ -717,7 +717,7 @@ containing a value of this type.
         public static final int layout_public=0x7f0a00d2;
         public static final int layout_search=0x7f0a00cf;
         public static final int layout_title=0x7f0a003d;
-        public static final int left=0x7f0a0015;
+        public static final int left=0x7f0a0000;
         public static final int linearLayoutMenu=0x7f0a0037;
         public static final int list=0x7f0a0032;
         public static final int list_item_layout=0x7f0a00ee;
@@ -749,7 +749,7 @@ containing a value of this type.
         public static final int msg_status=0x7f0a0114;
         public static final int mwebview=0x7f0a008b;
         public static final int name=0x7f0a00f0;
-        public static final int none=0x7f0a001b;
+        public static final int none=0x7f0a0006;
         public static final int opposite_surface=0x7f0a0077;
         public static final int pb_load_local=0x7f0a0072;
         public static final int pb_load_more=0x7f0a0031;
@@ -758,8 +758,8 @@ containing a value of this type.
         public static final int preview_view=0x7f0a003b;
         public static final int progressBar=0x7f0a0074;
         public static final int progressbar=0x7f0a008a;
-        public static final int pull_out=0x7f0a0019;
-        public static final int quit=0x7f0a000a;
+        public static final int pull_out=0x7f0a0005;
+        public static final int quit=0x7f0a0015;
         public static final int re_change_groupname=0x7f0a0051;
         public static final int re_clear=0x7f0a0057;
         public static final int re_contact_list=0x7f0a00ba;
@@ -767,10 +767,10 @@ containing a value of this type.
         public static final int re_profile=0x7f0a00c2;
         public static final int re_weixin=0x7f0a00b6;
         public static final int recording_hint=0x7f0a0035;
-        public static final int restart_preview=0x7f0a000b;
-        public static final int return_scan_result=0x7f0a000c;
-        public static final int reveal=0x7f0a001e;
-        public static final int right=0x7f0a0016;
+        public static final int restart_preview=0x7f0a0016;
+        public static final int return_scan_result=0x7f0a0017;
+        public static final int reveal=0x7f0a0008;
+        public static final int right=0x7f0a0001;
         public static final int rl_bottom=0x7f0a0023;
         public static final int rl_error_item=0x7f0a00aa;
         public static final int rl_picture=0x7f0a0118;
@@ -779,10 +779,10 @@ containing a value of this type.
         public static final int root_layout=0x7f0a0020;
         public static final int row_rec_location=0x7f0a0101;
         public static final int row_recv_pic=0x7f0a0104;
-        public static final int scrollview=0x7f0a0011;
-        public static final int search_book_contents_failed=0x7f0a000d;
-        public static final int search_book_contents_succeeded=0x7f0a000e;
-        public static final int selected_view=0x7f0a0000;
+        public static final int scrollview=0x7f0a001c;
+        public static final int search_book_contents_failed=0x7f0a0018;
+        public static final int search_book_contents_succeeded=0x7f0a0019;
+        public static final int selected_view=0x7f0a000b;
         public static final int sideBar=0x7f0a003a;
         public static final int signature=0x7f0a00f5;
         public static final int swing_card=0x7f0a0089;
@@ -792,7 +792,7 @@ containing a value of this type.
         public static final int timestamp=0x7f0a00e4;
         public static final int title=0x7f0a008c;
         public static final int title_list=0x7f0a0119;
-        public static final int top=0x7f0a0017;
+        public static final int top=0x7f0a0002;
         public static final int topLayout=0x7f0a0087;
         public static final int top_bar=0x7f0a0021;
         public static final int tv_accout=0x7f0a0044;
@@ -879,7 +879,7 @@ containing a value of this type.
         public static final int view_user=0x7f0a0062;
         public static final int view_video=0x7f0a00ce;
         public static final int viewfinder_view=0x7f0a003c;
-        public static final int webview=0x7f0a0010;
+        public static final int webview=0x7f0a001b;
     }
     public static final class layout {
         public static final int activity_baidumap=0x7f030000;
@@ -1314,7 +1314,7 @@ containing a value of this type.
 <tr><td><code>top</code></td><td>2</td><td></td></tr>
 <tr><td><code>bottom</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name com.juns.wechat:drag_edge
+          @attr name android:drag_edge
         */
         public static final int SwipeLayout_drag_edge = 0;
         /**
@@ -1331,7 +1331,7 @@ containing a value of this type.
 <tr><td><code>lay_down</code></td><td>0</td><td></td></tr>
 <tr><td><code>pull_out</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.juns.wechat:show_mode
+          @attr name android:show_mode
         */
         public static final int SwipeLayout_show_mode = 1;
         /** Attributes that can be used with a SwipeListView.
@@ -1386,7 +1386,7 @@ containing a value of this type.
 <tr><td><code>dismiss</code></td><td>1</td><td></td></tr>
 <tr><td><code>choice</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.juns.wechat:swipeActionLeft
+          @attr name android:swipeActionLeft
         */
         public static final int SwipeListView_swipeActionLeft = 8;
         /**
@@ -1404,7 +1404,7 @@ containing a value of this type.
 <tr><td><code>dismiss</code></td><td>1</td><td></td></tr>
 <tr><td><code>choice</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.juns.wechat:swipeActionRight
+          @attr name android:swipeActionRight
         */
         public static final int SwipeListView_swipeActionRight = 9;
         /**
@@ -1418,7 +1418,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.juns.wechat:swipeAnimationTime
+          @attr name android:swipeAnimationTime
         */
         public static final int SwipeListView_swipeAnimationTime = 1;
         /**
@@ -1428,7 +1428,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.juns.wechat:swipeBackView
+          @attr name android:swipeBackView
         */
         public static final int SwipeListView_swipeBackView = 6;
         /**
@@ -1442,7 +1442,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.juns.wechat:swipeCloseAllItemsWhenMoveList
+          @attr name android:swipeCloseAllItemsWhenMoveList
         */
         public static final int SwipeListView_swipeCloseAllItemsWhenMoveList = 4;
         /**
@@ -1452,7 +1452,7 @@ containing a value of this type.
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.juns.wechat:swipeDrawableChecked
+          @attr name android:swipeDrawableChecked
         */
         public static final int SwipeListView_swipeDrawableChecked = 10;
         /**
@@ -1462,7 +1462,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.juns.wechat:swipeDrawableUnchecked
+          @attr name android:swipeDrawableUnchecked
         */
         public static final int SwipeListView_swipeDrawableUnchecked = 11;
         /**
@@ -1472,7 +1472,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.juns.wechat:swipeFrontView
+          @attr name android:swipeFrontView
         */
         public static final int SwipeListView_swipeFrontView = 5;
         /**
@@ -1491,7 +1491,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>right</code></td><td>2</td><td></td></tr>
 <tr><td><code>left</code></td><td>3</td><td></td></tr>
 </table>
-          @attr name com.juns.wechat:swipeMode
+          @attr name android:swipeMode
         */
         public static final int SwipeListView_swipeMode = 7;
         /**
@@ -1507,7 +1507,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.juns.wechat:swipeOffsetLeft
+          @attr name android:swipeOffsetLeft
         */
         public static final int SwipeListView_swipeOffsetLeft = 2;
         /**
@@ -1523,7 +1523,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.juns.wechat:swipeOffsetRight
+          @attr name android:swipeOffsetRight
         */
         public static final int SwipeListView_swipeOffsetRight = 3;
         /**
@@ -1537,7 +1537,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.juns.wechat:swipeOpenOnLongPress
+          @attr name android:swipeOpenOnLongPress
         */
         public static final int SwipeListView_swipeOpenOnLongPress = 0;
     };

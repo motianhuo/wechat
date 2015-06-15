@@ -49,6 +49,7 @@ import com.juns.wechat.dialog.WarnTipDialog;
 import com.juns.wechat.dialog.TitleMenu.ActionItem;
 import com.juns.wechat.dialog.TitleMenu.TitlePopup;
 import com.juns.wechat.dialog.TitleMenu.TitlePopup.OnItemOnClickListener;
+import com.juns.wechat.view.UpdateService;
 import com.juns.wechat.view.activity.AddGroupChatActivity;
 import com.juns.wechat.view.activity.GetMoneyActivity;
 import com.juns.wechat.view.activity.PublicActivity;
@@ -303,6 +304,8 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 	};
 
 	private void initReceiver() {
+		Intent intent = new Intent(this, UpdateService.class);
+		startService(intent);
 		registerReceiver(new MyBroadcastReceiver(), new IntentFilter(
 				"com.juns.wechat.Brodcast"));
 		// 注册一个接收消息的BroadcastReceiver

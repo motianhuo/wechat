@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb"
+    android:orientation="vertical" >
+
+  <include layout="@layout/layout_head_search"/> 
+  <View
+				android:background="@color/black2"
+				android:layout_width="fill_parent"
+				android:layout_height="1.0dip" />
+  
+  <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="80dp"
+      android:background="@color/white">
+      
+      <TextView
+                android:id="@+id/txt_tel"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:drawableTop="@drawable/a6_"
+                android:text="添加手机联系人"
+                android:textColor="#9A9A9A"
+                android:textSize="14sp" />
+       <View
+				android:background="@color/black2"
+				android:layout_width="1.0dip"
+				android:layout_height="fill_parent" />
+      <TextView
+                android:id="@+id/txt_qq"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:drawableTop="@drawable/a6a"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="12dp"
+                android:text="添加QQ好友"
+                android:textColor="#9A9A9A"
+                android:textSize="14sp" />
+  </LinearLayout>
+  
+   <View
+				android:background="@color/black2"
+				android:layout_width="fill_parent"
+				android:layout_height="1.0dip" />
+  <TextView
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:text="新的朋友"
+        android:textSize="12sp" />
+
+     
+</LinearLayout>

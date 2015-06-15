@@ -22,7 +22,7 @@ public class UserUtils {
 		String jsondata = Utils.getValue(context, Constants.UserInfo);
 		Log.e("", jsondata);
 		if (!TextUtils.isEmpty(jsondata))
-			user = JSON.parseArray(jsondata, User.class).get(0);
+			user = JSON.parseObject(jsondata, User.class);
 		return user;
 	}
 
