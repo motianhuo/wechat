@@ -27,13 +27,10 @@ Download Apk
 </a>
 
 
-Requirement
-===
-The latest android-support-v4.jar should be referenced by your project.
-
 Usage
 ===
- 
+ 1、社交类App(旅游方向，美食方向，宠物方向等等)
+ 2、移动企业办公OA系统
 
  
 Pull Requests
