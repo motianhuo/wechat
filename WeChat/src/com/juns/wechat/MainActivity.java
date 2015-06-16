@@ -330,8 +330,8 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 		// EMContactManager.getInstance().setContactListener(
 		// new MyContactListener());
 		// 注册一个监听连接状态的listener
-		EMChatManager.getInstance().addConnectionListener(
-				new MyConnectionListener());
+		// EMChatManager.getInstance().addConnectionListener(
+		// new MyConnectionListener());
 		// // 注册群聊相关的listener
 		EMGroupManager.getInstance().addGroupChangeListener(
 				new MyGroupChangeListener());

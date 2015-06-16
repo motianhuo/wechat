@@ -87,7 +87,7 @@
 					android:drawablePadding="10dp"
 					android:drawableLeft="@drawable/icon_de_nearby"
 					android:drawableRight="@drawable/right"
-					android:text="附件的人" />
+					android:text="附近的人" />
 		<View
 			android:background="@color/black2"
 			android:layout_width="fill_parent"

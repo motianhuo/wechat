@@ -21,6 +21,7 @@ import com.easemob.chat.EMChatManager;
 import com.easemob.chat.EMChatOptions;
 import com.easemob.chat.EMMessage;
 import com.easemob.chat.EMMessage.ChatType;
+import com.easemob.chat.OnMessageNotifyListener;
 import com.easemob.chat.OnNotificationClickListener;
 import com.juns.wechat.chat.ChatActivity;
 import com.juns.wechat.chat.VoiceCallActivity;
@@ -51,6 +52,31 @@ public class App extends FrontiaApplication {
 			return;
 		}
 		EMChatOptions options = EMChatManager.getInstance().getChatOptions();
+		// 获取到EMChatOptions对象
+		// 设置自定义的文字提示
+		options.setNotifyText(new OnMessageNotifyListener() {
+
+			@Override
+			public String onNewMessageNotify(EMMessage message) {
+				return "你的好友发来了一条消息哦";
+			}
+
+			@Override
+			public String onLatestMessageNotify(EMMessage message,
+					int fromUsersNum, int messageNum) {
+				return fromUsersNum + "个好友，发来了" + messageNum + "条消息";
+			}
+
+			@Override
+			public String onSetNotificationTitle(EMMessage arg0) {
+				return null;
+			}
+
+			@Override
+			public int onSetSmallIcon(EMMessage arg0) {
+				return 0;
+			}
+		});
 		options.setOnNotificationClickListener(new OnNotificationClickListener() {
 
 			@Override
