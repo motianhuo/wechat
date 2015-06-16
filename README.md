@@ -1,7 +1,12 @@
 WeChat
 ===
-
-An Android library that help you to build app with swipe back gesture.
+您还在为自己的项目社交模块烦恼吗？ 您还在琢磨微信的功能是怎么实现的吗？ 别愁了，快来这看看吧！
+本项目为高仿微信，并在微信基础上对一些体验和UI上做了优化，实现功能有，
+好友之间文字聊天，表情，视频通话，语音，语音电话，发送文件等。
+群聊，从通讯录添加好友，二维码扫描添加好友，好友之间二维码扫描转账，
+微信公众账号消息推送、朋友圈等
+如果您对本项目感兴趣，欢迎加入我们开源大家庭！Family ！！！
+ 
 
 Image
 ===
@@ -28,61 +33,9 @@ The latest android-support-v4.jar should be referenced by your project.
 
 Usage
 ===
-1. Add SwipeBackLayout as a dependency to your existing project.
-2. To enable SwipeBackLayout, you can simply make your `Activity` extend `SwipeBackActivity`:
-	* In `onCreate` method, `setContentView()` should be called as usual.
-	* You will have access to the `getSwipeBackLayout()` method so you can customize the `SwipeBackLayout`. 
-3. Make window translucent by adding `<item name="android:windowIsTranslucent">true</item>` to your theme.
-
-Simple Example
-===
-```
-public class DemoActivity extends SwipeBackActivity implements View.OnClickListener {
-    private int[] mBgColors;
-
-    private static int mBgIndex = 0;
-
-    private String mKeyTrackingMode;
-
-    private RadioGroup mTrackingModeGroup;
-
-    private SwipeBackLayout mSwipeBackLayout;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_demo);
-        changeActionBarColor();
-        findViews();
-        mKeyTrackingMode = getString(R.string.key_tracking_mode);
-        mSwipeBackLayout = getSwipeBackLayout();
-
-        mTrackingModeGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(RadioGroup group, int checkedId) {
-                int edgeFlag;
-                switch (checkedId) {
-                    case R.id.mode_left:
-                        edgeFlag = SwipeBackLayout.EDGE_LEFT;
-                        break;
-                    case R.id.mode_right:
-                        edgeFlag = SwipeBackLayout.EDGE_RIGHT;
-                        break;
-                    case R.id.mode_bottom:
-                        edgeFlag = SwipeBackLayout.EDGE_BOTTOM;
-                        break;
-                    default:
-                        edgeFlag = SwipeBackLayout.EDGE_ALL;
-                }
-                mSwipeBackLayout.setEdgeTrackingEnabled(edgeFlag);
-                saveTrackingMode(edgeFlag);
-            }
-        });
-    }
-...
-```
  
 
+ 
 Pull Requests
 ===
 I will gladly accept pull requests for fixes and feature enhancements but please do them in the develop branch.
