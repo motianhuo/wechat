@@ -123,7 +123,32 @@
             android:name=".view.activity.MyCodeActivity"  android:screenOrientation="portrait">
         </activity>
         <service android:name=".view.UpdateService"></service>
-          
+        <!-- 朋友圈分享 -->
+           <activity
+            android:name=".view.activity.ShareActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
           <!-- 环信开始 -->
           
           <activity

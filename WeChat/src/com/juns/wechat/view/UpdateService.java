@@ -3,6 +3,7 @@ package com.juns.wechat.view;
 import net.tsz.afinal.FinalDb;
 import android.app.Service;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.os.IBinder;
 import android.provider.ContactsContract;
@@ -38,7 +39,11 @@ public class UpdateService extends Service {
 		initUserList();
 		initGroupList();
 		String str_contact = Utils.getValue(this, Constants.ContactMsg);
-		if (TextUtils.isEmpty(str_contact)) {
+		PackageManager pm = getPackageManager();
+		boolean permission = (PackageManager.PERMISSION_GRANTED == pm
+				.checkPermission("android.permission.READ_CONTACTS",
+						"com.juns.wechat"));
+		if (TextUtils.isEmpty(str_contact) && permission) {
 			str_contact = getContact();
 			Utils.putValue(this, Constants.ContactMsg, str_contact);
 		}

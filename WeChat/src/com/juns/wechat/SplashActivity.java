@@ -19,7 +19,6 @@ import com.easemob.chat.EMGroupManager;
 import com.juns.wechat.bean.GroupInfo;
 import com.juns.wechat.bean.User;
 import com.juns.wechat.common.Utils;
-import com.juns.wechat.view.UpdateService;
 import com.juns.wechat.view.activity.LoginActivity;
 
 public class SplashActivity extends Activity {
@@ -33,8 +32,8 @@ public class SplashActivity extends Activity {
 		Boolean isLogin = Utils.getBooleanValue(SplashActivity.this,
 				Constants.LoginState);
 		if (isLogin) {
-			Intent intent = new Intent(this, UpdateService.class);
-			startService(intent);
+			// Intent intent = new Intent(this, UpdateService.class);
+			// startService(intent);
 			getLogin();
 		} else {
 			mHandler.sendEmptyMessage(0);

@@ -116,12 +116,15 @@ public class NewMsgAdpter extends BaseAdapter {
 				if (info != null) {
 					txt_name.setText(info.getGroup_name());
 					img_avar.setImageResource(R.drawable.defult_group);
+				} else {
 					// initGroupInfo(img_avar, txt_name);// 获取群组信息
 				}
 			} else {
 				User user = GloableParams.Users.get(ChatID);
 				if (user != null) {
 					txt_name.setText(user.getUserName());
+				} else {
+					txt_name.setText("好友");
 					// initUserInfo(img_avar, txt_name);// 获取用户信息
 				}
 			}

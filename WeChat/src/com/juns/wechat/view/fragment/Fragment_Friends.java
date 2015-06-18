@@ -25,7 +25,6 @@ import com.juns.wechat.adpter.ContactAdapter;
 import com.juns.wechat.bean.User;
 import com.juns.wechat.chat.ChatActivity;
 import com.juns.wechat.common.Utils;
-import com.juns.wechat.view.UpdateService;
 import com.juns.wechat.view.activity.FriendMsgActivity;
 import com.juns.wechat.view.activity.GroupListActivity;
 import com.juns.wechat.view.activity.NewFriendsListActivity;
@@ -89,8 +88,8 @@ public class Fragment_Friends extends Fragment implements OnClickListener,
 
 	@Override
 	public void onDestroy() {
-		super.onDestroy();
 		mWindowManager.removeView(mDialogText);
+		super.onDestroy();
 	}
 
 	/**
@@ -113,8 +112,8 @@ public class Fragment_Friends extends Fragment implements OnClickListener,
 			for (User user : GloableParams.UserInfos) {
 				GloableParams.Users.put(user.getTelephone(), user);
 			}
-			Intent intent = new Intent(getActivity(), UpdateService.class);
-			getActivity().startService(intent);
+			// Intent intent = new Intent(getActivity(), UpdateService.class);
+			// getActivity().startService(intent);
 		}
 	}
 

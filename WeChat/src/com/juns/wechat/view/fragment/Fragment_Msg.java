@@ -181,20 +181,40 @@ public class Fragment_Msg extends Fragment implements OnClickListener,
 				if (conversation.isGroup()) {
 					GroupInfo info = GloableParams.GroupInfos.get(conversation
 							.getUserName());
-					intent.putExtra(Constants.TYPE, ChatActivity.CHATTYPE_GROUP);
-					intent.putExtra(Constants.GROUP_ID, info.getGroup_id());
-					intent.putExtra(Constants.NAME, info.getGroup_name());// 设置标题
+					if (info != null) {
+						intent.putExtra(Constants.TYPE,
+								ChatActivity.CHATTYPE_GROUP);
+						intent.putExtra(Constants.GROUP_ID, info.getGroup_id());
+						intent.putExtra(Constants.NAME, info.getGroup_name());// 设置标题
+						getActivity().startActivity(intent);
+					} else {
+						intent.putExtra(Constants.TYPE,
+								ChatActivity.CHATTYPE_GROUP);
+						intent.putExtra(Constants.GROUP_ID, info.getGroup_id());
+						intent.putExtra(Constants.NAME, "群聊");// 设置标题
+						getActivity().startActivity(intent);
+					}
 				} else {
 					User user = GloableParams.Users.get(conversation
 							.getUserName());
-					intent.putExtra(Constants.NAME, user.getUserName());// 设置昵称
-					intent.putExtra(Constants.TYPE,
-							ChatActivity.CHATTYPE_SINGLE);
-					intent.putExtra(Constants.User_ID,
-							conversation.getUserName());
+					if (user != null) {
+						intent.putExtra(Constants.NAME, user.getUserName());// 设置昵称
+						intent.putExtra(Constants.TYPE,
+								ChatActivity.CHATTYPE_SINGLE);
+						intent.putExtra(Constants.User_ID,
+								conversation.getUserName());
+						getActivity().startActivity(intent);
+					} else {
+						intent.putExtra(Constants.NAME, "好友");
+						intent.putExtra(Constants.TYPE,
+								ChatActivity.CHATTYPE_SINGLE);
+						intent.putExtra(Constants.User_ID,
+								conversation.getUserName());
+						getActivity().startActivity(intent);
+					}
 				}
 			}
-			getActivity().startActivity(intent);
+
 		}
 	}
 

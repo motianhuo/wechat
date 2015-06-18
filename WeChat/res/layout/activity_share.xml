@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:gravity="center_horizontal"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<include layout="@layout/layout_title" />
+	
+	
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:scrollbars="none">
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			  
+		  <EditText
+                android:id="@+id/et_usertel"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="这一刻的想法..."
+                android:background="@color/white"
+                android:paddingLeft="20dp"
+                android:textColorHint="#DDDDDD"
+                android:textSize="16sp" />
+			<LinearLayout
+				android:gravity="left"
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+                android:background="@color/white"
+				android:layout_height="wrap_content">
+				<HorizontalScrollView
+					android:id="@+id/hsv_banner"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:scrollbars="none"
+					android:overScrollMode="never">
+					<LinearLayout
+						android:layout_width="wrap_content"
+						android:orientation="horizontal"
+						android:layout_height="wrap_content"
+						android:layout_margin="5dp" >
+						<LinearLayout
+							android:id="@+id/ll_banner"
+							android:layout_width="wrap_content"
+							android:orientation="horizontal"
+							android:layout_height="wrap_content" />
+						<Button
+							android:id="@+id/btnaddimg"
+							android:background="@drawable/zx"
+							android:layout_width="60.0dip"
+							android:layout_height="60.0dip"
+							android:layout_margin="5.0dip" />
+					</LinearLayout>
+				</HorizontalScrollView>
+			</LinearLayout>
+			  	<View
+				android:background="@color/black2"
+				android:layout_width="fill_parent"
+				android:layout_height="1.0dip" />
+			<TextView
+					android:id="@+id/txt_location"
+					style="@style/TxtTitle"
+					android:textSize="16sp"
+					android:gravity="center_vertical"
+					android:background="@drawable/setting_item_selector"
+					android:layout_width="fill_parent"
+					android:layout_height="50dp"
+					android:paddingLeft="16dp"
+					android:paddingRight="10dp"
+					android:drawablePadding="10dp"
+					android:drawableLeft="@drawable/auj"
+					android:drawableRight="@drawable/right"
+					android:text="所在位置" />
+			
+			 	<View
+				android:background="@color/black2"
+				android:layout_width="fill_parent"
+				android:layout_marginTop="20dp"
+				android:layout_height="1.0dip" />
+			
+			<TextView
+					android:id="@+id/txt_who"
+					style="@style/TxtTitle"
+					android:textSize="16sp"
+					android:gravity="center_vertical"
+					android:background="@drawable/setting_item_selector"
+					android:layout_width="fill_parent"
+					android:layout_height="50dp"
+					android:paddingLeft="16dp"
+					android:paddingRight="10dp"
+					android:drawablePadding="10dp"
+					android:drawableLeft="@drawable/aul"
+					android:drawableRight="@drawable/right"
+					android:text="谁可以看" />
+			<View
+				android:background="@color/black2"
+				android:layout_width="fill_parent"
+				android:layout_height="1.0dip" />
+			<TextView
+					android:id="@+id/txt_tip"
+					style="@style/TxtTitle"
+					android:textSize="16sp"
+					android:gravity="center_vertical"
+					android:background="@drawable/setting_item_selector"
+					android:layout_width="fill_parent"
+					android:layout_height="50dp"
+					android:paddingLeft="16dp"
+					android:paddingRight="10dp"
+					android:drawablePadding="10dp"
+					android:drawableLeft="@drawable/aub"
+					android:drawableRight="@drawable/right"
+					android:text="提醒谁看" />
+			<View
+				android:background="@color/black2"
+				android:layout_width="fill_parent"
+				android:layout_height="1.0dip" />
+			
+			  
+			<ImageView
+							android:id="@+id/img_qzone"
+							android:background="@drawable/aun"
+							android:layout_width="25dip"
+							android:layout_height="25dip"
+							android:layout_marginTop="10dp"
+							android:layout_marginLeft="16dp"  /> 
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

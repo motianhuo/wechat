@@ -14,7 +14,7 @@ public abstract class BaseJsonRes extends JsonHttpResponseHandler {
 	public void onSuccess(JSONObject response) {
 		try {
 			String result = response.getString(Constants.Result);
-			System.out.println("返回的值" + response);
+			// System.out.println("返回的值" + response);
 			if (result == null) {
 				Utils.showLongToast(App.getInstance(), Constants.NET_ERROR);
 			} else if (result.equals("1")) {
