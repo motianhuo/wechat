@@ -2,8 +2,7 @@ WeChat
 ===
 Social APP is popular all over the world, such as: Facebook, Line, Whatsapp, Kakao.     
 You still worry about their own project social module? You also thinking WeChat function is how to achieve? Don't worry, come and look at this!
-This project is a high copy WeChat, and based on WeChat do to some experience and UI optimization.  
-implementation features:  
+This project is a high copy WeChat, and based on WeChat do to some experience and UI optimization. implementation features:  
 The text chat between friends, expression, video calls, voice, the voice call, send a file, etc. Group chat, from the address book add buddy, QR Code scanning add buddy, QR Code scanning transfer between friends, WeChat public account information push, circle of friends.      
 If you are interest in this project, welcome to join our big family of open source!    
 Family ！！！
