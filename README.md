@@ -1,11 +1,11 @@
 WeChat
 ===
-您还在为自己的项目社交模块烦恼吗？ 您还在琢磨微信的功能是怎么实现的吗？ 别愁了，快来这看看吧！  
-本项目为高仿微信，并在微信基础上对一些体验和UI上做了优化，实现功能有：  
-好友之间文字聊天，表情，视频通话，语音，语音电话，发送文件等。
-群聊，从通讯录添加好友，二维码扫描添加好友，好友之间二维码扫描转账，
-微信公众账号消息推送、朋友圈等   
-如果您对本项目感兴趣，欢迎加入我们开源大家庭！  
+Social APP is popular all over the world, such as: Facebook, Line, Whatsapp, Kakao.     
+You still worry about their own project social module? You also thinking WeChat function is how to achieve? Don't worry, come and look at this!
+This project is a high copy WeChat, and based on WeChat do to some experience and UI optimization.  
+implementation features:
+The text chat between friends, expression, video calls, voice, the voice call, send a file, etc. Group chat, from the address book add buddy, qr code scanning add buddy, qr code scanning transfer between friends, WeChat public account information push, circle of friends
+If you are interest in this project, welcome to join our big family of open source! 
 Family ！！！
  
 
@@ -34,10 +34,11 @@ Download Apk
 
 Usage
 ===
- 1、社交类App(旅游方向，美食方向，宠物方向，医疗方向等等)      
+ 1、 SNS App ( Travel Direction、 Food Direction、 Medical Direction etc.)     
  
- 2、移动企业办公OA系统
+ 2、Mobile Business Office
 
+ 3、O2O (Online To Offline)
  
 Pull Requests
 ===
