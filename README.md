@@ -9,7 +9,8 @@ This project is a high copy WeChat, and based on WeChat do to some experience an
 -  QR Code scanning add buddy, QR Code scanning transfer between friends, 
 -  WeChat public account information push, 
 -  circle of friends.
--  etc.   
+-  etc.      
+
 **If you are interest in this project, welcome to join our big family of open source!    
 Family ！！！**
  
