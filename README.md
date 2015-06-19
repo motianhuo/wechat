@@ -40,7 +40,7 @@ Download Apk
 
 Usage
 ===
- 1、SNS App ( Travel Direction、 Food Direction、 Medical Direction etc.)     
+ 1、SNS App ( Travel Direction、 Food Direction、 Medical Direction、Game Direction etc.)     
  
  2、Mobile Business Office
 
