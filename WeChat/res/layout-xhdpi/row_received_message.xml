@@ -44,15 +44,11 @@
             android:layout_below="@+id/tv_userid"
             android:autoLink="web"
             android:clickable="true"
-            android:focusable="true"
-            android:paddingTop="3dp"
-            android:paddingBottom="3dp"
-            android:paddingLeft="15dp"
-            android:paddingRight="15dp"
-            android:gravity="center|left"
+            android:focusable="true" 
+            android:padding="12dp"
+            android:gravity="center"
             android:lineSpacingExtra="2dp"
-            android:minHeight="50dp"
-            android:textColor="#ff000000"
+            android:textColor="#252424"
             android:textSize="15sp" />
         
     </RelativeLayout>

@@ -16,7 +16,7 @@ import com.juns.wechat.R;
 
 //表情
 public class SmileUtils {
-	public static final String f_static_00 = "[):]";
+	public static final String f_static_00 = "[):0]";
 	public static final String f_static_01 = "[):]";
 	public static final String f_static_02 = "[:D]";
 	public static final String f_static_03 = "[;)]";
@@ -52,6 +52,34 @@ public class SmileUtils {
 	public static final String f_static_033 = "[(F)]";
 	public static final String f_static_034 = "[(W)]";
 	public static final String f_static_035 = "[(D)]";
+
+	public static final String f_static_036 = "[(D1)]";
+	public static final String f_static_037 = "[(D2)]";
+	public static final String f_static_038 = "[(D3)]";
+	public static final String f_static_039 = "[(D4)]";
+	public static final String f_static_040 = "[(D5)]";
+	public static final String f_static_041 = "[(D6)]";
+	public static final String f_static_042 = "[(D7)]";
+	public static final String f_static_043 = "[(D8)]";
+	public static final String f_static_044 = "[(D9)]";
+	public static final String f_static_045 = "[(D10)]";
+	public static final String f_static_046 = "[(D11)]";
+	public static final String f_static_047 = "[(D12)]";
+	public static final String f_static_048 = "[(D13)]";
+	public static final String f_static_049 = "[(D14)]";
+	public static final String f_static_050 = "[(D15)]";
+	public static final String f_static_051 = "[(D16)]";
+	public static final String f_static_052 = "[(D17)]";
+	public static final String f_static_053 = "[(D18)]";
+	public static final String f_static_054 = "[(D19)]";
+	public static final String f_static_055 = "[(D20)]";
+	public static final String f_static_056 = "[(D21)]";
+	public static final String f_static_057 = "[(D22)]";
+	public static final String f_static_058 = "[(D23)]";
+	public static final String f_static_059 = "[(D24)]";
+	public static final String f_static_060 = "[(D25)]";
+	public static final String f_static_061 = "[(D26)]";
+	public static final String f_static_062 = "[(D27)]";
 
 	private static final Factory spannableFactory = Spannable.Factory
 			.getInstance();
@@ -95,6 +123,35 @@ public class SmileUtils {
 		addPattern(emoticons, f_static_033, R.drawable.f_static_033);
 		addPattern(emoticons, f_static_034, R.drawable.f_static_034);
 		addPattern(emoticons, f_static_035, R.drawable.f_static_035);
+
+		addPattern(emoticons, f_static_036, R.drawable.f_static_036);
+		addPattern(emoticons, f_static_037, R.drawable.f_static_037);
+		addPattern(emoticons, f_static_038, R.drawable.f_static_038);
+		addPattern(emoticons, f_static_039, R.drawable.f_static_039);
+		addPattern(emoticons, f_static_040, R.drawable.f_static_040);
+		addPattern(emoticons, f_static_041, R.drawable.f_static_041);
+		addPattern(emoticons, f_static_042, R.drawable.f_static_042);
+		addPattern(emoticons, f_static_043, R.drawable.f_static_043);
+		addPattern(emoticons, f_static_044, R.drawable.f_static_044);
+		addPattern(emoticons, f_static_045, R.drawable.f_static_045);
+		addPattern(emoticons, f_static_046, R.drawable.f_static_046);
+		addPattern(emoticons, f_static_047, R.drawable.f_static_047);
+		addPattern(emoticons, f_static_048, R.drawable.f_static_048);
+		addPattern(emoticons, f_static_049, R.drawable.f_static_049);
+		addPattern(emoticons, f_static_050, R.drawable.f_static_050);
+		addPattern(emoticons, f_static_051, R.drawable.f_static_051);
+		addPattern(emoticons, f_static_052, R.drawable.f_static_052);
+		addPattern(emoticons, f_static_053, R.drawable.f_static_053);
+		addPattern(emoticons, f_static_054, R.drawable.f_static_054);
+		addPattern(emoticons, f_static_055, R.drawable.f_static_055);
+		addPattern(emoticons, f_static_056, R.drawable.f_static_056);
+
+		addPattern(emoticons, f_static_057, R.drawable.f_static_057);
+		addPattern(emoticons, f_static_058, R.drawable.f_static_058);
+		addPattern(emoticons, f_static_059, R.drawable.f_static_059);
+		addPattern(emoticons, f_static_060, R.drawable.f_static_060);
+		addPattern(emoticons, f_static_061, R.drawable.f_static_060);
+		addPattern(emoticons, f_static_062, R.drawable.f_static_062);
 	}
 
 	private static void addPattern(Map<Pattern, Integer> map, String smile,

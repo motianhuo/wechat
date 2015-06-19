@@ -48,9 +48,7 @@ import com.easemob.util.EMLog;
 import com.easemob.util.FileUtils;
 import com.easemob.util.LatLng;
 import com.easemob.util.TextFormater;
-import com.juns.wechat.GloableParams;
 import com.juns.wechat.R;
-import com.juns.wechat.bean.User;
 import com.juns.wechat.chat.AlertDialog;
 import com.juns.wechat.chat.BaiduMapActivity;
 import com.juns.wechat.chat.ChatActivity;
@@ -371,8 +369,8 @@ public class MessageAdapter extends BaseAdapter {
 		if (chatType == ChatType.GroupChat
 				&& message.direct == EMMessage.Direct.RECEIVE) {
 			// juns 好友名字
-			User user = GloableParams.Users.get(message.getFrom());
-			holder.tv_userId.setText(user.getUserName());
+			// User user = GloableParams.Users.get(message.getFrom());
+			// holder.tv_userId.setText(user.getUserName());
 		}
 		// 如果是发送的消息并且不是群聊消息，显示已读textview
 		if (message.direct == EMMessage.Direct.SEND

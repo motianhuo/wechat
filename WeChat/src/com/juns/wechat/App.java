@@ -40,8 +40,8 @@ public class App extends FrontiaApplication {
 		EMChat.getInstance().setAutoLogin(true);
 		EMChatManager.getInstance().getChatOptions().setUseRoster(true);
 		FrontiaApplication.initFrontiaApplication(this);
-		CrashHandler crashHandler = CrashHandler.getInstance();// 全局异常捕捉
-		crashHandler.init(_context);
+		// CrashHandler crashHandler = CrashHandler.getInstance();// 全局异常捕捉
+		// crashHandler.init(_context);
 	}
 
 	private void initEMChat() {

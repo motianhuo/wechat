@@ -236,13 +236,15 @@ public class ChatActivity extends BaseActivity implements OnClickListener {
 		edittext_layout.setBackgroundResource(R.drawable.input_bar_bg_normal);
 
 		// 表情list
-		reslist = getExpressionRes(35);
+		reslist = getExpressionRes(62);
 		// 初始化表情viewpager
 		List<View> views = new ArrayList<View>();
 		View gv1 = getGridChildView(1);
 		View gv2 = getGridChildView(2);
+		View gv3 = getGridChildView(3);
 		views.add(gv1);
 		views.add(gv2);
+		views.add(gv3);
 		expressionViewpager.setAdapter(new ExpressionPagerAdapter(views));
 		edittext_layout.requestFocus();
 		voiceRecorder = new VoiceRecorder(micImageHandler);
@@ -1279,6 +1281,8 @@ public class ChatActivity extends BaseActivity implements OnClickListener {
 			list.addAll(list1);
 		} else if (i == 2) {
 			list.addAll(reslist.subList(21, reslist.size()));
+		} else if (i == 3) {
+			list.addAll(reslist.subList(42, reslist.size()));
 		}
 		list.add("delete_expression");
 		final ExpressionAdapter expressionAdapter = new ExpressionAdapter(this,

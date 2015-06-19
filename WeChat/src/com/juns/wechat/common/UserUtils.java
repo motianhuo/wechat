@@ -2,7 +2,6 @@ package com.juns.wechat.common;
 
 import android.content.Context;
 import android.text.TextUtils;
-import android.util.Log;
 
 import com.alibaba.fastjson.JSON;
 import com.easemob.chat.EMChatManager;
@@ -20,7 +19,7 @@ public class UserUtils {
 	public static User getUserModel(Context context) {
 		User user = null;
 		String jsondata = Utils.getValue(context, Constants.UserInfo);
-		Log.e("", jsondata);
+		// Log.e("", jsondata);
 		if (!TextUtils.isEmpty(jsondata))
 			user = JSON.parseObject(jsondata, User.class);
 		return user;
