@@ -1,0 +1,83 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+appcompat-v7 => [com.android.support:appcompat-v7:18.0.0]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* libs/JsonUtils.jar => app/libs/JsonUtils.jar
+* libs/JunsNetHelper.jar => app/libs/JunsNetHelper.jar
+* libs/afinal-0.3.32-bin.jar => app/libs/afinal-0.3.32-bin.jar
+* libs/armeabi/libBaiduMapSDK_v3_2_0_15.so => app/src/main/jniLibs/armeabi/libBaiduMapSDK_v3_2_0_15.so
+* libs/armeabi/libBaiduMapSDK_v3_3_0_1.so => app/src/main/jniLibs/armeabi/libBaiduMapSDK_v3_3_0_1.so
+* libs/armeabi/libbdpush_V2_2.so => app/src/main/jniLibs/armeabi/libbdpush_V2_2.so
+* libs/armeabi/libbspatch.so => app/src/main/jniLibs/armeabi/libbspatch.so
+* libs/armeabi/libeasemob_base.so => app/src/main/jniLibs/armeabi/libeasemob_base.so
+* libs/armeabi/libeasemob_jni.so => app/src/main/jniLibs/armeabi/libeasemob_jni.so
+* libs/armeabi/libeasemob_render.so => app/src/main/jniLibs/armeabi/libeasemob_render.so
+* libs/armeabi/liblocSDK3.so => app/src/main/jniLibs/armeabi/liblocSDK3.so
+* libs/armeabi/liblocSDK5.so => app/src/main/jniLibs/armeabi/liblocSDK5.so
+* libs/armeabi/libvi_voslib.so => app/src/main/jniLibs/armeabi/libvi_voslib.so
+* libs/baidumapapi_v3_2_0.jar => app/libs/baidumapapi_v3_2_0.jar
+* libs/easemobchat_2.1.5.jar => app/libs/easemobchat_2.1.5.jar
+* libs/httpmime-4.1.3.jar => app/libs/httpmime-4.1.3.jar
+* libs/locSDK_3.3.jar => app/libs/locSDK_3.3.jar
+* libs/mips/libbdpush_V2_2.so => app/src/main/jniLibs/mips/libbdpush_V2_2.so
+* libs/pinyin4j-2.5.0.jar => app/libs/pinyin4j-2.5.0.jar
+* libs/pushservice-4.4.0.71.jar => app/libs/pushservice-4.4.0.71.jar
+* libs/umeng-analytics-v5.2.4.jar => app/libs/umeng-analytics-v5.2.4.jar
+* libs/universal-image-loader-1.8.7-snapshot-with-sources.jar => app/libs/universal-image-loader-1.8.7-snapshot-with-sources.jar
+* libs/zxing-1.6.jar => app/libs/zxing-1.6.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
