@@ -73,23 +73,23 @@ public class Fragment_Dicover extends Fragment implements OnClickListener {
 			break;
 		case R.id.txt_yaoyiyao:
 			Utils.start_Activity(getActivity(), PublicActivity.class,
-					new BasicNameValuePair(Constants.NAME, "摇一摇"));
+					new BasicNameValuePair(Constants.NAME, getString(R.string.shake)));
 			break;
 		case R.id.txt_nearby:
 			Utils.start_Activity(getActivity(), PublicActivity.class,
-					new BasicNameValuePair(Constants.NAME, "附件的人"));
+					new BasicNameValuePair(Constants.NAME, getString(R.string.people_nearby)));
 			break;
 		case R.id.txt_piaoliuping:
 			Utils.start_Activity(getActivity(), PublicActivity.class,
-					new BasicNameValuePair(Constants.NAME, "漂流瓶"));
+					new BasicNameValuePair(Constants.NAME, getString(R.string.drift_bottle)));
 			break;
 		case R.id.txt_shop:
 			Utils.start_Activity(getActivity(), PublicActivity.class,
-					new BasicNameValuePair(Constants.NAME, "购物"));
+					new BasicNameValuePair(Constants.NAME, getString(R.string.shopping)));
 			break;
 		case R.id.txt_game:
 			Utils.start_Activity(getActivity(), PublicActivity.class,
-					new BasicNameValuePair(Constants.NAME, "游戏"));
+					new BasicNameValuePair(Constants.NAME, getString(R.string.games)));
 			break;
 		default:
 			break;

@@ -56,7 +56,7 @@ public class FromContactAdapter extends BaseAdapter {
 		final User user = UserInfos.get(position);
 		txt_name.setText(user.getUserName());
 		txt_add.setText("添加");
-		txt_msg.setText("微信号:" + user.getTelephone() + "   "
+		txt_msg.setText(context.getString(R.string.wechat_id) + ":" + user.getTelephone() + "   "
 				+ user.getUserName());
 		txt_add.setOnClickListener(new OnClickListener() {
 

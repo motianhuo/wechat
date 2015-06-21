@@ -18,7 +18,7 @@
 		<TextView
                 style="@style/MMFontTitleInList"
 			android:textColor="@color/black"
-			android:text="新的朋友"
+			android:text="@string/recommended_friends"
 			android:layout_marginLeft="13dp"
 			android:singleLine="true" />
 	</LinearLayout>
@@ -40,7 +40,7 @@
 		<TextView
 			style="@style/MMFontTitleInList"
 			android:textColor="@color/black"
-			android:text="群聊"
+			android:text="@string/group_chats"
 			android:layout_marginLeft="10dp"
 			android:singleLine="true" />
 	</LinearLayout>
@@ -62,7 +62,7 @@
 		<TextView
 			style="@style/MMFontTitleInList"
 			android:textColor="@color/black"
-			android:text="公众号"
+			android:text="@string/official_accounts"
 			android:layout_marginLeft="10dp"
 			android:singleLine="true" />
 	</LinearLayout>

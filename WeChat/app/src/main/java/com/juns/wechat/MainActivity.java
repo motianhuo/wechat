@@ -76,7 +76,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 	private Fragment_Profile profilefragment;
 	private ImageView[] imagebuttons;
 	private TextView[] textviews;
-	private String connectMsg = "微信";
+	private String connectMsg = "weixin";
 	private int index;
 	private int currentTabIndex;// 当前fragment的index
 
@@ -137,22 +137,22 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 			if (homefragment != null) {
 				homefragment.refresh();
 			}
-			txt_title.setText(connectMsg);
+			txt_title.setText(R.string.chat);
 			img_right.setImageResource(R.drawable.icon_add);
 			break;
 		case R.id.re_contact_list:
 			index = 1;
-			txt_title.setText("通讯录");
+			txt_title.setText(R.string.contacts);
 			img_right.setVisibility(View.VISIBLE);
 			img_right.setImageResource(R.drawable.icon_titleaddfriend);
 			break;
 		case R.id.re_find:
 			index = 2;
-			txt_title.setText("发现");
+			txt_title.setText(R.string.discover);
 			break;
 		case R.id.re_profile:
 			index = 3;
-			txt_title.setText("我");
+			txt_title.setText(R.string.me);
 			break;
 		}
 		if (currentTabIndex != index) {

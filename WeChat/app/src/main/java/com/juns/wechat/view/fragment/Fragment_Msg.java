@@ -191,7 +191,7 @@ public class Fragment_Msg extends Fragment implements OnClickListener,
 						intent.putExtra(Constants.TYPE,
 								ChatActivity.CHATTYPE_GROUP);
 						intent.putExtra(Constants.GROUP_ID, info.getGroup_id());
-						intent.putExtra(Constants.NAME, "群聊");// 设置标题
+						intent.putExtra(Constants.NAME, R.string.group_chats);// 设置标题
 						getActivity().startActivity(intent);
 					}
 				} else {

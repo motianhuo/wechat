@@ -41,7 +41,7 @@ public class PublishUserListActivity extends BaseActivity implements
 	@Override
 	protected void initControl() {
 		txt_title = (TextView) findViewById(R.id.txt_title);
-		txt_title.setText("公众号");
+		txt_title.setText(R.string.official_accounts);
 		img_back = (ImageView) findViewById(R.id.img_back);
 		img_back.setVisibility(View.VISIBLE);
 		img_right = (ImageView) findViewById(R.id.img_right);

@@ -25,5 +25,5 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:drawableTop="@drawable/no_chat"
-		android:text="暂时没有新消息" />
+		android:text="@string/no_msg" />
 </RelativeLayout>

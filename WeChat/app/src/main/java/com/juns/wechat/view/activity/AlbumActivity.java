@@ -40,7 +40,7 @@ public class AlbumActivity extends BaseActivity implements OnClickListener {
 	protected void initControl() {
 		findViewById(R.id.img_back).setVisibility(View.VISIBLE);
 		txt_title = (TextView) findViewById(R.id.txt_title);
-		txt_title.setText("朋友圈");
+		txt_title.setText(R.string.moments);
 		img_talk = (ImageView) findViewById(R.id.img_right);
 		img_talk.setVisibility(View.VISIBLE);
 		img_talk.setImageResource(R.drawable.icon_talk);

@@ -59,7 +59,7 @@ public class FriendMsgActivity extends BaseActivity implements OnClickListener {
 		else {
 			User user = GloableParams.Users.get(UserId);
 			tv_name.setText(user.getUserName());
-			tv_accout.setText("微信号：" + UserId);
+			tv_accout.setText(getString(R.string.wechat_id) + "：" + UserId);
 		}
 	}
 

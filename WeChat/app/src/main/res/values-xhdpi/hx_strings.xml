@@ -44,7 +44,7 @@
     <string name="video">[视频通话]</string>
     <string name="file">[文件消息]</string>
     <string name="voice_call">[语音通话]</string>
-      <string name="voice_msg">[语音消息]</string>
+    <string name="voice_msg">[语音消息]</string>
     <string name="button_cancel">取消</string>
     <string name="button_save">保存</string>
     <string name="button_search">查找</string>

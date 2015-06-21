@@ -88,7 +88,7 @@
 					android:drawablePadding="10dp"
 					android:drawableLeft="@drawable/icon_me_photo"
 					android:drawableRight="@drawable/right"
-					android:text="相册" />
+					android:text="@string/my_posts" />
 		<View
 			android:background="@color/black2"
 			android:layout_width="fill_parent"
@@ -106,7 +106,7 @@
 					android:drawablePadding="10dp"
 					android:drawableLeft="@drawable/icon_me_collect"
 					android:drawableRight="@drawable/right"
-					android:text="收藏" />
+					android:text="@string/collection" />
 		<View
 			android:background="@color/black2"
 			android:layout_width="fill_parent"
@@ -125,7 +125,7 @@
 					android:drawablePadding="10dp"
 					android:drawableLeft="@drawable/icon_me_money"
 					android:drawableRight="@drawable/right"
-					android:text="钱包" />
+					android:text="@string/wallet" />
 		<View
 			android:background="@color/black2"
 			android:layout_width="fill_parent"
@@ -143,7 +143,7 @@
 					android:drawablePadding="10dp"
 					android:drawableLeft="@drawable/icon_me_card"
 					android:drawableRight="@drawable/right"
-					android:text="卡包" />
+					android:text="@string/card_bag" />
 		<View
 			android:background="@color/black2"
 			android:layout_width="fill_parent"
@@ -164,7 +164,7 @@
 					android:drawablePadding="10dp"
 					android:drawableLeft="@drawable/icon_me_smail"
 					android:drawableRight="@drawable/right"
-					android:text="表情" />
+					android:text="@string/expression" />
 		<View
 			android:background="@color/black2"
 			android:layout_width="fill_parent"
@@ -184,7 +184,7 @@
 					android:drawablePadding="10dp"
 					android:drawableLeft="@drawable/icon_me_setting"
 					android:drawableRight="@drawable/right"
-					android:text="设置" />
+					android:text="@string/settings" />
 		<View
 				android:background="@color/black2"
 				android:layout_width="fill_parent"

@@ -50,7 +50,7 @@ public class Fragment_Profile extends Fragment implements OnClickListener {
 		tvname = (TextView) layout.findViewById(R.id.tvname);
 		tv_accout = (TextView) layout.findViewById(R.id.tvmsg);
 		String id = Utils.getValue(getActivity(), Constants.User_ID);
-		tv_accout.setText("微信号：" + id);
+		tv_accout.setText(getString(R.string.wechat_id) + "：" + id);
 		if (GloableParams.UserInfos != null) {
 			String name = UserUtils.getUserName(ctx);
 			if (name != null && !TextUtils.isEmpty(name))
@@ -81,23 +81,23 @@ public class Fragment_Profile extends Fragment implements OnClickListener {
 			break;
 		case R.id.txt_album:// 相册
 			Utils.start_Activity(getActivity(), PublicActivity.class,
-					new BasicNameValuePair(Constants.NAME, "相册"));
+					new BasicNameValuePair(Constants.NAME, getString(R.string.my_posts)));
 			break;
 		case R.id.txt_collect:// 收藏
 			Utils.start_Activity(getActivity(), PublicActivity.class,
-					new BasicNameValuePair(Constants.NAME, "收藏"));
+					new BasicNameValuePair(Constants.NAME, getString(R.string.collection)));
 			break;
 		case R.id.txt_money:// 钱包
 			Utils.start_Activity(getActivity(), PublicActivity.class,
-					new BasicNameValuePair(Constants.NAME, "钱包"));
+					new BasicNameValuePair(Constants.NAME, getString(R.string.wallet)));
 			break;
 		case R.id.txt_card:// 相册
 			Utils.start_Activity(getActivity(), PublicActivity.class,
-					new BasicNameValuePair(Constants.NAME, "卡包"));
+					new BasicNameValuePair(Constants.NAME, getString(R.string.card_bag)));
 			break;
 		case R.id.txt_smail:// 表情
 			Utils.start_Activity(getActivity(), PublicActivity.class,
-					new BasicNameValuePair(Constants.NAME, "表情"));
+					new BasicNameValuePair(Constants.NAME, getString(R.string.expression)));
 			break;
 		case R.id.txt_setting:// 设置
 			Utils.start_Activity(getActivity(), SettingActivity.class);

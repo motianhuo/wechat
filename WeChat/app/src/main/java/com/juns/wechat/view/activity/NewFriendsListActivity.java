@@ -32,7 +32,7 @@ public class NewFriendsListActivity extends BaseActivity implements
 	@Override
 	protected void initControl() {
 		txt_title = (TextView) findViewById(R.id.txt_title);
-		txt_title.setText("新的朋友");
+		txt_title.setText(R.string.recommended_friends);
 		txt_right = (TextView) findViewById(R.id.txt_right);
 		txt_right.setText("添加朋友");
 		img_back = (ImageView) findViewById(R.id.img_back);

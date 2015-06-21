@@ -44,7 +44,7 @@
                 android:layout_below="@id/ib_weixin"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="3dp"
-                android:text="微信"
+                android:text="@string/chat"
                 android:textColor="#9A9A9A"
                 android:textSize="12sp" />
 
@@ -92,7 +92,7 @@
                 android:layout_below="@id/ib_contact_list"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="3dp"
-                android:text="通讯录"
+                android:text="@string/contacts"
                 android:textColor="#9A9A9A"
                 android:textSize="12sp" />
 
@@ -140,7 +140,7 @@
                 android:layout_below="@id/ib_find"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="3dp"
-                android:text="发现"
+                android:text="@string/discover"
                 android:textColor="#9A9A9A"
                 android:textSize="12sp" />
               <TextView
@@ -183,7 +183,7 @@
                 android:layout_below="@id/ib_profile"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="3dp"
-                android:text="我"
+                android:text="@string/me"
                 android:textColor="#9A9A9A"
                 android:textSize="12sp" />
         </RelativeLayout>

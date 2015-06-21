@@ -48,7 +48,7 @@ public class SetMoneyActivity extends BaseActivity implements OnClickListener {
 		String UserId = getIntent().getStringExtra(Constants.User_ID);
 		String money = getIntent().getStringExtra(Constants.NAME);
 		User user = GloableParams.Users.get(UserId);
-		String strname = "您正在向 " + user.getUserName() + "<br/>微信号：" + UserId
+		String strname = "您正在向 " + user.getUserName() + "<br/>" + getString(R.string.wechat_id) + "：" + UserId
 				+ " 付钱";
 		tv_msg.setText(Html.fromHtml(strname));
 		String strmoney = "￥<font color='#ff11aca6'>" + money

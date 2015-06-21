@@ -53,7 +53,7 @@
         android:layout_height="36dp"
         android:gravity="center_vertical"
         android:paddingLeft="12dp"
-        android:text="新的朋友"
+        android:text="@string/recommended_friends"
         android:textSize="12sp" />
 
      

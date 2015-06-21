@@ -62,7 +62,7 @@ public class MyCodeActivity extends BaseActivity implements OnClickListener {
 	@Override
 	protected void initData() {
 		String id = Utils.getValue(this, Constants.User_ID);
-		tv_accout.setText("微信号：" + id);
+		tv_accout.setText(getString(R.string.wechat_id) + "：" + id);
 		User user = GloableParams.Users.get(id);
 		if (user != null && !TextUtils.isEmpty(user.getUserName()))
 			tvname.setText(user.getUserName());
