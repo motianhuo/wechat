@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">WeChat_OpenSource</string>
+    <string name="app_name">WeChat (OpenSource)</string>
     <string name="contacts">Contacts</string>
     <string name="me">Me</string>
     <string name="discover">Discover</string>
@@ -24,6 +24,7 @@
     <string name="drift_bottle">Drift Bottle</string>
     <string name="shopping">Shopping</string>
     <string name="games">Games</string>
+    <string name="search">Search</string>
 
     <string name="action_settings">Settings</string>
 

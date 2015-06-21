@@ -137,22 +137,22 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 			if (homefragment != null) {
 				homefragment.refresh();
 			}
-			txt_title.setText(R.string.chat);
+			txt_title.setText(R.string.app_name);
 			img_right.setImageResource(R.drawable.icon_add);
 			break;
 		case R.id.re_contact_list:
 			index = 1;
-			txt_title.setText(R.string.contacts);
+			txt_title.setText(R.string.app_name);
 			img_right.setVisibility(View.VISIBLE);
 			img_right.setImageResource(R.drawable.icon_titleaddfriend);
 			break;
 		case R.id.re_find:
 			index = 2;
-			txt_title.setText(R.string.discover);
+			txt_title.setText(R.string.app_name);
 			break;
 		case R.id.re_profile:
 			index = 3;
-			txt_title.setText(R.string.me);
+			txt_title.setText(R.string.app_name);
 			break;
 		}
 		if (currentTabIndex != index) {

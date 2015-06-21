@@ -12,7 +12,7 @@
 		android:background="@drawable/search_ba"
 		android:layout_margin="15dp"
 		android:paddingLeft="20dp"
-		android:text="搜索"
+		android:text="@string/search"
 		android:drawablePadding="10dp"
 		android:textColor="@color/black1"
 		android:gravity="center|left"

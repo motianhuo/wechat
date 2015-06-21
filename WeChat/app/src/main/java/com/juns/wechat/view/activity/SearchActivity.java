@@ -24,7 +24,7 @@ public class SearchActivity extends BaseActivity implements OnClickListener {
 	@Override
 	protected void initControl() {
 		txt_title = (TextView) findViewById(R.id.txt_title);
-		txt_title.setText("搜索");
+		txt_title.setText(R.string.search);
 		img_back = (ImageView) findViewById(R.id.img_back);
 		img_back.setVisibility(View.VISIBLE);
 	}

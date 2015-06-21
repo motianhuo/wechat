@@ -48,7 +48,7 @@
             android:layout_toRightOf="@id/horizonMenu"
             android:background="@null"
             android:gravity="bottom"
-            android:hint="搜索"
+            android:hint="@string/search"
             android:singleLine="true"
             android:textColor="#353535"
             android:textColorHint="#484c4c"
