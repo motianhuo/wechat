@@ -25,6 +25,8 @@
     <string name="shopping">Shopping</string>
     <string name="games">Games</string>
     <string name="search">Search</string>
+    <string name="countries_and_areas">Country/Area</string>
+    <string name="password">password</string>
 
     <string name="action_settings">Settings</string>
 

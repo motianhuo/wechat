@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">微信_开源版</string>
+    <string name="app_name">微信 (开源版)</string>
     <string name="contacts">通讯录</string>
     <string name="me">我</string>
     <string name="discover">发现</string>
@@ -25,6 +25,8 @@
     <string name="shopping">购物</string>
     <string name="games">游戏</string>
     <string name="search">搜索</string>
+    <string name="countries_and_areas">国家和地区</string>
+    <string name="password">密码</string>
 
     <string name="action_settings">Settings</string>
 
