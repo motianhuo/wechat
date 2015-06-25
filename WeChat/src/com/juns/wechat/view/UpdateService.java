@@ -1,5 +1,7 @@
 package com.juns.wechat.view;
 
+import java.util.List;
+
 import net.tsz.afinal.FinalDb;
 import android.app.Service;
 import android.content.Intent;
@@ -36,16 +38,20 @@ public class UpdateService extends Service {
 
 	@Override
 	public int onStartCommand(Intent intent, int flags, int startId) {
-		initUserList();
-		initGroupList();
-		String str_contact = Utils.getValue(this, Constants.ContactMsg);
-		PackageManager pm = getPackageManager();
-		boolean permission = (PackageManager.PERMISSION_GRANTED == pm
-				.checkPermission("android.permission.READ_CONTACTS",
-						"com.juns.wechat"));
-		if (TextUtils.isEmpty(str_contact) && permission) {
-			str_contact = getContact();
-			Utils.putValue(this, Constants.ContactMsg, str_contact);
+		int RunCount = Utils.getIntValue(this, "RUN_COUNT");
+		if (RunCount % 10 == 0) {
+			initUserList();
+			initGroupList();
+
+			String str_contact = Utils.getValue(this, Constants.ContactMsg);
+			PackageManager pm = getPackageManager();
+			boolean permission = (PackageManager.PERMISSION_GRANTED == pm
+					.checkPermission("android.permission.READ_CONTACTS",
+							"com.juns.wechat"));
+			if (TextUtils.isEmpty(str_contact) && permission) {
+				str_contact = getContact();
+				Utils.putValue(this, Constants.ContactMsg, str_contact);
+			}
 		}
 		return super.onStartCommand(intent, flags, startId);
 	}
@@ -78,16 +84,17 @@ public class UpdateService extends Service {
 	// 获取好友列表和订阅号
 	private void initUserList() {
 		GloableParams.UserInfos = db.findAll(User.class);
+
 		netClient.post(Constants.getUserInfoURL, null, new BaseJsonRes() {
 
 			@Override
 			public void onMySuccess(String data) {
-				GloableParams.UserInfos = JSON.parseArray(data, User.class);
-				for (User user : GloableParams.UserInfos) {
+				List<User> new_users = JSON.parseArray(data, User.class);
+				for (User user : new_users) {
 					if (user.getUserName() == null) {
 						user.setUserName("WX" + user.getTelephone());
-						GloableParams.UserInfos.remove(user);
-						GloableParams.UserInfos.add(user);
+						new_users.remove(user);
+						new_users.add(user);
 					}
 					if (db.findById(user.getId(), User.class) != null)
 						db.deleteById(User.class, user.getId());
@@ -150,8 +157,10 @@ public class UpdateService extends Service {
 				}
 			} while (cur.moveToNext());
 		}
-		strTelphones = strTelphones.substring(0, strTelphones.length() - 1);
-		strNames = strNames.substring(0, strNames.length() - 1);
+		if (strTelphones.length() > 0 && strNames.length() > 0) {
+			strTelphones = strTelphones.substring(0, strTelphones.length() - 1);
+			strNames = strNames.substring(0, strNames.length() - 1);
+		}
 		return strTelphones;
 	}
 

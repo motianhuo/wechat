@@ -7,11 +7,11 @@
   
     <ListView  
         android:id="@+id/title_list"  
-        android:layout_width="140dp"  
+        android:layout_width="150dp"  
         android:layout_height="fill_parent"  
       android:dividerHeight="1dp"
 		android:divider="#3E3E3E"
-		android:paddingLeft="10dp"
+		android:paddingLeft="5dp"
 		android:paddingRight="5dp"
         android:scrollingCache="false" />  
   

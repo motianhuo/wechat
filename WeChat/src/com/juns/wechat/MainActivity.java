@@ -76,7 +76,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 	private Fragment_Profile profilefragment;
 	private ImageView[] imagebuttons;
 	private TextView[] textviews;
-	private String connectMsg = "微信";
+	private String connectMsg = "";;
 	private int index;
 	private int currentTabIndex;// 当前fragment的index
 
@@ -137,22 +137,22 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 			if (homefragment != null) {
 				homefragment.refresh();
 			}
-			txt_title.setText(connectMsg);
+			txt_title.setText(R.string.app_name);
 			img_right.setImageResource(R.drawable.icon_add);
 			break;
 		case R.id.re_contact_list:
 			index = 1;
-			txt_title.setText("通讯录");
+			txt_title.setText(R.string.contacts);
 			img_right.setVisibility(View.VISIBLE);
 			img_right.setImageResource(R.drawable.icon_titleaddfriend);
 			break;
 		case R.id.re_find:
 			index = 2;
-			txt_title.setText("发现");
+			txt_title.setText(R.string.discover);
 			break;
 		case R.id.re_profile:
 			index = 3;
-			txt_title.setText("我");
+			txt_title.setText(R.string.me);
 			break;
 		}
 		if (currentTabIndex != index) {
@@ -178,13 +178,14 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 				LayoutParams.WRAP_CONTENT);
 		titlePopup.setItemOnClickListener(onitemClick);
 		// 给标题栏弹窗添加子类
-		titlePopup.addAction(new ActionItem(this, "发起群聊",
+		titlePopup.addAction(new ActionItem(this, R.string.menu_groupchat,
 				R.drawable.icon_menu_group));
-		titlePopup.addAction(new ActionItem(this, "添加朋友",
+		titlePopup.addAction(new ActionItem(this, R.string.menu_addfriend,
 				R.drawable.icon_menu_addfriend));
-		titlePopup.addAction(new ActionItem(this, "扫一扫",
+		titlePopup.addAction(new ActionItem(this, R.string.menu_qrcode,
 				R.drawable.icon_menu_sao));
-		titlePopup.addAction(new ActionItem(this, "微信支付", R.drawable.abv));
+		titlePopup.addAction(new ActionItem(this, R.string.menu_money,
+				R.drawable.abv));
 	}
 
 	private OnItemOnClickListener onitemClick = new OnItemOnClickListener() {
@@ -362,7 +363,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 
 				@Override
 				public void run() {
-					connectMsg = "微信";
+					connectMsg = getString(R.string.app_name);
 					txt_title.setText(connectMsg);
 					homefragment.errorItem.setVisibility(View.GONE);
 				}

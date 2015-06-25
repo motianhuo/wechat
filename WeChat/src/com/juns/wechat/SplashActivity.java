@@ -28,7 +28,13 @@ public class SplashActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_start);
 		// initBaiduPush();
-		initData();
+		// initData();
+		int RunCount = Utils.getIntValue(this, "RUN_COUNT");
+		if (RunCount == 0) {
+			// TODO 引导页面
+		} else {
+			Utils.putIntValue(this, "RUN_COUNT", RunCount++);
+		}
 		Boolean isLogin = Utils.getBooleanValue(SplashActivity.this,
 				Constants.LoginState);
 		if (isLogin) {

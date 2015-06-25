@@ -1,4 +1,4 @@
-﻿package com.juns.wechat.common;
+package com.juns.wechat.common;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

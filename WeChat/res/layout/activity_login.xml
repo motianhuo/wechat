@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="10dp"
-                android:text="国家和地区"
+                android:text="@string/countries_and_areas"
                 android:textColor="#353535"
                 android:textSize="16sp" />
 
@@ -99,7 +99,7 @@
                 android:layout_alignLeft="@id/et_password"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="20dp"
-                android:text="密码"
+                android:text="@string/password"
                 android:textColor="#353535"
                 android:textSize="16sp" />
         </RelativeLayout>

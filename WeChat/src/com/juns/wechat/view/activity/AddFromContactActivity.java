@@ -62,7 +62,7 @@ public class AddFromContactActivity extends BaseActivity implements
 					@Override
 					public void onMyFailure() {
 						// TODO Auto-generated method stub
-
+						getLoadingDialog("正在获取联系人").dismiss();
 					}
 				});
 	}

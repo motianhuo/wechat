@@ -101,6 +101,10 @@ public class RegisterActivity extends BaseActivity implements OnClickListener {
 		final String name = et_usertel.getText().toString();
 		final String pwd = et_password.getText().toString();
 		String code = et_code.getText().toString();
+		if (!Utils.isMobileNO(name)) {
+			Utils.showLongToast(RegisterActivity.this, "请使用手机号码注册账户！ ");
+			return;
+		}
 		if (TextUtils.isEmpty(code)) {
 			Utils.showLongToast(RegisterActivity.this, "请填写手机号码，并获取验证码！");
 			return;
@@ -161,7 +165,7 @@ public class RegisterActivity extends BaseActivity implements OnClickListener {
 										"注册成功！");
 								Intent intent = new Intent(
 										RegisterActivity.this,
-										MainActivity.class);
+										EditUserNameActivity.class);
 								startActivity(intent);
 								overridePendingTransition(R.anim.push_up_in,
 										R.anim.push_up_out);
@@ -247,6 +251,10 @@ public class RegisterActivity extends BaseActivity implements OnClickListener {
 							R.drawable.btn_bg_green));
 					btn_send.setTextColor(0xFFFFFFFF);
 					btn_send.setEnabled(true);
+					btn_register.setBackgroundDrawable(getResources()
+							.getDrawable(R.drawable.btn_bg_green));
+					btn_register.setTextColor(0xFFFFFFFF);
+					btn_register.setEnabled(true);
 				} else {
 					et_usertel.requestFocus();
 					Utils.showLongToast(context, "请输入正确的手机号码！");
@@ -256,6 +264,10 @@ public class RegisterActivity extends BaseActivity implements OnClickListener {
 						R.drawable.btn_enable_green));
 				btn_send.setTextColor(0xFFD0EFC6);
 				btn_send.setEnabled(false);
+				btn_register.setBackgroundDrawable(getResources().getDrawable(
+						R.drawable.btn_enable_green));
+				btn_register.setTextColor(0xFFD0EFC6);
+				btn_register.setEnabled(true);
 			}
 		}
 	}

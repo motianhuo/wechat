@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_title" />
+ 
+     <RelativeLayout
+            android:id="@+id/view_user"
+            android:layout_width="fill_parent"
+            android:layout_height="120dip"
+            android:layout_marginTop="40dp" 
+        android:padding="12dp"  >
+		
+		<RelativeLayout
+            android:layout_width="100dip"
+            android:layout_height="120dip"  
+                android:layout_centerInParent="true" >
+            
+            <ImageView
+                android:id="@+id/head"
+                android:layout_width="90.0dip"
+                android:layout_height="90.0dip"
+                android:src="@drawable/head" />
+
+             
+              <ImageView
+                    android:id="@+id/img_edit"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp" 
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/jy_icon_resume" />
+              </RelativeLayout>
+        </RelativeLayout>
+    
+     <EditText
+                android:id="@+id/edit_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/edittext_login"
+                android:hint="请输入您的昵称"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+                android:singleLine="true"
+                android:textColor="@color/greenn"
+                android:textColorHint="@color/gray"
+                android:textSize="16sp" /> 
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/btn_bg_blue"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:text="开始体验"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+</LinearLayout>

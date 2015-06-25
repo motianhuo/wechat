@@ -173,7 +173,7 @@ public class Fragment_Msg extends Fragment implements OnClickListener,
 			// 打开订阅号列表页面
 			Utils.start_Activity(getActivity(), PublishMsgListActivity.class);
 		} else {
-			parentActivity.updateUnreadLabel();
+			((MainActivity) getActivity()).updateUnreadLabel();
 			EMConversation conversation = conversationList.get(position);
 			Intent intent = new Intent(getActivity(), ChatActivity.class);
 			Hashtable<String, String> ChatRecord = adpter.getChatRecord();
@@ -191,7 +191,7 @@ public class Fragment_Msg extends Fragment implements OnClickListener,
 						intent.putExtra(Constants.TYPE,
 								ChatActivity.CHATTYPE_GROUP);
 						intent.putExtra(Constants.GROUP_ID, info.getGroup_id());
-						intent.putExtra(Constants.NAME, "群聊");// 设置标题
+						intent.putExtra(Constants.NAME, R.string.group_chats);// 设置标题
 						getActivity().startActivity(intent);
 					}
 				} else {

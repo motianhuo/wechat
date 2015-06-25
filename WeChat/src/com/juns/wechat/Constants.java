@@ -36,13 +36,13 @@ public interface Constants {
 	String MAIN_ENGINE = "http://wechatjuns.sinaapp.com/index.php/";
 
 	// 发送验证码 codeType 1注册 2修改密码
-	String SendCodeURL = "http://120.26.54.7:8080/dmanage_ios/interface/getResult.do?methodID=100";
+	String SendCodeURL = "";
 	// 用户注册
 	String RegistURL = MAIN_ENGINE + "user/regigter";
 	// 用户登录
 	String Login_URL = MAIN_ENGINE + "user/login";
 	// 更新用户信息
-	String UpdateInfoURL = MAIN_ENGINE + "";
+	String UpdateInfoURL = MAIN_ENGINE + "user/update_userinfo";
 	// 获取用户信息
 	String getUserInfoURL = MAIN_ENGINE + "user/get_user_list";
 	// 检查版本
