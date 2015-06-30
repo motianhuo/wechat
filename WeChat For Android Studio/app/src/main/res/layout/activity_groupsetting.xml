@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_title"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EBEBEB"
+            android:orientation="vertical" >
+
+            <com.juns.wechat.chat.widght.ExpandGridView
+                android:layout_marginTop="20dp"
+                android:id="@+id/gridview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:columnWidth="10dp"
+                android:gravity="start"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="4"
+                />
+
+            <RelativeLayout
+                android:id="@+id/re_change_groupname"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="20dp"
+                android:background="#ffffff"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="群名称"
+                    android:textColor="#353535"
+                    android:textSize="16sp"
+                    android:typeface="serif" />
+
+                <TextView
+                       android:id="@+id/txt_groupname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="12dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:maxWidth="200dp"
+                    android:textColor="#AAAAAA"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#dadada" />
+
+            <RelativeLayout
+                android:id="@+id/rl_switch_chattotop"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:background="#ffffff"
+                android:padding="10dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="置顶聊天"
+                    android:textColor="#353535"
+                    android:textSize="16sp"
+                    android:typeface="serif" />
+
+                <CheckBox
+				android:id="@+id/check_top"
+				android:layout_width="50dp"
+				android:checked="true"
+				android:layout_alignParentRight="true"
+				android:layout_height="wrap_content"
+				style="@style/CustomCheckboxTheme" />
+                
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#dadada" />
+
+            <RelativeLayout
+                android:id="@+id/rl_switch_block_groupmsg"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:background="#ffffff"
+                android:padding="10dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="屏蔽群消息"
+                    android:textColor="#353535"
+                    android:textSize="16sp"
+                    android:typeface="serif" />
+
+              <CheckBox
+				android:id="@+id/check_closetip"
+				android:layout_width="50dp"
+				android:checked="true"
+				android:layout_alignParentRight="true"
+				android:layout_height="wrap_content"
+				style="@style/CustomCheckboxTheme" />
+              
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/re_clear"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="20dp"
+                android:background="#ffffff"
+                android:padding="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="清空聊天记录"
+                    android:textColor="#353535"
+                    android:textSize="16sp"
+                    android:typeface="serif" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_exit_grp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/btn_bg_red2"
+                android:onClick="exitGroup"
+                android:paddingBottom="7dp"
+                android:paddingTop="7dp"
+                android:text="删除并退出"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

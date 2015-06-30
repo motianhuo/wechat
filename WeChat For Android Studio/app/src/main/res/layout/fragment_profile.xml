@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:gravity="center_horizontal"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:scrollbars="none">
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+ <View
+				android:background="@color/black2"
+				android:layout_width="fill_parent"
+				android:layout_height="1.0dip" />
+	    <RelativeLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:paddingTop="5dp"
+				android:paddingBottom="5dp"
+				android:id="@+id/view_user"
+				android:layout_marginTop="10dp"
+			android:background="@drawable/setting_item_selector">
+				<ImageView
+					android:id="@+id/head"
+					android:layout_marginRight="10dp"
+					android:layout_marginLeft="10dp"
+					android:layout_width="80.0dip"
+					android:layout_height="80.0dip"
+					android:src="@drawable/head" />
+				<TextView
+					android:textSize="18.0dip"
+					android:id="@+id/tvname"
+					android:layout_marginTop="20dp"
+					android:layout_toRightOf="@+id/head"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="菲儿" />
+					<TextView
+					android:id="@+id/tvmsg"
+					android:textSize="14.0dip"
+					style="@style/txt_ContextStyle1"
+					android:layout_marginTop="10dp"
+					android:layout_below="@+id/tvname"
+					android:layout_toRightOf="@+id/head" 
+					android:text="微信号：dada20150625" />
+					
+					<ImageView
+					android:layout_marginRight="15dp"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/right" />
+					
+					  <ImageView
+                    android:id="@+id/iv_sex"
+                    android:layout_toRightOf="@+id/tvname"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+					android:layout_marginTop="22dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/ic_sex_female" />
+			</RelativeLayout>
+			<View
+				android:background="@color/black2"
+				android:layout_width="fill_parent"
+				android:layout_height="1.0dip" />
+	    
+		 
+		 
+		
+		<TextView
+					android:id="@+id/txt_album"
+					style="@style/TxtTitle"
+					android:textSize="16sp"
+					android:gravity="center_vertical"
+					android:background="@drawable/setting_item_selector"
+					android:layout_width="fill_parent"
+					android:layout_height="50dp"
+					android:paddingLeft="16dp"
+					android:paddingRight="16dp"
+					android:layout_marginTop="20dp"
+					android:drawablePadding="10dp"
+					android:drawableLeft="@drawable/icon_me_photo"
+					android:drawableRight="@drawable/right"
+					android:text="@string/my_posts" />
+		<View
+			android:background="@color/black2"
+			android:layout_width="fill_parent"
+			android:layout_height="1.0dip" />
+		<TextView
+					android:id="@+id/txt_collect"
+					style="@style/TxtTitle"
+					android:textSize="16sp"
+					android:gravity="center_vertical"
+					android:background="@drawable/setting_item_selector"
+					android:layout_width="fill_parent"
+					android:layout_height="50dp"
+					android:paddingLeft="16dp"
+					android:paddingRight="16dp"
+					android:drawablePadding="10dp"
+					android:drawableLeft="@drawable/icon_me_collect"
+					android:drawableRight="@drawable/right"
+					android:text="@string/collection" />
+		<View
+			android:background="@color/black2"
+			android:layout_width="fill_parent"
+			android:layout_height="1.0dip" />
+		
+		<TextView
+					android:id="@+id/txt_money"
+					style="@style/TxtTitle"
+					android:textSize="16sp"
+					android:gravity="center_vertical"
+					android:background="@drawable/setting_item_selector"
+					android:layout_width="fill_parent"
+					android:layout_height="50dp"
+					android:paddingLeft="16dp"
+					android:paddingRight="16dp"
+					android:drawablePadding="10dp"
+					android:drawableLeft="@drawable/icon_me_money"
+					android:drawableRight="@drawable/right"
+					android:text="@string/wallet" />
+		<View
+			android:background="@color/black2"
+			android:layout_width="fill_parent"
+			android:layout_height="1.0dip" />
+		<TextView
+					android:id="@+id/txt_card"
+					style="@style/TxtTitle"
+					android:textSize="16sp"
+					android:gravity="center_vertical"
+					android:background="@drawable/setting_item_selector"
+					android:layout_width="fill_parent"
+					android:layout_height="50dp"
+					android:paddingLeft="16dp"
+					android:paddingRight="16dp"
+					android:drawablePadding="10dp"
+					android:drawableLeft="@drawable/icon_me_card"
+					android:drawableRight="@drawable/right"
+					android:text="@string/card_bag" />
+		<View
+			android:background="@color/black2"
+			android:layout_width="fill_parent"
+			android:layout_height="1.0dip" />
+		
+		
+		<TextView
+					android:id="@+id/txt_smail"
+					style="@style/TxtTitle"
+					android:textSize="16sp"
+					android:gravity="center_vertical"
+					android:background="@drawable/setting_item_selector"
+					android:layout_width="fill_parent"
+					android:layout_height="50dp"
+					android:paddingLeft="16dp"
+					android:paddingRight="16dp"
+					android:layout_marginTop="20dp"
+					android:drawablePadding="10dp"
+					android:drawableLeft="@drawable/icon_me_smail"
+					android:drawableRight="@drawable/right"
+					android:text="@string/expression2" />
+		<View
+			android:background="@color/black2"
+			android:layout_width="fill_parent"
+			android:layout_height="1.0dip" />
+		 
+		<TextView
+					android:id="@+id/txt_setting"
+					style="@style/TxtTitle"
+					android:textSize="16sp"
+					android:gravity="center_vertical"
+					android:background="@drawable/setting_item_selector"
+					android:layout_width="fill_parent"
+					android:layout_height="50dp"
+					android:paddingLeft="16dp"
+					android:paddingRight="10dp"
+					android:layout_marginTop="20dp"
+					android:drawablePadding="10dp"
+					android:drawableLeft="@drawable/icon_me_setting"
+					android:drawableRight="@drawable/right"
+					android:text="@string/settings" />
+		<View
+				android:background="@color/black2"
+				android:layout_width="fill_parent"
+				android:layout_height="1.0dip" />
+	</LinearLayout>
+	</ScrollView>
+</LinearLayout>

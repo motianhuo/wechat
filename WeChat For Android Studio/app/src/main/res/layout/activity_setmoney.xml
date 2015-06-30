@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp" >
+
+
+           <RelativeLayout
+            android:id="@+id/view_user"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" >
+
+            <ImageView
+                android:id="@+id/head"
+                android:layout_centerHorizontal="true"
+                android:layout_width="60.0dip"
+                android:layout_height="60.0dip"
+                android:src="@drawable/head" />
+ 
+
+            <TextView
+                android:id="@+id/tv_msg"
+                android:gravity="center"
+            android:layout_width="fill_parent"
+                style="@style/txt_ContextStyle1"
+                android:layout_below="@+id/head"
+                android:layout_marginTop="10dp" 
+                android:text="微信号：dada20150625"
+                android:textSize="14.0dip" />
+             
+        </RelativeLayout>
+        
+           
+       
+<TextView
+                android:id="@+id/tv_money"
+            android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" 
+                android:text="￥188.00"
+                android:textSize="36sp" />
+        <Button
+            android:id="@+id/btn_pay"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_bg_green"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:text="付钱"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+         
+    </LinearLayout>
+
+    
+
+</LinearLayout>

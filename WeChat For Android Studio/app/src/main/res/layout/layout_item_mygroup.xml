@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+	  
+	<RelativeLayout
+		    android:layout_width="match_parent"
+		android:layout_height="60.0dip"
+		android:background="@drawable/setting_item_selector"
+		android:paddingLeft="10dip">
+		<ImageView
+		    android:id="@+id/img_photo"
+			android:layout_width="45dip"
+			android:layout_height="45dip"
+			android:layout_centerVertical="true"
+			android:src="@drawable/head" />
+		<TextView
+		    android:id="@+id/txt_name"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:text="车友群"
+			android:textSize="18sp" 
+			android:layout_centerVertical="true"
+			android:layout_toRightOf="@+id/img_photo"
+			android:layout_marginLeft="13dp"
+			android:singleLine="true" />
+		 
+	</RelativeLayout>
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/black2" />
+		 
+</LinearLayout>

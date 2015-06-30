@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb"
+    android:orientation="vertical" >
+
+  <include layout="@layout/layout_title"/> 
+  <View
+				android:background="@color/black2"
+				android:layout_width="fill_parent"
+				android:layout_height="1.0dip" />
+  <FrameLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<LinearLayout
+			android:layout_gravity="center"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:background="@color/windows_color">
+			<ListView
+				android:id="@+id/lvContact"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:scrollbars="none"
+				android:dividerHeight="0dp"
+				android:divider="#00000000"
+				android:listSelector="#00000000"
+				android:cacheColorHint="#00000000" />
+		</LinearLayout>
+		<com.juns.wechat.widght.SideBar
+			android:id="@+id/sideBar"
+			android:layout_height="wrap_content"
+			android:layout_width="30dp"
+			android:layout_marginTop="30dp"
+			android:layout_gravity="right|center_vertical" />
+		<!--  android:background="@drawable/mm_text_bg_trans"  -->
+	</FrameLayout>
+     
+</LinearLayout>

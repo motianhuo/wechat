@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="13dp" >
+
+    <TextView
+        android:id="@+id/timestamp"
+        style="@style/chat_text_date_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_chat_activity" >
+
+        <ImageView
+            android:id="@+id/iv_userhead"
+            android:layout_width="@dimen/size_avatar"
+            android:layout_height="@dimen/size_avatar"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/margin_chat_activity"
+            android:background="@drawable/head"
+            android:scaleType="fitXY" />
+
+        <RelativeLayout
+            android:id="@+id/rl_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_chat_activity"
+            android:layout_toLeftOf="@id/iv_userhead"
+            android:padding="17dp"
+            android:background="@drawable/chatto_bg" >
+
+            <ImageView
+                android:layout_marginLeft="4dp"
+                android:id="@+id/iv_call_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/chat_video_call_self" />
+
+            <TextView
+                android:id="@+id/tv_chatcontent"
+                style="@style/chat_content_date_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/iv_call_icon"
+                android:background="@null"
+                android:minHeight="40dp"
+                android:padding="6dp"
+              />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/msg_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/rl_picture"
+            android:clickable="true"
+            android:src="@drawable/msg_state_failed_resend"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_ack"
+            style="@style/chat_text_name_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/rl_picture"
+            android:text="@string/text_ack_msg"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>

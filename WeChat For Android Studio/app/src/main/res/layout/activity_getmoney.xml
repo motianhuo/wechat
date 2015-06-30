@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E3132" >
+
+    <include
+        android:id="@+id/layout_bar"
+        layout="@layout/layout_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="30dp"
+        android:background="@drawable/btn_bg_gray"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+       
+
+        <ImageView
+            android:id="@+id/img_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/default_image" />
+		<TextView
+                android:id="@+id/tvname"
+            android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" 
+                android:text="￥188.00"
+                android:textSize="36sp" />
+        <TextView
+            style="@style/txt_ContextStyle1"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="扫一扫上面的二维码，向我付钱"
+            android:textSize="14.0dip" />
+    </LinearLayout>
+
+</RelativeLayout>

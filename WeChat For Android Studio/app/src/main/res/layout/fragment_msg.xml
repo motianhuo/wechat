@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+ 
+     <include
+        android:id="@+id/rl_error_item"
+        android:visibility="gone"
+        layout="@layout/layout_chat_neterror_item" />
+    
+	<ListView
+		android:id="@+id/listview"
+		android:layout_below="@+id/rl_error_item"
+		android:scrollbars="none"
+		android:dividerHeight="0dp"
+		android:divider="#00000000"
+		android:listSelector="#00000000"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+	<TextView
+		android:id="@+id/txt_nochat"
+		android:layout_centerInParent="true"
+		android:gravity="center"
+		android:textSize="16sp"
+		android:visibility="gone"
+		android:textColor="@color/black1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:drawableTop="@drawable/no_chat"
+		android:text="@string/no_msg" />
+</RelativeLayout>

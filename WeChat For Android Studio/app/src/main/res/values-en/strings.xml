@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WeChat</string>
+    <string name="contacts">Contacts</string>
+    <string name="me">Me</string>
+    <string name="discover">Discover</string>
+    <string name="recommended_friends">Recommended Friends</string>
+    <string name="group_chats">Group Chats</string>
+    <string name="official_accounts">Official Accounts</string>
+    <string name="chat">Chat</string>
+    <string name="no_msg">No new message yet</string>
+    <string name="wechat_id">WeChat ID</string>
+    <string name="my_posts">My Posts</string>
+    <string name="collection">Collection</string>
+    <string name="wallet">Wallet</string>
+    <string name="card_bag">Card Bag</string>
+    <string name="expression2">Expression</string>
+    <string name="settings">Settings</string>
+    <string name="moments">Moments</string>
+    <string name="scan">Scan QR Code</string>
+    <string name="shake2">Shake</string>
+    <string name="people_nearby">People Nearby</string>
+    <string name="drift_bottle">Drift Bottle</string>
+    <string name="shopping">Shopping</string>
+    <string name="games">Games</string>
+    <string name="search2">Search</string>
+    <string name="countries_and_areas">Country/Area</string>
+    <string name="password2">password</string>
+
+    <string name="action_settings">Settings</string>
+    
+     <string name="menu_groupchat">Group Chat  </string>
+      <string name="menu_addfriend">Add Contacts</string>
+      <string name="menu_qrcode">Scan QR Code  </string>
+      <string name="menu_money">Receipt  </string>
+
+</resources>

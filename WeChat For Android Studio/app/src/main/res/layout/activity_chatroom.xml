@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_title"/>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical"
+        android:paddingBottom="5dp" >
+
+        <HorizontalScrollView
+            android:id="@+id/horizonMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#ffffff"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/linearLayoutMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/iv_search"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/search_icon" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/horizonMenu"
+            android:background="@null"
+            android:gravity="bottom"
+            android:hint="搜索"
+            android:singleLine="true"
+            android:textColor="#353535"
+            android:textColorHint="#484c4c"
+            android:textSize="16sp" />
+    </RelativeLayout>
+   <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#dadada" />
+ 
+	<FrameLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<LinearLayout
+			android:layout_gravity="center"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:background="@color/windows_color">
+			<ListView
+				android:id="@+id/list"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:scrollbars="none"
+				android:dividerHeight="0dp"
+				android:divider="#00000000"
+				android:listSelector="#00000000"
+				android:cacheColorHint="#00000000" />
+		</LinearLayout>
+		<com.juns.wechat.widght.SideBar
+			android:id="@+id/sideBar"
+			android:layout_height="wrap_content"
+			android:layout_width="30dp"
+			android:layout_marginTop="30dp"
+			android:layout_gravity="right|center_vertical" />
+	</FrameLayout>
+</LinearLayout>
