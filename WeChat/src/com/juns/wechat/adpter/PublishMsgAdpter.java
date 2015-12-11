@@ -49,8 +49,8 @@ public class PublishMsgAdpter extends BaseAdapter {
 		TextView unreadLabel = ViewHolder.get(convertView,
 				R.id.unread_msg_number);
 		img_avar.setImageResource(R.drawable.icon_public);
-		txt_name.setText("人人都是产品经理");
-		txt_content.setText("什么是用户？90%的人不知道");
+		txt_name.setText("魔方陪你玩");
+		txt_content.setText("最强音浪对抗《全民枪战2.0》上首款主题套装");
 		txt_time.setText("昨天");
 		if (position == 0) {
 			unreadLabel.setText("3");

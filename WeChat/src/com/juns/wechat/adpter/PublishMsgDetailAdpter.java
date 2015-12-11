@@ -72,10 +72,10 @@ public class PublishMsgDetailAdpter extends BaseAdapter {
 			Utils.start_Activity(
 					(Activity) context,
 					WebViewActivity.class,
-					new BasicNameValuePair(Constants.Title, "人人都是产品经理"),
+					new BasicNameValuePair(Constants.Title, "魔方陪你玩"),
 					new BasicNameValuePair(
 							Constants.URL,
-							"http://mp.weixin.qq.com/s?__biz=MjM5NTMxNTU0MQ==&mid=212741823&idx=1&sn=8b865adff465b7ee2b4ce9339301b8e6#rd"));
+							"http://mp.weixin.qq.com/s?__biz=MzA4NzA3NzAzNg==&mid=401118458&idx=1&sn=f7023910ab455d316121bbd32b80cb74&scene=0#wechat_redirect"));
 		}
 	};
 }

@@ -12,17 +12,17 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.easemob.chat.EMGroup;
 import com.juns.wechat.Constants;
 import com.juns.wechat.R;
+import com.juns.wechat.bean.GroupInfo;
 import com.juns.wechat.chat.ChatActivity;
 import com.juns.wechat.common.ViewHolder;
 
 public class MyGroupAdpter extends BaseAdapter {
 	protected Context context;
-	private List<EMGroup> grouplist;
+	private List<GroupInfo> grouplist;
 
-	public MyGroupAdpter(Context ctx, List<EMGroup> grouplist) {
+	public MyGroupAdpter(Context ctx, List<GroupInfo> grouplist) {
 		context = ctx;
 		this.grouplist = grouplist;
 	}
@@ -48,19 +48,19 @@ public class MyGroupAdpter extends BaseAdapter {
 			convertView = LayoutInflater.from(context).inflate(
 					R.layout.layout_item_mygroup, parent, false);
 		}
-		final EMGroup group = grouplist.get(position);
+		final GroupInfo group = grouplist.get(position);
 		ImageView img_avar = ViewHolder.get(convertView, R.id.img_photo);
 		TextView txt_name = ViewHolder.get(convertView, R.id.txt_name);
 		img_avar.setImageResource(R.drawable.defult_group);
-		txt_name.setText(group.getGroupName());
+		txt_name.setText(group.getGroup_name());
 		convertView.setOnClickListener(new OnClickListener() {
 
 			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(context, ChatActivity.class);
-				intent.putExtra(Constants.NAME, group.getGroupName());
+				intent.putExtra(Constants.NAME, group.getGroup_name());
 				intent.putExtra(Constants.TYPE, ChatActivity.CHATTYPE_GROUP);
-				intent.putExtra(Constants.GROUP_ID, group.getGroupId());
+				intent.putExtra(Constants.GROUP_ID, group.getGroup_id()	);
 				context.startActivity(intent);
 			}
 		});

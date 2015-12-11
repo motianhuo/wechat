@@ -4,6 +4,7 @@ import java.util.Collections;
 import java.util.List;
 
 import android.content.Context;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -57,15 +58,23 @@ public class ContactAdapter extends BaseAdapter implements SectionIndexer {
 		TextView tvCatalog = ViewHolder.get(convertView,
 				R.id.contactitem_catalog);
 		TextView tvNick = ViewHolder.get(convertView, R.id.contactitem_nick);
-		String catalog = PingYinUtil.converterToFirstSpell(user.getUserName())
-				.substring(0, 1);
+		String catalog = "";
+		if (TextUtils.isEmpty(user.getUserName()))
+			catalog = "#";
+		else
+			catalog = PingYinUtil.converterToFirstSpell(user.getUserName())
+					.substring(0, 1);
 		if (position == 0) {
 			tvCatalog.setVisibility(View.VISIBLE);
 			tvCatalog.setText(catalog);
 		} else {
 			User Nextuser = UserInfos.get(position - 1);
-			String lastCatalog = PingYinUtil.converterToFirstSpell(
-					Nextuser.getUserName()).substring(0, 1);
+			String lastCatalog = "";
+			if (TextUtils.isEmpty(Nextuser.getUserName()))
+				lastCatalog = "#";
+			else
+				lastCatalog = PingYinUtil.converterToFirstSpell(
+						Nextuser.getUserName()).substring(0, 1);
 			if (catalog.equals(lastCatalog)) {
 				tvCatalog.setVisibility(View.GONE);
 			} else {
@@ -83,9 +92,13 @@ public class ContactAdapter extends BaseAdapter implements SectionIndexer {
 	public int getPositionForSection(int section) {
 		for (int i = 0; i < UserInfos.size(); i++) {
 			User user = UserInfos.get(i);
-			String l = PingYinUtil.converterToFirstSpell(user.getUserName())
-					.substring(0, 1);
-			char firstChar = l.toUpperCase().charAt(0);
+			String catalog = "";
+			if (TextUtils.isEmpty(user.getUserName()))
+				catalog = "#";
+			else
+				catalog = PingYinUtil.converterToFirstSpell(user.getUserName())
+						.substring(0, 1);
+			char firstChar = catalog.toUpperCase().charAt(0);
 			if (firstChar == section) {
 				return i;
 			}

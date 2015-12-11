@@ -1640,7 +1640,8 @@ public class ChatActivity extends BaseActivity implements OnClickListener {
 			public void onMySuccess(String data) {
 				GroupInfo group = JSON.parseObject(data, GroupInfo.class);
 				// NetClient.getIconBitmap(img_avar, group.getGroup_name());
-				txt_title.setText(group.getGroup_name());
+				if (group != null && group.getGroup_name() != null)
+					txt_title.setText(group.getGroup_name());
 			}
 
 			@Override

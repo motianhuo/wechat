@@ -33,7 +33,7 @@
 			<View
 				android:background="@color/black2"
 				android:layout_width="fill_parent"
-				android:layout_height="1.0dip" />
+				android:layout_height="1px" />
 			
 			 
 	 
@@ -54,7 +54,7 @@
 			<View
 				android:background="@color/black2"
 				android:layout_width="fill_parent"
-				android:layout_height="1.0dip" />
+				android:layout_height="1px" />
 			
 			
 			 
@@ -74,7 +74,7 @@
 			<View
 				android:background="@color/black2"
 				android:layout_width="fill_parent"
-				android:layout_height="1.0dip" />
+				android:layout_height="1px" />
 			<TextView
 					android:id="@+id/txt_tongyong"
 					style="@style/TxtTitle"
@@ -90,7 +90,7 @@
 			<View
 				android:background="@color/black2"
 				android:layout_width="fill_parent"
-				android:layout_height="1.0dip" />
+				android:layout_height="1px" />
 			
 			<TextView
 					android:id="@+id/txt_about"
@@ -108,7 +108,7 @@
 			<View
 				android:background="@color/black2"
 				android:layout_width="fill_parent"
-				android:layout_height="1.0dip" />
+				android:layout_height="1px" />
 			 
 			<LinearLayout
 				android:gravity="center"

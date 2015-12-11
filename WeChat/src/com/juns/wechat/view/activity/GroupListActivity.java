@@ -1,7 +1,5 @@
 package com.juns.wechat.view.activity;
 
-import java.util.List;
-
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -9,9 +7,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.easemob.chat.EMGroup;
-import com.easemob.chat.EMGroupManager;
-import com.easemob.exceptions.EaseMobException;
+import com.juns.wechat.GloableParams;
 import com.juns.wechat.R;
 import com.juns.wechat.adpter.MyGroupAdpter;
 import com.juns.wechat.common.Utils;
@@ -46,19 +42,22 @@ public class GroupListActivity extends BaseActivity implements OnClickListener {
 
 	@Override
 	protected void initView() {
-		try {
-			List<EMGroup> grouplist = EMGroupManager.getInstance()
-					.getGroupsFromServer();
-			if (grouplist != null && grouplist.size() > 0) {
-				mlistview.setAdapter(new MyGroupAdpter(this, grouplist));
-			} else {
-				TextView txt_nodata = (TextView) findViewById(R.id.txt_nochat);
-				txt_nodata.setText("暂时没有群聊");
-				txt_nodata.setVisibility(View.VISIBLE);
+		new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+					
+					if (GloableParams.ListGroupInfos != null && GloableParams.ListGroupInfos.size() > 0) {
+						mlistview.setAdapter(new MyGroupAdpter(
+								GroupListActivity.this, GloableParams.ListGroupInfos));
+					} else {
+						TextView txt_nodata = (TextView) findViewById(R.id.txt_nochat);
+						txt_nodata.setText("暂时没有群聊");
+						txt_nodata.setVisibility(View.VISIBLE);
+					}
 			}
-		} catch (EaseMobException e) {
-			e.printStackTrace();
-		}
+		}).start();
+
 	}
 
 	@Override

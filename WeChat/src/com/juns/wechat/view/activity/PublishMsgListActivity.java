@@ -71,7 +71,7 @@ public class PublishMsgListActivity extends BaseActivity implements
 	public void onItemClick(AdapterView<?> parent, View view, int position,
 			long id) {
 		Utils.start_Activity(this, PublishMsgDetailActivity.class,
-				new BasicNameValuePair(Constants.NAME, "人人都是产品经理"));
+				new BasicNameValuePair(Constants.NAME, "魔方陪你玩"));
 	}
 
 }

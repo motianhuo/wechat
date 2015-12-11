@@ -16,7 +16,7 @@
  <View
 				android:background="@color/black2"
 				android:layout_width="fill_parent"
-				android:layout_height="1.0dip" />
+				android:layout_height="1px" />
 	    <RelativeLayout
 				android:layout_width="fill_parent"
 				android:layout_height="wrap_content"
@@ -69,7 +69,7 @@
 			<View
 				android:background="@color/black2"
 				android:layout_width="fill_parent"
-				android:layout_height="1.0dip" />
+				android:layout_height="1px" />
 	    
 		 
 		 
@@ -92,7 +92,7 @@
 		<View
 			android:background="@color/black2"
 			android:layout_width="fill_parent"
-			android:layout_height="1.0dip" />
+			android:layout_height="1px" />
 		<TextView
 					android:id="@+id/txt_collect"
 					style="@style/TxtTitle"
@@ -110,7 +110,7 @@
 		<View
 			android:background="@color/black2"
 			android:layout_width="fill_parent"
-			android:layout_height="1.0dip" />
+			android:layout_height="1px" />
 		
 		<TextView
 					android:id="@+id/txt_money"
@@ -129,7 +129,7 @@
 		<View
 			android:background="@color/black2"
 			android:layout_width="fill_parent"
-			android:layout_height="1.0dip" />
+			android:layout_height="1px" />
 		<TextView
 					android:id="@+id/txt_card"
 					style="@style/TxtTitle"
@@ -147,7 +147,7 @@
 		<View
 			android:background="@color/black2"
 			android:layout_width="fill_parent"
-			android:layout_height="1.0dip" />
+			android:layout_height="1px" />
 		
 		
 		<TextView
@@ -168,7 +168,7 @@
 		<View
 			android:background="@color/black2"
 			android:layout_width="fill_parent"
-			android:layout_height="1.0dip" />
+			android:layout_height="1px" />
 		 
 		<TextView
 					android:id="@+id/txt_setting"
@@ -188,7 +188,7 @@
 		<View
 				android:background="@color/black2"
 				android:layout_width="fill_parent"
-				android:layout_height="1.0dip" />
+				android:layout_height="1px" />
 	</LinearLayout>
 	</ScrollView>
 </LinearLayout>

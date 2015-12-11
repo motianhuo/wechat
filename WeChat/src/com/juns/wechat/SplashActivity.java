@@ -28,7 +28,7 @@ public class SplashActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_start);
 		// initBaiduPush();
-		// initData();
+		 initData();
 		int RunCount = Utils.getIntValue(this, "RUN_COUNT");
 		if (RunCount == 0) {
 			// TODO 引导页面

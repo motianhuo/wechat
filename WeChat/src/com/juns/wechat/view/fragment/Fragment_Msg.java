@@ -98,7 +98,7 @@ public class Fragment_Msg extends Fragment implements OnClickListener,
 			String time = Utils.getValue(getActivity(), "Time");
 			String content = Utils.getValue(getActivity(), "Content");
 			time = "下午 02:45";
-			content = "[腾讯娱乐] 赵薇炒股日赚74亿";
+			content = "[腾讯娱乐]《炉石传说》荣列中国区App Store年度精选";
 			PublicMsgInfo msgInfo = new PublicMsgInfo();
 			msgInfo.setContent(content);
 			msgInfo.setMsg_ID("12");

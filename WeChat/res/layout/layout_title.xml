@@ -17,7 +17,7 @@
      <ImageView
          android:id="@+id/img_back"
         android:layout_width="40dp"
-        android:layout_height="22dp"
+        android:layout_height="20dp"
         android:layout_centerVertical="true"
         android:visibility="gone"
         android:contentDescription="@string/app_name"
