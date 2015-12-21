@@ -769,7 +769,7 @@ containing a value of this type.
         public static final int more=0x7f0a002d;
         public static final int msg_state=0x7f0a00fc;
         public static final int msg_status=0x7f0a011e;
-        public static final int mwebview=0x7f0a0095;
+        public static final int mwebview=0x7f0a0094;
         public static final int name=0x7f0a00fa;
         public static final int none=0x7f0a001b;
         public static final int opposite_surface=0x7f0a0081;
@@ -779,7 +779,7 @@ containing a value of this type.
         public static final int percentage=0x7f0a0111;
         public static final int preview_view=0x7f0a003b;
         public static final int progressBar=0x7f0a007e;
-        public static final int progressbar=0x7f0a0094;
+        public static final int progressbar=0x7f0a0095;
         public static final int pull_out=0x7f0a0019;
         public static final int quit=0x7f0a000a;
         public static final int re_change_groupname=0x7f0a0056;

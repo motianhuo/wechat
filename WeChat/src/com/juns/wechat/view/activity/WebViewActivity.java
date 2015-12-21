@@ -7,6 +7,7 @@ import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.text.TextUtils;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.webkit.WebChromeClient;
@@ -165,12 +166,21 @@ public class WebViewActivity extends BaseActivity {
 
 			@Override
 			public void onClick(View v) {
-				if (mWebView.canGoBack())
-					mWebView.goBack();
-				else
-					Utils.finish(WebViewActivity.this);
+				Utils.finish(WebViewActivity.this);
 			}
 		});
+	}
+
+	@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event) {
+		if (keyCode == KeyEvent.KEYCODE_BACK) {
+			if (mWebView.canGoBack())
+				mWebView.goBack();
+			else
+				Utils.finish(this);
+			return true;
+		}
+		return super.onKeyDown(keyCode, event);
 	}
 
 }

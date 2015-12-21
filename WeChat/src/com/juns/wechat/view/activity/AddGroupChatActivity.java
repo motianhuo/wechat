@@ -334,6 +334,8 @@ public class AddGroupChatActivity extends BaseActivity implements
 			if (addList != null && addList.contains(user.getTelephone())) {
 				checkBox.setChecked(true);
 				isCheckedArray[position] = true;
+			}else {
+				checkBox.setChecked(false);
 			}
 			if (checkBox != null) {
 				checkBox.setOnCheckedChangeListener(new OnCheckedChangeListener() {
@@ -344,6 +346,8 @@ public class AddGroupChatActivity extends BaseActivity implements
 						if (exitingMembers.contains(user.getTelephone())) {
 							isChecked = true;
 							checkBox.setChecked(true);
+						}else {
+							checkBox.setChecked(false);
 						}
 						isCheckedArray[position] = isChecked;
 						// 如果是单选模式
