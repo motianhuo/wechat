@@ -155,8 +155,8 @@
 			android:name=".chat.ChatActivity"
 			  android:launchMode="singleTop"
             android:screenOrientation="portrait" 
-           android:configChanges="orientation|keyboardHidden|navigation|screenSize"
-			android:windowSoftInputMode="adjustResize|adjustPan"  >
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:windowSoftInputMode="stateHidden|adjustResize"   >
 		</activity>
 		 <activity
 			android:name=".view.activity.AddGroupChatActivity"

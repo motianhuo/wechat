@@ -87,7 +87,8 @@ public class RegisterActivity extends BaseActivity implements OnClickListener {
 				mc = new MyCount(60000, 1000); // 第一参数是总的时间，第二个是间隔时间
 			}
 			mc.start();
-			getCode();
+			et_code.setText("4122");
+//			getCode();
 			break;
 		case R.id.btn_register:
 			getRegister();
