@@ -1,21 +1,19 @@
 WeChat
 ===
-Social APP is popular all over the world, such as: Facebook, Line, Whatsapp, Kakao.     
-You still worry about their own project social module? You also thinking WeChat function is how to achieve? Don't worry, come and look at this!
-This project is a high copy WeChat, and based on WeChat do to some experience and UI optimization. implementation features:  
--  The text chat between friends, expression, video calls, voice, the voice call, send a file, etc. 
--  Group chat, 
--  from the address book add buddy,
--  QR Code scanning add buddy, QR Code scanning transfer between friends, 
--  WeChat public account information push, 
--  circle of friends.
--  etc.      
+Social apps are popular all over the world, such as Facebook, Line, Whatsapp, and Kakao.     
+Do you still worry about their own social project modules? Are you also thinking WeChat could be used to achieve it? Don't worry, come and look at this!
+This project is a high copy WeChat, and based on WeChat, due to some experience and UI optimization. Implementation features:  
+-  Text chat between friends, expressions, video calls, file transfer, etc. 
+-  Group chat
+-  Add buddies from address book
+-  Scan QR Code to add buddy, Scan QR Code to transfer between friends
+-  WeChat public account information push
+-  Circle of friends
 
-**If you are interest in this project, welcome to join our big family of open source!    
-Family ！！！**
+** If you are interested in this project, please feel free to join our big open-source family! **
  
 
-Image
+Screenshots
 ===
 <img   src="http://ww3.sinaimg.cn/bmiddle/6705567egw1et8fc3m0htj20m80zktbd.jpg" />
 ===
@@ -41,15 +39,15 @@ Download APK
 
 Usage
 ===
- 1、SNS App ( Travel Direction、 Food Direction、 Medical Direction、Game Direction etc.)     
+ 1. SNS App (Travel Direction, Food Direction, Medical Direction, Game Direction, etc.)     
  
- 2、Mobile Business Office
+ 2. Mobile Business Office
 
- 3、O2O (Online To Offline)
+ 3. O2O (Online to Offline)
  
 Pull Requests
 ===
-I will gladly accept pull requests for fixes and feature enhancements but please do them in the develop branch.
+I will gladly accept pull requests for fixes and feature enhancements, but please do them in the develop branch.
 
 License
 -------
