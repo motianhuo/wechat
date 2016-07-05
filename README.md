@@ -1,19 +1,17 @@
 高仿微信2.0
 ===
 
-
-Image
 ===
 <img   src="https://raw.githubusercontent.com/motianhuo/wechat/wechat2.0/pic_hd.jpg" />
 ===
 
-Usage
+Update
 ===
- 1、SNS App ( Travel Direction、 Food Direction、 Medical Direction、Game Direction etc.)     
+ 1、重构项目，代码逻辑更清晰。    
  
- 2、Mobile Business Office
+ 2、加入红包功能，使聊天更有趣味性。
 
- 3、O2O (Online To Offline)
+ 3、让微信更好玩儿，将用户体验做到极致！
  
 Download APK
 ===
