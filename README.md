@@ -1,7 +1,6 @@
 高仿微信2.0
 ===
-
-===
+ 
 <img   src="https://raw.githubusercontent.com/motianhuo/wechat/wechat2.0/pic_hd.jpg" />
 ===
 
