@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/black2</color>
+    <color name="colorPrimaryDark">@color/black2</color>
+    <color name="colorAccent">@color/green</color>
+    <color name="windows_color">#F5F5F5</color>
+
+    <color name="line_color">#dbdbdb</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black2">#232325</color>
+    <color name="black3">#ffeeeeee</color>
+    <color name="green">#4CAF50</color>
+    <color name="blue">#347ce9</color>
+    <color name="gray">#9A9A9A</color>
+    <color name="red">#FC2828</color>
+
+    <!-- tab -->
+    <color name="tab_bottom_bg_color">#fc1e2327</color>
+    <color name="tab_def_normal_color">#A0B9CD</color>
+    <color name="tab_def_selected_color">#ffff7800</color>
+    <color name="tab_top_title_normal_color">#ffffffff</color>
+    <color name="tab_top_title_selected_color">#ffff7800</color>
+</resources>

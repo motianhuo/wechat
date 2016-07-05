@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rp_shape_white_conner"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/dialog_hint_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size114px"
+        android:gravity="center"
+        android:text="@string/hint_title"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/font48px"
+        android:visibility="gone"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/dialog_hint_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/size114px"
+            android:layout_marginLeft="@dimen/size60px"
+            android:layout_marginRight="@dimen/size60px"
+            android:layout_marginTop="@dimen/size114px"
+            android:text="@string/msg_no_receive_captcha_hint"
+            android:textColor="@color/text_grey"
+            android:textSize="@dimen/font42px" />
+
+    </LinearLayout>
+    <View style="@style/DividerStyle" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dialog_hint_cancel"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/size132px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/button_blue"
+            android:textSize="@dimen/font48px"
+            android:text="@string/btn_cancel" />
+        <View
+            android:id="@+id/dialog_hint_line"
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/divider_color"/>
+        <TextView
+            android:id="@+id/dialog_hint_ok"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/size132px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/button_blue"
+            android:textSize="@dimen/font48px"
+            android:text="@string/btn_ok" />
+    </LinearLayout>
+
+</LinearLayout>

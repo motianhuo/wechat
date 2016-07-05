@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/money_white"
+              android:orientation="vertical"
+    >
+
+    <!--<View-->
+    <!--style="@style/DividerStyle"/>-->
+    <!---->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/size30px"
+        android:layout_marginTop="@dimen/size30px"
+        >
+
+        <ImageView
+            android:id="@+id/iv_record_avatar_icon"
+            android:layout_width="@dimen/size105px"
+            android:layout_height="@dimen/size105px"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/size45px"
+            android:src="@drawable/rp_avatar"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/tv_money_to_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size45px"
+            android:layout_toRightOf="@id/iv_record_avatar_icon"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/font45px"
+            />
+
+        <ImageView
+            android:id="@+id/iv_random_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size18px"
+            android:layout_marginTop="@dimen/size9px"
+            android:layout_toRightOf="@id/tv_money_to_user"
+            android:src="@drawable/rp_random_icon"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_money_to_user"
+            android:layout_marginLeft="@dimen/size45px"
+            android:layout_marginTop="@dimen/size9px"
+            android:layout_toRightOf="@id/iv_record_avatar_icon"
+            android:textColor="@color/text_light_grey"
+            android:textSize="@dimen/font36px"
+            />
+
+        <TextView
+            android:id="@+id/tv_item_money_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/tv_money_to_user"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/size45px"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/font45px"
+            />
+
+        <TextView
+            android:id="@+id/tv_item_money_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/tv_money_to_user"
+            android:layout_marginLeft="@dimen/size45px"
+            android:layout_marginRight="@dimen/size45px"
+            android:layout_marginTop="@dimen/size9px"
+            android:textColor="@color/text_light_grey"
+            android:textSize="@dimen/font36px"
+            />
+    </RelativeLayout>
+
+    <View style="@style/DividerStyle"/>
+</LinearLayout>

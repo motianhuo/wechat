@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/contactitem_catalog"
+        style="@style/MMListCatalog"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dip"
+        android:paddingRight="5.0dip" />
+
+    <LinearLayout
+        android:id="@+id/contactitem_layout"
+        style="@style/MMListItem"
+        android:layout_height="55dip"
+        android:background="@color/white"
+        android:paddingLeft="15dip" >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/contactitem_avatar_iv"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:src="@drawable/head" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:orientation="vertical"
+            android:paddingLeft="8.0dip" >
+
+            <TextView
+                android:id="@+id/contactitem_nick"
+                style="@style/MMFontTitleInList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

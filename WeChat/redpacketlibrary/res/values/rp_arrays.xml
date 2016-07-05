@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="greetings">
+        <item>恭喜发财，大吉大利！</item>
+        <item>情绪不对，红包安慰！</item>
+        <item>打赏你哒！</item>
+        <item>膜拜大神Orz</item>
+        <item>约起来吧！</item>
+    </string-array>
+</resources>

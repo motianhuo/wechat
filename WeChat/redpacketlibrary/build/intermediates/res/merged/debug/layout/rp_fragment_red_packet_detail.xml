@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/detail_loading_target"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yzh="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/money_bg_color"
+    android:orientation="vertical">
+
+    <com.easemob.redpacketui.widget.RPTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        yzh:RPleftImage="@drawable/rp_title_back"
+        yzh:RPmytitle="@string/red_money" />
+
+    <include
+        android:id="@+id/layout_top"
+        layout="@layout/rp_details_list_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_bar" />
+
+    <include
+        android:id="@+id/layout_item"
+        layout="@layout/rp_details_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_top" />
+
+    <include
+        layout="@layout/rp_details_list_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

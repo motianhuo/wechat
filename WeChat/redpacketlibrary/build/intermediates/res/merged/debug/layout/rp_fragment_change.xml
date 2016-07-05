@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/money_bg_color">
+
+    <TextView
+        android:id="@+id/tv_change_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_bar"
+        android:layout_marginTop="@dimen/size144px"
+        android:gravity="center"
+        android:text="@string/str_my_change"
+        android:textColor="@color/text_light_grey"
+        android:textSize="@dimen/font42px" />
+
+    <TextView
+        android:id="@+id/tv_change_balance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_change_tip"
+        android:layout_marginTop="@dimen/size36px"
+        android:gravity="center"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/font129px" />
+
+    <Button
+        android:id="@+id/btn_change_withdraw"
+        style="@style/SendMoneyButtonStyle"
+        android:layout_below="@id/tv_change_balance"
+        android:layout_marginTop="@dimen/size144px"
+        android:background="@drawable/rp_btn_blue_selector"
+        android:text="@string/change_withdraw" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_change_withdraw"
+        android:layout_marginLeft="@dimen/size45px"
+        android:layout_marginRight="@dimen/size45px">
+
+        <Button
+            android:id="@+id/btn_change_password"
+            style="@style/ChangeButtonStyle"
+            android:text="@string/title_forget_pay_pwd" />
+
+        <Button
+            android:id="@+id/btn_my_money_records"
+            style="@style/ChangeButtonStyle"
+            android:layout_alignParentRight="true"
+            android:gravity="right|center"
+            android:text="@string/my_money_records" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_powered_by"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/size36px"
+        android:gravity="center"
+        android:text="@string/insurance_agreement_hint"
+        android:textColor="@color/text_light_grey"
+        android:textSize="@dimen/font33px" />
+
+    <TextView
+        android:id="@+id/tv_check_apps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_powered_by"
+        android:layout_marginBottom="@dimen/size36px"
+        android:gravity="center"
+        android:text="@string/title_common_problem"
+        android:textColor="@color/button_blue"
+        android:textSize="@dimen/font39px" />
+    <LinearLayout
+        android:id="@+id/target_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" />
+</RelativeLayout>

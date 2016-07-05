@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 红包 相关-->
+
+    <!--font-->
+
+    <!-- The max amount of scroll ItemTouchHelper will trigger if dragged view is out of
+RecyclerView's bounds.-->
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <dimen name="size60px">20dp</dimen>
+    <dimen name="size90px">30dp</dimen>
+    <dimen name="font42px">14sp</dimen>
+    <dimen name="size180px">60dp</dimen>
+    <dimen name="size132px">44dp</dimen>
+    <dimen name="font51px">17sp</dimen>
+    <dimen name="size45px">15dp</dimen>
+    <dimen name="size135px">45dp</dimen>
+    <dimen name="size72px">26dp</dimen>
+    <dimen name="size27px">9dp</dimen>
+    <dimen name="font45px">15sp</dimen>
+    <dimen name="size42px">14dp</dimen>
+    <dimen name="size18px">6dp</dimen>
+    <dimen name="font36px">12sp</dimen>
+    <dimen name="size105px">35dp</dimen>
+    <dimen name="size48px">16dp</dimen>
+    <dimen name="size24px">8dp</dimen>
+    <dimen name="size30px">10dp</dimen>
+    <dimen name="font48px">16sp</dimen>
+    <dimen name="size81px">27dp</dimen>
+    <dimen name="size174px">58dp</dimen>
+    <dimen name="size9px">3dp</dimen>
+    <dimen name="size15px">5dp</dimen>
+    <dimen name="size12px">4dp</dimen>
+    <dimen name="size114px">38dp</dimen>
+    <dimen name="size165px">55dp</dimen>
+    <dimen name="size36px">12dp</dimen>
+    <dimen name="font54px">18sp</dimen>
+    <dimen name="font63px">21sp</dimen>
+    <dimen name="font69px">23sp</dimen>
+    <dimen name="size21px">7dp</dimen>
+    <dimen name="font90px">30dp</dimen>
+    <dimen name="size51px">17dp</dimen>
+    <dimen name="font33px">11sp</dimen>
+    <dimen name="size66px">23dp</dimen>
+    <dimen name="size63px">21dp</dimen>
+    <dimen name="size120px">40dp</dimen>
+    <dimen name="size144px">48dp</dimen>
+    <dimen name="size75px">25dp</dimen>
+    <dimen name="size96px">32dp</dimen>
+    <dimen name="size129px">43dp</dimen>
+    <dimen name="font132px">44sp</dimen>
+    <dimen name="font105px">35sp</dimen>
+    <dimen name="size84px">28dp</dimen>
+    <dimen name="dialogWidth">272dp</dimen>
+    <dimen name="dialogHeight">385dp</dimen>
+    <dimen name="size99px">33dp</dimen>
+    <dimen name="size108px">36dp</dimen>
+    <dimen name="size216px">72dp</dimen>
+    <dimen name="font39px">13sp</dimen>
+    <dimen name="size39px">13dp</dimen>
+    <dimen name="font108px">36sp</dimen>
+    <dimen name="font129px">43sp</dimen>
+    <dimen name="size69px">23dp</dimen>
+    <dimen name="size57px">19dp</dimen>
+</resources>

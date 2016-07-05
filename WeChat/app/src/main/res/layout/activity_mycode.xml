@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E3132" >
+
+    <include layout="@layout/view_layout_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="30dp"
+        android:background="@drawable/btn_bg_gray"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <RelativeLayout
+            android:id="@+id/view_user"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp" >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_head"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/head"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_toRightOf="@+id/img_head"
+                android:text="菲儿"
+                android:textSize="18.0dip" />
+
+            <TextView
+                android:id="@+id/txt_id"
+                style="@style/txt_ContextStyle1"
+                android:layout_below="@+id/txt_name"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/img_head"
+                android:text="微信号：dada20150625"
+                android:textSize="14.0dip" />
+            <ImageView
+                android:id="@+id/img_sex"
+                android:layout_toRightOf="@+id/txt_name"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/ic_sex_female" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/img_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"  />
+
+        <TextView
+            style="@style/txt_ContextStyle1"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="扫一扫上面的二维码图案，加我微信"
+            android:textSize="14.0dip" />
+    </LinearLayout>
+
+</RelativeLayout>

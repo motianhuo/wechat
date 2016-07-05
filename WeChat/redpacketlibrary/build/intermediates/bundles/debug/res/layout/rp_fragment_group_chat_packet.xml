@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/money_bg_color">
+
+    <LinearLayout
+        android:id="@+id/group_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout style="@style/SendMoneyRLayoutStyle">
+
+            <TextView
+                android:id="@+id/tv_money_count"
+                style="@style/SendMoneyLeftTextViewStyle"
+                android:text="@string/group_money_count" />
+
+            <TextView
+                android:id="@+id/tv_count_unit"
+                style="@style/SendMoneyRightTextViewStyle"
+                android:text="@string/count_unit" />
+
+            <EditText
+                android:id="@+id/et_money_count"
+                style="@style/SendMoneyEditTextStyle"
+                android:layout_toLeftOf="@id/tv_count_unit"
+                android:layout_toRightOf="@id/tv_money_count"
+                android:inputType="number"
+                android:maxLength="3" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_group_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/text_light_grey"
+            android:textSize="@dimen/font36px" />
+
+        <RelativeLayout
+            style="@style/SendMoneyRLayoutStyle"
+            android:layout_marginTop="@dimen/size36px">
+
+            <RelativeLayout
+                android:id="@+id/money_amount_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_total_money"
+                    style="@style/SendMoneyLeftTextViewStyle"
+                    android:text="@string/group_money_total" />
+
+                <ImageView
+                    android:id="@+id/iv_random_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/size18px"
+                    android:layout_toRightOf="@id/tv_total_money"
+                    android:src="@drawable/rp_random_icon" />
+
+                <TextView
+                    android:id="@+id/tv_money_unit"
+                    style="@style/SendMoneyRightTextViewStyle"
+                    android:text="@string/money_unit" />
+
+                <EditText
+                    android:id="@+id/et_money_amount"
+                    style="@style/SendMoneyEditTextStyle"
+                    android:layout_toLeftOf="@id/tv_money_unit"
+                    android:layout_toRightOf="@id/iv_random_icon"
+                    android:inputType="numberDecimal"
+                    android:maxLength="7" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_type_info"
+                style="@style/SendMoneyGroupRuleTipsStyle"
+                android:text="@string/group_rule_tips_random"
+                android:textColor="@color/text_black" />
+
+            <TextView
+                android:id="@+id/tv_change_type"
+                style="@style/SendMoneyGroupRuleTipsStyle"
+                android:layout_marginLeft="0dp"
+                android:text="@string/group_change_normal"
+                android:textColor="@color/text_blue" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/greeting_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size45px"
+            android:background="@color/money_white">
+
+            <RelativeLayout
+                android:id="@+id/btn_layout"
+                android:layout_width="@dimen/size135px"
+                android:layout_height="@dimen/size135px"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/rp_refresh"
+
+                    />
+            </RelativeLayout>
+
+
+            <EditText
+                android:id="@+id/et_greetings"
+                style="@style/SendMoneyGreetingsStyle"
+                android:layout_toLeftOf="@id/btn_layout"
+                android:hint="@string/default_money_greeting"
+                android:maxLength="30" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/greeting_layout"
+            android:layout_marginTop="@dimen/size72px"
+            android:gravity="center"
+            android:text="￥0.00"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/font108px" />
+
+        <Button
+            android:id="@+id/btn_group_put_money"
+            style="@style/SendMoneyButtonStyle"
+            android:text="@string/btn_put_money" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/target_layout"
+        android:layout_width="@dimen/size180px"
+        android:layout_height="@dimen/size180px"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" />
+
+    <TextView
+        style="@style/SendMoneyBottomTextStyle"
+        android:text="@string/send_money_bottom_text" />
+</RelativeLayout>

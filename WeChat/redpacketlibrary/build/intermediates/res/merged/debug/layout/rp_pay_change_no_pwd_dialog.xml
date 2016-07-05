@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rp_shape_corner"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size132px">
+
+        <ImageButton
+            android:id="@+id/ib_pay_closed"
+            style="@style/DialogClosedButtonStyle" />
+
+        <TextView
+            style="@style/DialogTitleStyle"
+            android:text="@string/dialog_title_pay" />
+    </RelativeLayout>
+
+    <View style="@style/DividerStyle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size60px"
+        android:gravity="center"
+        android:text="@string/red_money"
+        android:textColor="@color/text_light_grey"
+        android:textSize="@dimen/font42px" />
+
+    <TextView
+        android:id="@+id/tv_pay_money_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size21px"
+        android:gravity="center"
+        android:text="￥200"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/font90px" />
+
+    <View
+        style="@style/DividerStyleNoHead"
+        android:layout_marginTop="@dimen/size60px" />
+
+    <RelativeLayout
+        android:id="@+id/layout_pay_change"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size132px">
+
+        <ImageView
+            android:id="@+id/iv_change_icon"
+            style="@style/PayTypeIconStyle"
+            android:src="@drawable/rp_change_icon" />
+
+        <TextView
+            android:id="@+id/tv_pay_change_balance"
+            style="@style/DialogPayTypeStyle"
+            android:layout_toRightOf="@id/iv_change_icon"
+            android:text="@string/my_change" />
+
+        <ImageView
+            android:id="@+id/iv_change_arrow"
+            style="@style/DialogPayTypeRightArrow" />
+    </RelativeLayout>
+
+    <View style="@style/DividerStyleNoHead" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size42px"
+        android:gravity="center"
+        android:text="@string/pay_no_pwd"
+        android:textColor="@color/text_light_grey"
+        android:textSize="@dimen/font42px" />
+
+    <Button
+        android:id="@+id/btn_pay_no_pwd"
+        style="@style/SendMoneyButtonStyle"
+        android:layout_marginBottom="@dimen/size42px"
+        android:layout_marginTop="@dimen/size42px"
+        android:text="@string/btn_ok" />
+</LinearLayout>

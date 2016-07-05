@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_top_bar"
+        android:background="@color/top_bar_normal_bg"
+        android:gravity="center_vertical" >
+
+        <include 
+            layout="@layout/ease_commom_back_btn"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/location_message"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+        
+        
+         <Button
+              android:enabled="false"
+              android:id="@+id/btn_location_send"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ease_common_tab_bg"
+            android:onClick="sendLocation"
+            android:text="@string/button_send"
+            android:textColor="#fff"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+    
+    <com.baidu.mapapi.map.MapView android:id="@+id/bmapView"
+	    android:layout_width="fill_parent" android:layout_height="fill_parent" 
+	    android:clickable="true"
+	    android:background="#fff"
+	/>
+    
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+   Copyright (c) 2013 The CCP project authors. All Rights Reserved.
+ 
+   Use of this source code is governed by a Beijing Speedtong Information Technology Co.,Ltd license
+   that can be found in the LICENSE file in the root of the web site.
+ 
+    				http://www.cloopen.com
+ 
+   An additional intellectual property rights grant can be found
+   in the file PATENTS.  All contributing project authors may
+   be found in the AUTHORS file in the root of the source tree.
+ -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/em_camera_switch_pressed" android:state_pressed="true"/>
+    <item android:drawable="@drawable/em_camera_switch_pressed" android:state_enabled="true" android:state_focused="true"/>
+    <item android:drawable="@drawable/em_camera_switch_pressed" android:state_enabled="false"/>
+    <item android:drawable="@drawable/em_camera_switch_normal"/>
+
+</selector>

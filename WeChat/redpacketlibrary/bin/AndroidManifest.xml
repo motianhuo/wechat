@@ -1,0 +1,9 @@
+<manifest package="com.easemob.redpacketui"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="22" />
+
+</manifest>

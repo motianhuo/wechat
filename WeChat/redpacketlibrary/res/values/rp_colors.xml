@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--红包颜色资源-->
+    <color name="money_red_light">#f14e46</color>
+    <color name="money_bg_color">#efefef</color>
+    <color name="money_white">#ffffff</color>
+    <color name="divider_color">#c7c7c7</color>
+    <color name="text_light_black">#666666</color>
+    <color name="text_light_grey">#9e9e9e</color>
+    <color name="bg_light_grey">#f9f9f9</color>
+    <color name="text_grey">#6e6e6e</color>
+    <color name="text_dark_grey">#bcbcbc</color>
+    <color name="text_black">#3e3e3e</color>
+    <color name="background_white">@color/money_white</color>
+    <color name="text_yellow">#FEE94E</color>
+    <color name="text_blue">#35b7f3</color>
+    <color name="msg_red">#a11710</color>
+    <color name="best_luck_yellow">#fabf40</color>
+    <color name="check_blue">#167ffc</color>
+    <color name="button_blue">#35B7F3</color>
+    <color name="text_unselected">@color/divider_color</color>
+    <color name="half_transparent">#e0000000</color>
+</resources>

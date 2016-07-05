@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rp_shape_corner"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size132px">
+
+        <ImageButton
+            android:id="@+id/ib_choose_pay_back"
+            style="@style/DialogClosedButtonStyle"
+            android:background="@drawable/rp_back_arrow_grey" />
+
+        <TextView
+            style="@style/DialogTitleStyle"
+            android:text="@string/choose_pay_type_title" />
+    </RelativeLayout>
+
+    <View style="@style/DividerStyle" />
+
+
+    <RelativeLayout
+        android:id="@+id/layout_pay_change"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size132px">
+
+        <ImageView
+            android:id="@+id/iv_change_icon"
+            style="@style/PayTypeIconStyle"
+            android:src="@drawable/rp_change_icon" />
+
+        <TextView
+            android:id="@+id/tv_pay_small_change"
+            style="@style/DialogPayTypeStyle"
+            android:layout_toRightOf="@id/iv_change_icon"
+            android:text="@string/my_change" />
+
+        <ImageView
+            android:id="@+id/iv_change_arrow"
+            style="@style/DialogPayTypeRightArrow" />
+    </RelativeLayout>
+
+
+    <View style="@style/DividerStyleNoHead" />
+
+    <RelativeLayout
+        android:id="@+id/layout_pay_jd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size132px">
+
+        <ImageView
+            android:id="@+id/iv_jd_icon"
+            style="@style/PayTypeIconStyle"
+            android:src="@drawable/rp_jd_icon" />
+
+        <TextView
+            android:id="@+id/tv_pay_jd"
+            style="@style/DialogPayTypeStyle"
+            android:layout_toRightOf="@id/iv_jd_icon"
+            android:text="@string/jd_pay" />
+
+        <ImageView style="@style/DialogPayTypeRightArrow" />
+    </RelativeLayout>
+
+    <View
+        style="@style/DividerStyleNoHead"
+        android:layout_marginBottom="@dimen/size69px" />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+    >
+    <!-- 需要设置个不显示的用户头像 否则会报错-->
+    <ImageView
+        android:id="@+id/iv_userhead"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/ease_default_avatar"
+        />
+
+    <TextView
+        android:id="@+id/timestamp"
+        style="@style/chat_text_date_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="#209e9e9e"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="7dp"
+            android:src="@drawable/em_red_packet_ack_message_icon"
+            />
+
+        <TextView
+            android:id="@+id/ease_tv_money_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="7dp"
+            android:textColor="#3e3e3e"
+            android:textSize="12sp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

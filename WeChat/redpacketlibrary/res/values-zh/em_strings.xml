@@ -1,0 +1,8 @@
+<resources>
+    <string name="money_msg_take_money">你领取了自己的红包</string>
+    <string name="money_msg_take_someone_money">你领取了%1$s的红包</string>
+    <string name="money_msg_someone_take_money">%1$s领取了你的红包</string>
+    <string name="easemob_red_packet">环信红包</string>
+    <string name="attach_red_packet">红包</string>
+    <string name="change">零钱</string>
+</resources>

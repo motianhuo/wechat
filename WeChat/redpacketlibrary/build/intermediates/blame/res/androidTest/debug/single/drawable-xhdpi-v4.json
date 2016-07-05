@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_chat_video_call_receive.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_chat_video_call_receive.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_dot_emojicon_unselected.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_dot_emojicon_unselected.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_chat_face_pressed.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_chat_face_pressed.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_chat_send_btn_pressed.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_chat_send_btn_pressed.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_new_friends_icon.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_new_friends_icon.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_back.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_back.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_chat_edit_normal.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_chat_edit_normal.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_chat_item_file.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_chat_item_file.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_mm_title_remove.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_mm_title_remove.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_chat_press_speak_btn_normal.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_chat_press_speak_btn_normal.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_chat_video_call_self.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_chat_video_call_self.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_chat_send_btn_normal.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_chat_send_btn_normal.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_chatting_biaoqing_btn_enable.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_chatting_biaoqing_btn_enable.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_chatting_biaoqing_btn_normal.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_chatting_biaoqing_btn_normal.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_app_panel_video_icon.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_app_panel_video_icon.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_default_expression.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_default_expression.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_chat_face_normal.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_chat_face_normal.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_group_icon.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_group_icon.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_delete_expression.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_delete_expression.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_chat_voice_call_self.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_chat_voice_call_self.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_blue_add.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_blue_add.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_chat_press_speak_btn_pressed.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_chat_press_speak_btn_pressed.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_dot_emojicon_selected.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_dot_emojicon_selected.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_groups_icon.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_groups_icon.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_unread_dot.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_unread_dot.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/chat_tool_location.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/chat_tool_location.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/delete_expression.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/delete_expression.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_close_icon.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_close_icon.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_chat_voice_call_receive.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_chat_voice_call_receive.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ease_open_icon.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/ease_open_icon.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/chat_tool_camera.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/chat_tool_camera.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/chat_tool_photo.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/drawable-xhdpi-v4/chat_tool_photo.png"
+    }
+]

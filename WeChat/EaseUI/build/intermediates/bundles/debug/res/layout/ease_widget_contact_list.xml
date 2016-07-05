@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="#00000000"
+        android:descendantFocusability="afterDescendants"
+        android:divider="#00000000"
+        android:dividerHeight="@null"
+        android:fastScrollEnabled="false" />
+
+    <com.hyphenate.easeui.widget.EaseSidebar
+        android:id="@+id/sidebar"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/floating_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="70dip"
+        android:maxWidth="70dip"
+        android:layout_centerInParent="true"
+        android:background="@drawable/btn_bg_green"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

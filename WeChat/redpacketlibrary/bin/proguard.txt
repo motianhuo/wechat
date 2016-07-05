@@ -1,0 +1,82 @@
+# view res/layout/ease_emojicon.xml #generated:9
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/ease_chat_message_list.xml #generated:6
+-keep class android.support.v4.widget.SwipeRefreshLayout { <init>(...); }
+
+# view res/layout/ease_activity_baidumap.xml #generated:43
+-keep class com.baidu.mapapi.map.MapView { <init>(...); }
+
+# view res/layout/rp_bank_city_list_dialog.xml #generated:34
+# view res/layout/rp_fragment_group_packet_detail.xml #generated:10
+# view res/layout/rp_record_fragment.xml #generated:8
+-keep class com.easemob.redpacketui.android.support.v7.widget.RecyclerView { <init>(...); }
+
+# view res/layout/rp_fragment_set_pay_password.xml #generated:15
+# view res/layout/rp_pay_has_pwd_dialog.xml #generated:108
+# view res/layout/rp_pay_sms_dialog.xml #generated:52
+-keep class com.easemob.redpacketui.gridpasswordview.GridPasswordView { <init>(...); }
+
+# view res/layout/rp_gridpasswordview.xml #generated:4
+-keep class com.easemob.redpacketui.gridpasswordview.imebugfixer.ImeDelBugFixedEditText { <init>(...); }
+
+# view res/layout/rp_activity_bind_bankcard.xml #generated:9
+# view res/layout/rp_activity_change.xml #generated:8
+# view res/layout/rp_activity_record.xml #generated:9
+# view res/layout/rp_activity_red_packet.xml #generated:9
+# view res/layout/rp_activity_red_packet_detail.xml #generated:10
+# view res/layout/rp_activity_webview.xml #generated:10
+# view res/layout/rp_bank_city_list_dialog.xml #generated:8
+# view res/layout/rp_fragment_red_packet_detail.xml #generated:10
+-keep class com.easemob.redpacketui.widget.RPTitleBar { <init>(...); }
+
+# view res/layout/ease_widget_chat_input_menu.xml #generated:29
+-keep class com.hyphenate.easeui.widget.EaseChatExtendMenu { <init>(...); }
+
+# view res/layout/ease_fragment_chat.xml #generated:34
+-keep class com.hyphenate.easeui.widget.EaseChatInputMenu { <init>(...); }
+
+# view res/layout/ease_fragment_chat.xml #generated:21
+-keep class com.hyphenate.easeui.widget.EaseChatMessageList { <init>(...); }
+
+# view res/layout/ease_layout_chat_primary_menu.xml #generated:2
+-keep class com.hyphenate.easeui.widget.EaseChatPrimaryMenu { <init>(...); }
+
+# view res/layout/ease_fragment_contact_list.xml #generated:24
+-keep class com.hyphenate.easeui.widget.EaseContactList { <init>(...); }
+
+# view res/layout/ease_fragment_conversation_list.xml #generated:26
+-keep class com.hyphenate.easeui.widget.EaseConversationList { <init>(...); }
+
+# view res/layout/ease_widget_contact_list.xml #generated:17
+-keep class com.hyphenate.easeui.widget.EaseSidebar { <init>(...); }
+
+# view res/layout/ease_fragment_chat.xml #generated:9
+# view res/layout/ease_fragment_contact_list.xml #generated:9
+# view res/layout/ease_fragment_conversation_list.xml #generated:9
+-keep class com.hyphenate.easeui.widget.EaseTitleBar { <init>(...); }
+
+# view res/layout/ease_fragment_chat.xml #generated:26
+-keep class com.hyphenate.easeui.widget.EaseVoiceRecorderView { <init>(...); }
+
+# view res/layout/ease_widget_emojicon.xml #generated:15
+-keep class com.hyphenate.easeui.widget.emojicon.EaseEmojiconIndicatorView { <init>(...); }
+
+# view res/layout/ease_layout_emojicon_menu.xml #generated:2
+-keep class com.hyphenate.easeui.widget.emojicon.EaseEmojiconMenu { <init>(...); }
+
+# view res/layout/ease_widget_emojicon.xml #generated:9
+-keep class com.hyphenate.easeui.widget.emojicon.EaseEmojiconPagerView { <init>(...); }
+
+# view res/layout/ease_widget_emojicon.xml #generated:28
+-keep class com.hyphenate.easeui.widget.emojicon.EaseEmojiconScrollTabBar { <init>(...); }
+
+# view res/layout/ease_activity_show_big_image.xml #generated:8
+-keep class com.hyphenate.easeui.widget.photoview.EasePhotoView { <init>(...); }
+
+# onClick res/layout/ease_commom_back_btn.xml #generated:2
+-keepclassmembers class * { *** back(...); }
+
+# onClick res/layout/ease_activity_baidumap.xml #generated:28
+-keepclassmembers class * { *** sendLocation(...); }
+

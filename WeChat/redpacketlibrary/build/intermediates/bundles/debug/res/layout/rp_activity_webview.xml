@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/money_bg_color"
+    >
+
+    <com.easemob.redpacketui.widget.RPTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:RPrightTextColor="@color/button_blue"
+        app:RPrightText="@string/title_close"
+        app:RPleftImage="@drawable/rp_back_arrow_blue"
+        app:RPmytitle="@string/small_change"
+        app:RPtitleBackground="@color/money_white"
+        app:RPtitleTextColor="@color/text_black"
+        />
+
+    <WebView
+        android:id="@+id/yzh_web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar"
+        />
+
+    <LinearLayout
+        android:id="@+id/target_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar"
+        android:orientation="vertical"
+        />
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="@style/LoadingProgressStyle"
+        android:visibility="gone"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

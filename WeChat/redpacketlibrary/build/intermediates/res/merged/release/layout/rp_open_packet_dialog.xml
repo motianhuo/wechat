@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="@dimen/dialogWidth"
+                android:layout_height="@dimen/dialogHeight"
+                android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/iv_open_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/rp_open_packet_bg"
+        />
+
+    <RelativeLayout
+        android:id="@+id/layout_closed"
+        android:layout_width="@dimen/size114px"
+        android:layout_height="@dimen/size114px"
+        android:clickable="true"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/rp_closed_yellow_icon"
+            android:scaleType="centerInside"
+            />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="@dimen/size165px"
+        android:layout_height="@dimen/size165px"
+        android:layout_below="@id/layout_closed"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/size36px"
+        android:background="@drawable/rp_bg_circular"
+        android:src="@drawable/rp_avatar"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_avatar"
+        android:layout_marginTop="@dimen/size30px"
+        android:gravity="center"
+        android:textColor="@color/money_white"
+        android:textSize="@dimen/font42px"
+        />
+
+    <TextView
+        android:id="@+id/tv_open_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_username"
+        android:layout_marginTop="@dimen/size9px"
+        android:gravity="center"
+        android:text="@string/send_you_money"
+        android:textColor="@color/money_white"
+        android:textSize="@dimen/font42px"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_greeting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_open_title"
+        android:layout_marginLeft="@dimen/size45px"
+        android:layout_marginRight="@dimen/size45px"
+        android:layout_marginTop="@dimen/size90px"
+        android:gravity="center|top"
+        android:maxLength="30"
+        android:textColor="@color/text_yellow"
+        android:textSize="@dimen/font54px"
+        />
+
+
+    <!--群红包用的到-->
+    <TextView
+        android:id="@+id/tv_check_lucky"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/check_lucky"
+        android:textColor="@color/text_yellow"
+        android:textSize="@dimen/font48px"
+        />
+
+    <Button
+        android:id="@+id/btn_open_money"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size132px"
+        android:layout_above="@id/tv_check_lucky"
+        android:layout_marginLeft="@dimen/size114px"
+        android:layout_marginRight="@dimen/size114px"
+        android:layout_marginTop="@dimen/size45px"
+        android:background="@drawable/rp_btn_open_selector"
+        android:text="@string/btn_text_open_money"
+        android:textColor="@color/money_red_light"
+        android:textSize="@dimen/font54px"
+        />
+
+    <LinearLayout
+        android:id="@+id/target_layout"
+        android:layout_width="@dimen/size180px"
+        android:layout_height="@dimen/size180px"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        />
+</RelativeLayout>

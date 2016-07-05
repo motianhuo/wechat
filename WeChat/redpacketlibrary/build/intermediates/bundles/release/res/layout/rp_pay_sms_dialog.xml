@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rp_shape_corner"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size132px">
+
+        <ImageButton
+            android:id="@+id/btn_sms_closed"
+            style="@style/DialogClosedButtonStyle" />
+
+        <TextView
+            style="@style/DialogTitleStyle"
+            android:text="@string/str_input_sms_code" />
+    </RelativeLayout>
+
+    <View style="@style/DividerStyle" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size66px">
+
+        <TextView
+            android:id="@+id/tv_cell_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/size45px"
+            android:text="@string/str_format_send_sms"
+            android:textColor="@color/text_grey"
+            android:textSize="@dimen/font36px" />
+
+        <TextView
+            android:id="@+id/btn_resend_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/size45px"
+            android:background="@null"
+            android:text="@string/btn_str_send_sms_code"
+            android:textColor="@color/text_blue"
+            android:textSize="@dimen/font42px" />
+    </RelativeLayout>
+
+    <com.easemob.redpacketui.gridpasswordview.GridPasswordView
+        android:id="@+id/et_sms_code"
+        style="@style/GridPasswordStyle"
+        android:layout_marginBottom="@dimen/size63px"
+        android:layout_marginTop="@dimen/size36px" />
+</LinearLayout>

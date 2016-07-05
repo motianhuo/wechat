@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="EaseChatMessageList">
+        <attr name="msgListMyBubbleBackground" format="reference"/>
+        <attr name="msgListOtherBubbleBackground" format="reference"/>
+        <attr name="msgListShowUserAvatar" format="boolean"/>
+        <attr name="msgListShowUserNick" format="boolean"/>
+    </declare-styleable>
+    
+    <declare-styleable name="EaseConversationList">
+        <attr name="cvsListPrimaryTextColor" format="color"/>
+        <attr name="cvsListSecondaryTextColor" format="color"/>
+        <attr name="cvsListTimeTextColor" format="color"/>
+        <attr name="cvsListPrimaryTextSize" format="dimension"/>
+        <attr name="cvsListSecondaryTextSize" format="dimension"/>
+        <attr name="cvsListTimeTextSize" format="dimension"/>
+    </declare-styleable>
+    
+    <declare-styleable name="EaseContactList">
+        <attr name="ctsListPrimaryTextColor" format="color"/>
+        <attr name="ctsListPrimaryTextSize" format="dimension"/>
+        <attr name="ctsListShowSiderBar" format="boolean"/>
+        <attr name="ctsListInitialLetterBg" format="reference|color"/>
+        <attr name="ctsListInitialLetterColor" format="color"/>
+    </declare-styleable>
+    
+    <declare-styleable name="EaseEmojiconMenu">
+       	<attr name="bigEmojiconRows" format="integer"/>
+       	<attr name="emojiconColumns" format="integer"/>
+    </declare-styleable>
+    
+    <declare-styleable name="EaseChatExtendMenu">
+        <attr name="numColumns" format="integer"/>
+    </declare-styleable>
+    
+    <declare-styleable name="EaseTitleBar">
+        <attr name="titleBarTitle" format="string"/>
+        <attr name="titleBarLeftImage" format="reference"/>
+        <attr name="titleBarRightImage" format="reference"/>
+        <attr name="titleBarBackground" format="reference|color"/>
+    </declare-styleable>
+    
+    <declare-styleable name="EaseSwitchButton">
+        <attr name="switchOpenImage" format="reference"/>
+        <attr name="switchCloseImage" format="reference"/>
+        <attr name="switchStatus">
+            <enum name="open" value="0"/>
+            <enum name="close" value="1"/>
+        </attr>
+    </declare-styleable>
+    
+     <declare-styleable name="EaseImageView">
+        <attr name="ease_border_color" format="color" />
+        <attr name="ease_border_width" format="dimension" />
+        <attr name="ease_press_alpha" format="integer" />
+        <attr name="ease_press_color" format="color" />
+        <attr name="ease_radius" format="dimension" />
+        <attr name="ease_shape_type" format="enum">
+            <enum name="none" value="0" />
+            <enum name="round" value="1" />
+            <enum name="rectangle" value="2" />
+        </attr>
+    </declare-styleable>
+    
+</resources>

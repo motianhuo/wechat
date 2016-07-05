@@ -1,0 +1,68 @@
+[
+    {
+        "outputFile": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/release/values-v11/values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 219
+                },
+                "from": {
+                    "file": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/res/values-v11/ease_styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 220
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 224,
+                    "endLine": 7,
+                    "endColumn": 12,
+                    "endOffset": 394
+                },
+                "from": {
+                    "file": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/res/values-v11/ease_styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 226,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 396
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 399,
+                    "endColumn": 84,
+                    "endOffset": 479
+                },
+                "from": {
+                    "file": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/res/values-v11/ease_styles.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 402,
+                        "endColumn": 91,
+                        "endOffset": 489
+                    }
+                }
+            }
+        ]
+    }
+]

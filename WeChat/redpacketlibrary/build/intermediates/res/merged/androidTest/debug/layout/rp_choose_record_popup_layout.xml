@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rp_pop_bg"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_choose_received"
+        style="@style/DialogTitleStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size120px"
+        android:layout_marginLeft="@dimen/size75px"
+        android:layout_marginRight="@dimen/size75px"
+        android:background="@color/money_bg_color"
+        android:gravity="center"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/font45px"
+        android:text="@string/money_received_text"
+        />
+
+    <View style="@style/DividerStyle"/>
+
+    <TextView
+        android:id="@+id/tv_choose_send"
+        style="@style/DialogTitleStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size120px"
+        android:layout_marginLeft="@dimen/size75px"
+        android:layout_marginRight="@dimen/size75px"
+        android:background="@color/money_bg_color"
+        android:gravity="center"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/font45px"
+        android:text="@string/money_send_text"
+        />
+
+</LinearLayout>

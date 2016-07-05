@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/money_bg_color"
+    android:orientation="vertical">
+
+    <com.easemob.redpacketui.widget.RPTitleBar
+        android:id="@+id/bc_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:RPleftImage="@drawable/rp_back_arrow_blue"
+        app:RPmytitle="@string/title_add_bankcard"
+        app:RPtitleBackground="@color/money_white"
+        app:RPtitleTextColor="@color/text_black" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/bc_fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/bc_target_layout"
+            android:layout_width="@dimen/size180px"
+            android:layout_height="@dimen/size180px"
+            android:layout_centerInParent="true"
+            android:orientation="vertical" />
+    </RelativeLayout>
+
+
+</LinearLayout>

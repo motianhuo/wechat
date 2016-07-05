@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+     <item
+        android:id="@+id/delete_contact"
+        android:title="@string/Delete_the_contact"/>
+     <item
+        android:id="@+id/add_to_blacklist"
+        android:title="@string/Move_into_the_blacklist_new"/>
+
+</menu>

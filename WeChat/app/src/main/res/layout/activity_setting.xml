@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_layout_title" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_usersafe"
+                style="@style/TxtTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/setting_item_selector"
+                android:drawableRight="@drawable/right"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:paddingRight="10dp"
+                android:text="@string/setting_txt_usersafe"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black3" />
+
+            <TextView
+                android:id="@+id/txt_msgtip"
+                style="@style/TxtTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/setting_item_selector"
+                android:drawableRight="@drawable/right"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:paddingRight="10dp"
+                android:text="@string/setting_txt_msgtip"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black3" />
+
+
+            <TextView
+                android:id="@+id/txt_yinsi"
+                style="@style/TxtTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/setting_item_selector"
+                android:drawableRight="@drawable/right"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:paddingRight="10dp"
+                android:text="@string/setting_txt_yinsi"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black3" />
+
+            <TextView
+                android:id="@+id/txt_tongyong"
+                style="@style/TxtTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/setting_item_selector"
+                android:drawableRight="@drawable/right"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:paddingRight="10dp"
+                android:text="@string/setting_txt_tongyong"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black3" />
+
+            <TextView
+                android:id="@+id/txt_about"
+                style="@style/TxtTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/setting_item_selector"
+                android:drawableRight="@drawable/right"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:paddingRight="10dp"
+                android:text="@string/setting_txt_about"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black3" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="80.0dip"
+                android:gravity="center"
+                android:padding="20.0dip">
+
+                <Button
+                    android:id="@+id/btnexit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="38dip"
+                    android:background="@color/red"
+                    android:text="@string/setting_btn_exit"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

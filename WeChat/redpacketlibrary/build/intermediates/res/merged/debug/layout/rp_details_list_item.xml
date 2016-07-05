@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/money_white"
+    android:orientation="vertical">
+
+    <!--<View-->
+    <!--style="@style/DividerStyle"/>-->
+    <!---->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_item_avatar_icon"
+            android:layout_width="@dimen/size120px"
+            android:layout_height="@dimen/size120px"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="@dimen/size30px"
+            android:layout_marginLeft="@dimen/size45px"
+            android:layout_marginTop="@dimen/size30px"
+            android:src="@drawable/rp_avatar"
+            android:background="@drawable/rp_bg_circular"/>
+
+        <TextView
+            android:id="@+id/tv_money_to_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/iv_item_avatar_icon"
+            android:layout_marginLeft="@dimen/size30px"
+            android:layout_toRightOf="@id/iv_item_avatar_icon"
+            android:text="王某某"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/font45px" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_money_to_user"
+            android:layout_marginLeft="@dimen/size30px"
+            android:layout_toRightOf="@id/iv_item_avatar_icon"
+            android:layout_alignBottom="@id/iv_item_avatar_icon"
+            android:text="17:00"
+            android:textColor="@color/text_light_grey"
+            android:textSize="@dimen/font36px" />
+
+        <TextView
+            android:id="@+id/tv_item_money_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/tv_money_to_user"
+            android:layout_marginRight="@dimen/size45px"
+            android:text="20.00元"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/font45px" />
+
+        <TextView
+            android:id="@+id/tv_best_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/tv_time"
+            android:layout_marginRight="@dimen/size45px"
+            android:drawableLeft="@drawable/rp_icon_best"
+            android:text="@string/best_luck"
+            android:drawablePadding="2dp"
+            android:textColor="@color/best_luck_yellow"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View style="@style/DividerStyle" />
+</LinearLayout>

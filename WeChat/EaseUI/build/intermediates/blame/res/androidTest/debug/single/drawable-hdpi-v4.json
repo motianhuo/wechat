@@ -1,0 +1,874 @@
+[
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_101.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_101.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_video_recorder_stop_btn.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_video_recorder_stop_btn.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_13.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_13.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_58.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_58.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_27.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_27.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_30.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_30.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_90.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_90.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_14.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_14.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_75.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_75.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_28.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_28.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_mm_title_remove.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_mm_title_remove.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_settings_selected.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_settings_selected.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_default_avatar.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_default_avatar.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_89.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_89.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_44.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_44.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_record_animate_14.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_record_animate_14.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_1.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_1.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_87.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_87.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_seabar_input.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_seabar_input.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_to_single_details_normal.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_to_single_details_normal.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_contact_list_selected.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_contact_list_selected.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_11.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_11.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_conversation_normal.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_conversation_normal.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_46.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_46.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_73.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_73.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_chatting_setmode_voice_btn_pressed.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chatting_setmode_voice_btn_pressed.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_92.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_92.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_mm_listitem_pressed.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_mm_listitem_pressed.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_33.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_33.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_input_bar_bg_active.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_input_bar_bg_active.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_71.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_71.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_16.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_16.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_80.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_80.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_3.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_3.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_32.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_32.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_77.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_77.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_slidetab_bg_press.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_slidetab_bg_press.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_10.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_10.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_msg_state_fail_resend.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_msg_state_fail_resend.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_39.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_39.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_chatto_voice_playing.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chatto_voice_playing.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_26.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_26.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_42.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_42.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_video_download_btn_nor.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_video_download_btn_nor.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_61.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_61.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_48.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_48.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_app_panel_video_icon.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_app_panel_video_icon.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_voice_unread.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_voice_unread.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_record_animate_02.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_record_animate_02.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_96.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_96.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_29.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_29.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_dx_checkbox_off.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_dx_checkbox_off.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_99.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_99.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_103.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_103.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_type_select_btn_pressed.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_type_select_btn_pressed.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_23.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_23.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_20.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_20.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_21.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_21.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_66.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_66.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_19.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_19.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_chatfrom_voice_playing_f1.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chatfrom_voice_playing_f1.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_chatting_setmode_voice_btn_normal.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chatting_setmode_voice_btn_normal.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_chatfrom_voice_playing_f2.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chatfrom_voice_playing_f2.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_to_group_details_normal.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_to_group_details_normal.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_3.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_3.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_36.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_36.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_chatto_voice_playing_f3.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chatto_voice_playing_f3.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_17.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_17.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_7.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_7.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_84.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_84.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_70.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_70.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_95.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_95.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_new_friends_icon.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_new_friends_icon.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_105.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_105.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_22.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_22.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_51.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_51.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_35.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_35.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_record_animate_12.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_record_animate_12.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_chatfrom_voice_playing_f3.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chatfrom_voice_playing_f3.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_5.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_5.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_video_play_btn_small_nor.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_video_play_btn_small_nor.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_65.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_65.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_104.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_104.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_search_clear_pressed.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_search_clear_pressed.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_record_animate_04.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_record_animate_04.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_8.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_8.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_search_bar_icon_normal.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_search_bar_icon_normal.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_24.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_24.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_85.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_85.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_40.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_40.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_47.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_47.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_2.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_2.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_chatting_setmode_keyboard_btn_normal.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chatting_setmode_keyboard_btn_normal.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_record_animate_09.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_record_animate_09.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_contact_list_normal.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_contact_list_normal.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_chat_face_normal.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chat_face_normal.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_25.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_25.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_94.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_94.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_41.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_41.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_record_animate_03.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_record_animate_03.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_15.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_15.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_chatfrom_bg_normal.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chatfrom_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_50.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_50.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_37.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_37.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_4.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_4.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_56.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_56.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_12.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_12.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_18.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_18.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_record_animate_13.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_record_animate_13.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_34.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_34.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_31.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_31.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_show_head_toast_bg.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_show_head_toast_bg.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_60.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_60.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_74.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_74.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_30.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_30.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_91.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_91.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_13.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_13.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_88.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_88.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_43.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_43.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_mm_listitem_simple.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_mm_listitem_simple.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_28.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_28.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_login_error_icon.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_login_error_icon.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_14.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_14.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_32.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_32.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_27.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_27.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_102.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_102.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_62.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_62.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_76.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_76.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_record_animate_01.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_record_animate_01.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_mm_listitem_disable.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_mm_listitem_disable.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_57.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_57.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_8.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_8.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_38.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_38.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_16.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_16.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_11.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_11.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_93.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_93.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_33.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_33.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_17.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_17.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_86.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_86.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_chatting_setmode_keyboard_btn_pressed.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chatting_setmode_keyboard_btn_pressed.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_6.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_6.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_chatto_bg_normal.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chatto_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_55.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_55.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_search_clear_normal.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_search_clear_normal.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_10.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_10.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_appitem_del_btn_pressed.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_appitem_del_btn_pressed.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_mm_title_back.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_mm_title_back.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_record_animate_11.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_record_animate_11.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_29.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_29.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_video_recorder_start_btn.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_video_recorder_start_btn.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_45.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_45.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_dx_checkbox_on.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_dx_checkbox_on.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_input_bar_bg_normal.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_input_bar_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_100.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_100.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_67.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_67.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_64.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_64.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_groups_icon.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_groups_icon.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_record_animate_05.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_record_animate_05.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_record_animate_08.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_record_animate_08.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_26.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_26.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_chatting_biaoqing_btn_normal.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chatting_biaoqing_btn_normal.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_23.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_23.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_chat_video_mask_to.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chat_video_mask_to.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_20.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_20.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_settings_normal.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_settings_normal.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_mm_listitem_grey_normal.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_mm_listitem_grey_normal.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_35.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_35.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_22.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_22.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_record_animate_10.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_record_animate_10.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_82.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_82.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_5.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_5.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_19.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_19.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_record_animate_07.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_record_animate_07.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_21.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_21.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_chatfrom_bg_focused.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chatfrom_bg_focused.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_83.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_83.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_6.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_6.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_97.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_97.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_record_animate_06.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_record_animate_06.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_chatto_bg_focused.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chatto_bg_focused.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_unread_count_bg.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_unread_count_bg.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_location_msg.9.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_location_msg.9.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_52.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_52.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_81.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_81.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_98.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_98.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_chatto_voice_playing_f2.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chatto_voice_playing_f2.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_chatting_biaoqing_btn_enable.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chatting_biaoqing_btn_enable.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_68.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_68.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_icon_marka.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_icon_marka.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_conversation_selected.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_conversation_selected.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_79.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_79.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_54.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_54.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_49.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_49.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_dx_checkbox_gray_on.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_dx_checkbox_gray_on.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_msg_state_fail_resend_pressed.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_msg_state_fail_resend_pressed.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_4.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_4.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_63.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_63.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_69.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_69.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_24.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_24.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_72.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_72.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_78.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_78.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_25.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_25.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_default_image.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_default_image.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_12.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_12.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_59.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_59.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_18.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_18.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_34.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_34.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_type_select_btn_nor.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_type_select_btn_nor.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_chat_face_pressed.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chat_face_pressed.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_7.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_7.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_53.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_53.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_appitem_del_btn_normal.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_appitem_del_btn_normal.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_chatfrom_voice_playing.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chatfrom_voice_playing.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ease_chatto_voice_playing_f1.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chatto_voice_playing_f1.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ee_31.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_31.png"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/expression_15.png",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/res/drawable-hdpi-v4/expression_15.png"
+    }
+]

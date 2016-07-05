@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="tab_button">
+        <attr name="tabtext" format="reference|string"></attr>
+        <attr name="txtSize" format="reference|dimension" />
+        <attr name="drawableTop" format="reference"></attr>
+        <attr name="drawableTopAttr" format="string"></attr>
+        <attr name="drawableBottom" format="reference"></attr>
+    </declare-styleable>
+</resources>

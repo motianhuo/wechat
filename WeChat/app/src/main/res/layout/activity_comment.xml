@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+    //主视图
+
+    <include android:id="@+id/ly" layout="@layout/view_layout_title"/>
+
+    <LinearLayout
+        android:id="@+id/first_view"
+        android:layout_below="@+id/ly"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_anim3_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="show" />
+    </LinearLayout>
+    //弹出框，默认不显示
+
+    <LinearLayout
+        android:id="@+id/second_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/windows_color"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <Button
+            android:id="@+id/btn_anim3_hidden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hidden" />
+    </LinearLayout>
+</RelativeLayout>

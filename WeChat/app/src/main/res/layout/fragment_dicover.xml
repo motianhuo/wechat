@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_pengyouquan"
+                style="@style/list_txt_Style"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/v2"
+                android:text="@string/discover_txt_pengyouquan" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black3" />
+
+
+            <TextView
+                android:id="@+id/txt_saoyisao"
+                style="@style/list_txt_Style"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/icon_de_saoyisao"
+                android:text="@string/discover_txt_saoyisao" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black3" />
+
+            <TextView
+                android:id="@+id/txt_yaoyiyao"
+                style="@style/list_txt_Style"
+                android:drawableLeft="@drawable/icon_de_yao"
+                android:text="@string/discover_txt_yaoyiyao" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black3" />
+
+            <TextView
+                android:id="@+id/txt_nearby"
+                style="@style/list_txt_Style"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/icon_de_nearby"
+                android:text="@string/discover_txt_nearby" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black3" />
+
+            <TextView
+                android:id="@+id/txt_piaoliuping"
+                style="@style/list_txt_Style"
+                android:drawableLeft="@drawable/icon_de_ping"
+                android:text="@string/discover_txt_piaoliuping" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black3" />
+
+
+            <TextView
+                android:id="@+id/txt_shop"
+                style="@style/list_txt_Style"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/icon_de_shop"
+                android:text="@string/discover_txt_shop" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black3" />
+
+            <TextView
+                android:id="@+id/txt_game"
+                style="@style/list_txt_Style"
+                android:drawableLeft="@drawable/icon_de_game"
+                android:text="@string/discover_txt_game" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black3" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

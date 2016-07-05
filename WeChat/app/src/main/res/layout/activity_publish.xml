@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <include android:id="@+id/layout_title" layout="@layout/view_layout_title" />
+
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/et_usertel"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@color/white"
+                    android:hint="这一刻的想法..."
+                    android:paddingLeft="20dp"
+                    android:textColorHint="#DDDDDD"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <HorizontalScrollView
+                        android:id="@+id/hsv_banner"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:overScrollMode="never"
+                        android:scrollbars="none">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:id="@+id/ll_banner"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal" />
+
+                            <Button
+                                android:id="@+id/btnaddimg"
+                                android:layout_width="50.0dip"
+                                android:layout_height="50.0dip"
+                                android:layout_margin="5.0dip"
+                                android:background="@drawable/zx" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.3dip"
+                    android:background="@color/black3" />
+
+                <TextView
+                    android:id="@+id/txt_location"
+                    style="@style/TxtTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/setting_item_selector"
+                    android:drawableLeft="@drawable/auj"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/right"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="10dp"
+                    android:text="所在位置"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.3dip"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/black3" />
+
+                <TextView
+                    android:id="@+id/txt_who"
+                    style="@style/TxtTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/setting_item_selector"
+                    android:drawableLeft="@drawable/aul"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/right"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="10dp"
+                    android:text="谁可以看"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.3dip"
+                    android:background="@color/black3" />
+
+                <TextView
+                    android:id="@+id/txt_tip"
+                    style="@style/TxtTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/setting_item_selector"
+                    android:drawableLeft="@drawable/aub"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@drawable/right"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="10dp"
+                    android:text="提醒谁看"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.3dip"
+                    android:background="@color/black3" />
+
+
+                <ImageView
+                    android:id="@+id/img_qzone"
+                    android:layout_width="25dip"
+                    android:layout_height="25dip"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/aun" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <com.allenjuns.wechat.widget.RevealBackgroundView
+        android:id="@+id/vRevealBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray"></com.allenjuns.wechat.widget.RevealBackgroundView>
+
+</RelativeLayout>

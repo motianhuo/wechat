@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/money_bg_color">
+
+    <TextView
+        android:id="@+id/tv_captcha_name"
+        style="@style/BindBankCardTextViewStyle"
+        android:layout_toLeftOf="@+id/tv_not_receive_msg"
+        android:text="@string/captcha_send_phone" />
+
+    <TextView
+        android:id="@+id/tv_not_receive_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size132px"
+        android:layout_marginRight="@dimen/size30px"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical|right"
+        android:text="@string/tv_not_receive_message"
+        android:textColor="@color/button_blue"
+        android:textSize="@dimen/font42px" />
+
+    <LinearLayout
+        android:id="@+id/layout_captcha_code"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size132px"
+        android:layout_below="@id/tv_captcha_name"
+        android:background="@color/background_white"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ed_input_captcha"
+            style="@style/BindBankCardEditTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/str_input_sms_code"
+            android:inputType="number"
+            android:maxLength="6"
+            android:singleLine="true" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/divider_color" />
+
+        <TextView
+            android:id="@+id/tv_resend_captcha"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@color/background_white"
+            android:textColor="@color/button_blue"
+            android:textSize="@dimen/font42px"
+            android:text="@string/btn_str_resend" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_captcha_confirm"
+        style="@style/SendMoneyButtonStyle"
+        android:layout_below="@id/layout_captcha_code"
+        android:background="@drawable/rp_btn_blue_selector"
+        android:text="@string/btn_ok" />
+    <LinearLayout
+        android:id="@+id/target_layout"
+        android:layout_width="@dimen/size180px"
+        android:layout_height="@dimen/size180px"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" />
+
+</RelativeLayout>

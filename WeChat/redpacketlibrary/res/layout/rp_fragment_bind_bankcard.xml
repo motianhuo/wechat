@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/money_bg_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_document_message"
+            style="@style/BindBankCardTextViewStyle"
+            android:text="@string/document_add_pay_bankcard" />
+
+        <RelativeLayout
+            android:id="@+id/layout_bankcard_number"
+            style="@style/BindBankCardRLayoutStyle">
+
+            <TextView
+                android:id="@+id/tv_bankcard_number"
+                style="@style/SendMoneyLeftTextViewStyle"
+                android:text="@string/bank_card_number" />
+
+            <EditText
+                android:id="@+id/ed_bankcard_number"
+                style="@style/BindBankCardEditTextStyle"
+                android:layout_toRightOf="@id/tv_bankcard_number"
+                android:hint="@string/edit_bankcard_hint"
+                android:inputType="number"
+                android:maxLength="23"
+                android:singleLine="true" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_bank_name"
+            style="@style/BindBankCardTextViewStyle" />
+
+        <LinearLayout
+            android:id="@+id/layout_additional_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/layout_real_name"
+                style="@style/BindBankCardRLayoutStyle">
+
+                <TextView
+                    android:id="@+id/tv_real_name"
+                    style="@style/SendMoneyLeftTextViewStyle"
+                    android:text="@string/real_name" />
+
+                <EditText
+                    android:id="@+id/ed_real_name"
+                    style="@style/BindBankCardEditTextStyle"
+                    android:layout_toRightOf="@id/tv_real_name"
+                    android:hint="@string/edit_card_name_hint"
+                    android:inputType="text"
+                    android:singleLine="true" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/div_line"
+                style="@style/DividerStyleNoHead" />
+
+            <RelativeLayout
+                android:id="@+id/layout_id_card_number"
+                style="@style/BindBankCardRLayoutStyle"
+                android:layout_below="@id/div_line">
+
+                <TextView
+                    android:id="@+id/tv_id_card_number"
+                    style="@style/SendMoneyLeftTextViewStyle"
+                    android:text="@string/id_card" />
+
+                <EditText
+                    android:id="@+id/ed_id_card_number"
+                    style="@style/BindBankCardEditTextStyle"
+                    android:layout_toRightOf="@id/tv_id_card_number"
+                    android:digits="@string/id_card_digit"
+                    android:hint="@string/edit_id_card_number_hint"
+                    android:inputType="number"
+                    android:maxLength="18"
+                    android:singleLine="true" />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/div_line_two"
+                style="@style/DividerStyleNoHead" />
+
+            <RelativeLayout
+                android:id="@+id/layout_phone_number"
+                style="@style/BindBankCardRLayoutStyle">
+
+                <TextView
+                    android:id="@+id/tv_phone_number"
+                    style="@style/SendMoneyLeftTextViewStyle"
+                    android:text="@string/phone_number" />
+
+                <ImageView
+                    android:id="@+id/iv_phone_number"
+                    android:layout_width="@dimen/size60px"
+                    android:layout_height="@dimen/size60px"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/rp_question_blue"
+
+                    />
+
+                <EditText
+                    android:id="@+id/ed_phone_number"
+                    style="@style/BindBankCardEditTextStyle"
+                    android:layout_toLeftOf="@id/iv_phone_number"
+                    android:layout_toRightOf="@id/tv_phone_number"
+                    android:hint="@string/edit_phone_number_hint"
+                    android:inputType="number"
+                    android:singleLine="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_amount_agreement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size45px"
+                android:layout_marginRight="@dimen/size45px"
+                android:layout_marginTop="@dimen/size30px"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/iv_amount_agreement"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/size12px"
+                    android:layout_marginRight="@dimen/size9px"
+                    android:src="@drawable/rp_iv_my_agreement" />
+
+                <TextView
+                    android:id="@+id/tv_amount_agreement"
+                    style="@style/BindBankCardHintStyle"
+                    android:layout_toRightOf="@id/iv_amount_agreement"
+                    android:text="@string/operation_tpy_agreement" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/bind_bankcard_next_step"
+            style="@style/SendMoneyButtonStyle"
+            android:background="@drawable/rp_btn_blue_selector"
+            android:text="@string/btn_next_step" />
+
+        <TextView
+            android:id="@+id/tv_user_agreement"
+            style="@style/BindBankCardHintStyle"
+            android:layout_marginLeft="@dimen/size45px"
+            android:layout_marginTop="@dimen/size30px"
+            android:text="@string/operation_user_agreement" />
+    </LinearLayout>
+
+
+    <TextView
+        style="@style/BindBankCardBottomStyle"
+        android:layout_above="@+id/tv_insurance_agreement"
+        android:layout_marginBottom="@dimen/size9px"
+        android:text="@string/jd_pay_agreement_hint" />
+
+    <TextView
+        android:id="@+id/tv_insurance_agreement"
+        style="@style/BindBankCardBottomStyle"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/size30px"
+        android:text="@string/insurance_agreement_hint" />
+
+    <LinearLayout
+        android:id="@+id/target_layout"
+        android:layout_width="@dimen/size180px"
+        android:layout_height="@dimen/size180px"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" />
+</RelativeLayout>

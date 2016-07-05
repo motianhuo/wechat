@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_layout_title" />
+
+    <ScrollView
+        android:id="@+id/srollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:background="#686F78"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:id="@+id/layout_money"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <ImageView
+                        android:id="@+id/iv_temp1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/aj2" />
+
+                    <TextView
+                        android:id="@+id/tv_linqian"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/iv_temp1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="8dp"
+                        android:text="@string/wallet_txt_lingqian"
+                        android:textColor="#fff"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tv_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_linqian"
+                        android:layout_centerHorizontal="true"
+                        android:text="￥14.00"
+                        android:textColor="#B4B7BC"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/re_card"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <ImageView
+                        android:id="@+id/iv_temp2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/aj5" />
+
+                    <TextView
+                        android:id="@+id/tv_yinhangka"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/iv_temp2"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="8dp"
+                        android:text="@string/wallet_txt_yinhangka"
+                        android:textColor="#fff"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:id="@+id/tv_cards"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_yinhangka"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/wallet_txt_cards"
+                        android:textColor="#B4B7BC"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <com.allenjuns.wechat.widget.ScrollGridView
+                android:id="@+id/gridView"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:horizontalSpacing="1dp"
+                android:numColumns="3"
+                android:listSelector="@color/transparent"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="1dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

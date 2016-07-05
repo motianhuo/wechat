@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="greetings">
+        <item>恭喜发财，大吉大利！</item>
+        <item>情绪不对，红包安慰！</item>
+        <item>打赏你哒！</item>
+        <item>膜拜大神Orz</item>
+        <item>约起来吧！</item>
+    </string-array>
+    <color name="background_white">@color/money_white</color>
+    <color name="best_luck_yellow">#fabf40</color>
+    <color name="bg_light_grey">#f9f9f9</color>
+    <color name="black_deep">#FF000000</color>
+    <color name="bottom_bar_normal_bg">#2D2F31</color>
+    <color name="bottom_text_color_normal">#ffffff</color>
+    <color name="btn_answer_normal">#2dafa3</color>
+    <color name="btn_answer_pressed">#4ebcd3</color>
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="btn_gray_pressed">#666667</color>
+    <color name="btn_gray_pressed_status">#b5b5b6</color>
+    <color name="btn_green_noraml">#68C270</color>
+    <color name="btn_green_pressed">#6FCD78</color>
+    <color name="btn_login_normal">#00acff</color>
+    <color name="btn_login_pressed">#46678d</color>
+    <color name="btn_logout_normal">#d33f3f</color>
+    <color name="btn_logout_pressed">#DA5A4D</color>
+    <color name="btn_pressed_green_solid">#B6DA53</color>
+    <color name="btn_register_normal">#ffffff</color>
+    <color name="btn_register_pressed">#00acff</color>
+    <color name="btn_white_normal">#f7f8f8</color>
+    <color name="btn_white_pressed">#b5b5b6</color>
+    <color name="button_blue">#35B7F3</color>
+    <color name="check_blue">#167ffc</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="colorPrimary">#232325</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="common_bottom_bar_normal_bg">#2d2f31</color>
+    <color name="common_bottom_bar_selected_bg">#161718</color>
+    <color name="common_botton_bar_blue">#2ea7e0</color>
+    <color name="common_top_bar_blue">#4ebcd3</color>
+    <color name="divider_color">#c7c7c7</color>
+    <color name="divider_list">#dbdbdb</color>
+    <color name="emojicon_tab_nomal">#ffffff</color>
+    <color name="emojicon_tab_selected">#D9D9D9</color>
+    <color name="error_item_color">#F6EBE6</color>
+    <color name="gray_normal">#dbdbdb</color>
+    <color name="gray_pressed">#b5b5b6</color>
+    <color name="grid_state_focused">#80000000</color>
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="half_transparent">#e0000000</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="list_itease_primary_color">#000</color>
+    <color name="list_itease_secondary_color">#888888</color>
+    <color name="money_bg_color">#efefef</color>
+    <color name="money_red_light">#f14e46</color>
+    <color name="money_white">#ffffff</color>
+    <color name="msg_red">#a11710</color>
+    <color name="orange">#FFA500</color>
+    <color name="text_black">#3e3e3e</color>
+    <color name="text_blue">#35b7f3</color>
+    <color name="text_dark_grey">#bcbcbc</color>
+    <color name="text_grey">#6e6e6e</color>
+    <color name="text_light_black">#666666</color>
+    <color name="text_light_grey">#9e9e9e</color>
+    <color name="text_unselected">@color/divider_color</color>
+    <color name="text_yellow">#FEE94E</color>
+    <color name="top_bar_normal_bg">#232325</color>
+    <color name="voip_interface_text_color">#bababa</color>
+    <declare-styleable name="EaseChatExtendMenu"><attr format="integer" name="numColumns"/></declare-styleable>
+    <declare-styleable name="EaseChatMessageList"><attr format="reference" name="msgListMyBubbleBackground"/><attr format="reference" name="msgListOtherBubbleBackground"/><attr format="boolean" name="msgListShowUserAvatar"/><attr format="boolean" name="msgListShowUserNick"/></declare-styleable>
+    <declare-styleable name="EaseContactList"><attr format="color" name="ctsListPrimaryTextColor"/><attr format="dimension" name="ctsListPrimaryTextSize"/><attr format="boolean" name="ctsListShowSiderBar"/><attr format="reference|color" name="ctsListInitialLetterBg"/><attr format="color" name="ctsListInitialLetterColor"/></declare-styleable>
+    <declare-styleable name="EaseConversationList"><attr format="color" name="cvsListPrimaryTextColor"/><attr format="color" name="cvsListSecondaryTextColor"/><attr format="color" name="cvsListTimeTextColor"/><attr format="dimension" name="cvsListPrimaryTextSize"/><attr format="dimension" name="cvsListSecondaryTextSize"/><attr format="dimension" name="cvsListTimeTextSize"/></declare-styleable>
+    <declare-styleable name="EaseEmojiconMenu"><attr format="integer" name="bigEmojiconRows"/><attr format="integer" name="emojiconColumns"/></declare-styleable>
+    <declare-styleable name="EaseImageView"><attr format="color" name="ease_border_color"/><attr format="dimension" name="ease_border_width"/><attr format="integer" name="ease_press_alpha"/><attr format="color" name="ease_press_color"/><attr format="dimension" name="ease_radius"/><attr format="enum" name="ease_shape_type"><enum name="none" value="0"/><enum name="round" value="1"/><enum name="rectangle" value="2"/></attr></declare-styleable>
+    <declare-styleable name="EaseSwitchButton"><attr format="reference" name="switchOpenImage"/><attr format="reference" name="switchCloseImage"/><attr name="switchStatus"><enum name="open" value="0"/><enum name="close" value="1"/></attr></declare-styleable>
+    <declare-styleable name="EaseTitleBar"><attr format="string" name="titleBarTitle"/><attr format="reference" name="titleBarLeftImage"/><attr format="reference" name="titleBarRightImage"/><attr format="reference|color" name="titleBarBackground"/></declare-styleable>
+    <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
+    <declare-styleable name="app"><attr format="string" name="RPmytitle"/><attr format="reference" name="RPleftImage"/><attr format="reference" name="RPrightImage"/><attr format="string" name="RPrightText"/><attr format="reference|color" name="RPrightTextColor"/><attr format="dimension" name="RPrightTextSize"/><attr format="reference|color" name="RPtitleTextColor"/><attr format="dimension" name="RPtitleTextSize"/><attr format="reference|color" name="RPtitleBackground"/></declare-styleable>
+    <declare-styleable name="gridPasswordView"><attr format="color|reference" name="gpvTextColor"/><attr format="dimension" name="gpvTextSize"/><attr format="color" name="gpvLineColor"/><attr format="color" name="gpvGridColor"/><attr format="dimension" name="gpvLineWidth"/><attr format="integer" name="gpvPasswordLength"/><attr format="string" name="gpvPasswordTransformation"/><attr format="enum" name="gpvPasswordType"><enum name="numberPassword" value="0"/><enum name="textPassword" value="1"/><enum name="textVisiblePassword" value="2"/><enum name="textWebPassword" value="3"/></attr></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="call_button_padding_left">25dp</dimen>
+    <dimen name="call_button_padding_right">25dp</dimen>
+    <dimen name="call_button_padding_vertical">10dp</dimen>
+    <dimen name="chat_nick_margin_left">12dp</dimen>
+    <dimen name="chat_nick_text_size">13sp</dimen>
+    <dimen name="dialogHeight">385dp</dimen>
+    <dimen name="dialogWidth">272dp</dimen>
+    <dimen name="field_margin_right">5dp</dimen>
+    <dimen name="field_textsize">14sp</dimen>
+    <dimen name="font105px">35sp</dimen>
+    <dimen name="font108px">36sp</dimen>
+    <dimen name="font129px">43sp</dimen>
+    <dimen name="font132px">44sp</dimen>
+    <dimen name="font33px">11sp</dimen>
+    <dimen name="font36px">12sp</dimen>
+    <dimen name="font39px">13sp</dimen>
+    <dimen name="font42px">14sp</dimen>
+    <dimen name="font45px">15sp</dimen>
+    <dimen name="font48px">16sp</dimen>
+    <dimen name="font51px">17sp</dimen>
+    <dimen name="font54px">18sp</dimen>
+    <dimen name="font63px">21sp</dimen>
+    <dimen name="font69px">23sp</dimen>
+    <dimen name="font90px">30dp</dimen>
+    <dimen name="height_row_weixin">59dp</dimen>
+    <dimen name="height_top_bar">50dp</dimen>
+    <dimen name="image_thumbnail_size">100dp</dimen>
+    <dimen name="image_thumbnail_spacing">1dp</dimen>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <dimen name="margin_chat_activity">5dp</dimen>
+    <dimen name="padding_search_bar">5dp</dimen>
+    <dimen name="sidebar_text_size">10dp</dimen>
+    <dimen name="size105px">35dp</dimen>
+    <dimen name="size108px">36dp</dimen>
+    <dimen name="size114px">38dp</dimen>
+    <dimen name="size120px">40dp</dimen>
+    <dimen name="size129px">43dp</dimen>
+    <dimen name="size12px">4dp</dimen>
+    <dimen name="size132px">44dp</dimen>
+    <dimen name="size135px">45dp</dimen>
+    <dimen name="size144px">48dp</dimen>
+    <dimen name="size15px">5dp</dimen>
+    <dimen name="size165px">55dp</dimen>
+    <dimen name="size174px">58dp</dimen>
+    <dimen name="size180px">60dp</dimen>
+    <dimen name="size18px">6dp</dimen>
+    <dimen name="size216px">72dp</dimen>
+    <dimen name="size21px">7dp</dimen>
+    <dimen name="size24px">8dp</dimen>
+    <dimen name="size27px">9dp</dimen>
+    <dimen name="size30px">10dp</dimen>
+    <dimen name="size36px">12dp</dimen>
+    <dimen name="size39px">13dp</dimen>
+    <dimen name="size42px">14dp</dimen>
+    <dimen name="size45px">15dp</dimen>
+    <dimen name="size48px">16dp</dimen>
+    <dimen name="size51px">17dp</dimen>
+    <dimen name="size57px">19dp</dimen>
+    <dimen name="size60px">20dp</dimen>
+    <dimen name="size63px">21dp</dimen>
+    <dimen name="size66px">23dp</dimen>
+    <dimen name="size69px">23dp</dimen>
+    <dimen name="size72px">26dp</dimen>
+    <dimen name="size75px">25dp</dimen>
+    <dimen name="size81px">27dp</dimen>
+    <dimen name="size84px">28dp</dimen>
+    <dimen name="size90px">30dp</dimen>
+    <dimen name="size96px">32dp</dimen>
+    <dimen name="size99px">33dp</dimen>
+    <dimen name="size9px">3dp</dimen>
+    <dimen name="size_avatar">48dp</dimen>
+    <item name="item_touch_helper_previous_elevation" type="id"/>
+    <string name="Add_a_button_was_clicked">Add a button was clicked</string>
+    <string name="Add_a_friend">Let me to be your friend!</string>
+    <string name="Add_group_members_fail">Add group members fail:</string>
+    <string name="Agree_with_failure">Failed to accept</string>
+    <string name="Agreed_to_your_group_chat_application">Accepted your group application</string>
+    <string name="Application_and_notify">Invitation and notification</string>
+    <string name="Apply_to_the_group_of">Apply to join the group</string>
+    <string name="Are_agree_with">Accepting</string>
+    <string name="Are_connected_to_each_other">Connecting to peer..</string>
+    <string name="Are_logged_out">Logging out</string>
+    <string name="Are_moving_to_blacklist">Moving to blacklist</string>
+    <string name="Are_removed">Removing</string>
+    <string name="Cant_chat_with_yourself">cannot chat with yourself</string>
+    <string name="Change_the_group_name">Change group name</string>
+    <string name="Confirm_password_cannot_be_empty">Confirm password cannot be empty!</string>
+    <string name="Connection_failure">Connection failed!</string>
+    <string name="Current_version">Current version</string>
+    <string name="Delete_failed">Failed to delete</string>
+    <string name="Delete_the_contact">Delete the contact</string>
+    <string name="Did_not_download">Not yet downloaded</string>
+    <string name="Dissolve_group_chat_tofail">Failed to dismiss the group:</string>
+    <string name="Download_the_pictures">Download the pictures: 0%</string>
+    <string name="Download_the_pictures_new">Download the pictures:</string>
+    <string name="Empty_the_chat_record">Clear conversation</string>
+    <string name="Exit_the_group_chat">Exit the group</string>
+    <string name="Exit_the_group_chat_failure">Failed to exit the group:</string>
+    <string name="Failed_to_create_groups">Failed to create groups</string>
+    <string name="Failed_to_download_file">Failed to download file:</string>
+    <string name="Failed_to_get_group_chat_information">Failed to get group information:</string>
+    <string name="Failed_to_join_the_group_chat">Failed to join the group</string>
+    <string name="File_does_not_exist">File does not exist</string>
+    <string name="Group_chat">Group chat</string>
+    <string name="Group_chat_information">The group description</string>
+    <string name="Group_chat_profile">Group profile</string>
+    <string name="Group_name_cannot_be_empty">Group name cannot be empty</string>
+    <string name="Group_of_Lord">The group owner</string>
+    <string name="Hands_free">Hands free</string>
+    <string name="Has_agreed_to">Accepted</string>
+    <string name="Has_agreed_to_your_friend_request">Accepted your request</string>
+    <string name="Has_been_cancelled">Cancelled</string>
+    <string name="Has_refused_to">Refused</string>
+    <string name="Have_downloaded">Already downloaded</string>
+    <string name="In_the_call">In the call..</string>
+    <string name="Into_the_blacklist">Move to the blacklist?</string>
+    <string name="Introduction">Brief</string>
+    <string name="Invite_you_to_join_a_group_chat"> Invite you to join this group</string>
+    <string name="Is_download_voice_click_later">Downloading the voice message, click later</string>
+    <string name="Is_landing">logining..</string>
+    <string name="Is_moved_into_blacklist">Moving to blacklist..</string>
+    <string name="Is_not_yet_connected_to_the_server">Not connect to server</string>
+    <string name="Is_sending_a_request">Sending the request..</string>
+    <string name="Is_the_registered">Registering..</string>
+    <string name="Is_to_create_a_group_chat">Creating the group</string>
+    <string name="Is_unblock">Unblocking group</string>
+    <string name="Join_the_group_chat">Join the group</string>
+    <string name="Log_Upload_failed">Failed to upload the log</string>
+    <string name="Log_uploaded_successfully">Log was uploaded successfully</string>
+    <string name="Login_failed">Login failed:</string>
+    <string name="Logoff_notification">Logoff notification</string>
+    <string name="Making_sure_your_location">Making sure your location..</string>
+    <string name="Modify_the_group_name_successful">Modify the group name successful</string>
+    <string name="Move_into_blacklist_failure">Move into blacklist failure</string>
+    <string name="Move_into_blacklist_success">Move into blacklist success</string>
+    <string name="Move_into_the_blacklist_new">Move into the blacklist</string>
+    <string name="Network_error">Network error</string>
+    <string name="Not_Set">Not set</string>
+    <string name="Open_group_chat">Public group</string>
+    <string name="Open_group_members_invited">Allow members to invite</string>
+    <string name="Open_the_equipment_failure">Open the equipment failure!</string>
+    <string name="Password_cannot_be_empty">Password cannot be empty!</string>
+    <string name="Please_enter_a_username">Please enter a username</string>
+    <string name="Recording_without_permission">Recording without permission</string>
+    <string name="Refused">Refused</string>
+    <string name="Registered_successfully">Registered successfully</string>
+    <string name="Registration_failed">Registration failed:</string>
+    <string name="Remove_the_notification">Remove the notification</string>
+    <string name="Removed_from_the_failure">Removed fail</string>
+    <string name="Request_add_buddy_failure">Request add buddy failure:</string>
+    <string name="Request_to_add_you_as_a_friend">You got a friend request</string>
+    <string name="Request_to_join">Apply to join</string>
+    <string name="Select_the_contact">Select the contact</string>
+    <string name="Send_the_following_pictures">Send the following pictures?</string>
+    <string name="Send_voice_need_sdcard_support">Send voice need sdcard support</string>
+    <string name="Shielding_of_the_message">Block message</string>
+    <string name="The_delete_button_is_clicked">The delete button is clicked</string>
+    <string name="The_file_is_not_greater_than_10_m">The file is not greater than 10 m</string>
+    <string name="The_new_group_chat">Create new group</string>
+    <string name="The_other_is_hang_up">The peer has ended the call</string>
+    <string name="The_other_is_not_online">The peer is not online</string>
+    <string name="The_other_is_on_the_phone">The peer is on the phone</string>
+    <string name="The_other_is_on_the_phone_please">The peer is busy now, please try later</string>
+    <string name="The_other_party_did_not_answer">The peer did not answer</string>
+    <string name="The_other_party_did_not_answer_new">The peer did not answer</string>
+    <string name="The_other_party_has_refused_to">Call was refused</string>
+    <string name="The_other_party_is_not_online">The peer is not online now, please try later</string>
+    <string name="The_other_party_refused_to_accept">The call was refused</string>
+    <string name="The_recording_time_is_too_short">The recording time is too short</string>
+    <string name="The_video_to_start">The video to start</string>
+    <string name="This_user_is_already_your_friend">This user is already your friend</string>
+    <string name="To_join_the_chat">Join the group</string>
+    <string name="Two_input_password">Inconsistent password, please enter again!</string>
+    <string name="Upload_the_log">Uploading the log</string>
+    <string name="User_already_exists">User already existed!</string>
+    <string name="User_name_cannot_be_empty">User name cannot be empty!</string>
+    <string name="Version_number_is_wrong">Version number is wrong</string>
+    <string name="Video_footage">Video record</string>
+    <string name="Whether_the_public">Is public</string>
+    <string name="Whether_to_empty_all_chats">Clear all messages?</string>
+    <string name="Whether_to_send">Are you sure to send?</string>
+    <string name="add_bankcard">添加银行卡付款</string>
+    <string name="add_friend">Add friends</string>
+    <string name="add_public_group_chat">Add public group</string>
+    <string name="address_book">Address book</string>
+    <string name="agree">Agree</string>
+    <string name="answer">Answer</string>
+    <string name="are_empty_group_of_news">Clearing messages</string>
+    <string name="attach_file">File</string>
+    <string name="attach_location">Location</string>
+    <string name="attach_picture">Image</string>
+    <string name="attach_red_packet">Red Packet</string>
+    <string name="attach_smile">Emoticon</string>
+    <string name="attach_take_pic">Capture</string>
+    <string name="attach_video">Video</string>
+    <string name="attach_video_call">Video call</string>
+    <string name="attach_voice_call">Voice call</string>
+    <string name="back">Back</string>
+    <string name="bank_card_number">银行卡号</string>
+    <string name="be_removing">Be removing</string>
+    <string name="before_tomorrow_24_hour_to_account">预计明天24点前到账</string>
+    <string name="being_added">added</string>
+    <string name="best_count">手气最佳</string>
+    <string name="best_luck">手气最佳</string>
+    <string name="black_item">Black list</string>
+    <string name="blacklist">Black list</string>
+    <string name="book_black">Black list</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_know">知道了</string>
+    <string name="btn_next_step">下一步</string>
+    <string name="btn_ok">确定</string>
+    <string name="btn_put_money">塞钱进红包</string>
+    <string name="btn_retry">重试</string>
+    <string name="btn_str_forget_pwd">忘记密码？</string>
+    <string name="btn_str_resend">重新获取</string>
+    <string name="btn_str_send_sms_code">发送验证码</string>
+    <string name="btn_text_open_money">拆红包</string>
+    <string name="button_add">Add</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_logout">Logout</string>
+    <string name="button_pushtotalk">Hold to talk</string>
+    <string name="button_save">Save</string>
+    <string name="button_search">Find</string>
+    <string name="button_send">Send</string>
+    <string name="button_uploadlog">Upload the log</string>
+    <string name="call_duration">call duration</string>
+    <string name="can_not_connect_chat_server_connection">Cannot connect to server</string>
+    <string name="cancel">Cancel</string>
+    <string name="cant_find_pictures">"Can't find pictures"</string>
+    <string name="captcha_send_phone">验证码已发送至手机%1$s</string>
+    <string name="change">Change</string>
+    <string name="change_balance_insufficient">(余额不足)</string>
+    <string name="change_default">￥0.00</string>
+    <string name="change_detail">零钱明细</string>
+    <string name="change_limit_msg">为了你的账户安全，需要通过添加一张银行卡验证你的身份信息。</string>
+    <string name="change_password">管理零钱支付密码</string>
+    <string name="change_the_group_name_failed_please">Failed to change the group name, please check the network or try again later</string>
+    <string name="change_withdraw">提现</string>
+    <string name="change_withdraw_all">全部提现</string>
+    <string name="chat_room">Chat room</string>
+    <string name="chatroom_allow_owner_leave">Allow chatroom owner leave</string>
+    <string name="chatset">Chat settings</string>
+    <string name="chatting_is_dissolution">Dismissing group</string>
+    <string name="check_lucky">看看大家的手气</string>
+    <string name="check_money">查看红包</string>
+    <string name="check_money_records">查看我的红包记录</string>
+    <string name="choose_bank_branch_name_plz">请先选择一个支行名字</string>
+    <string name="choose_bank_branch_title">选择支行</string>
+    <string name="choose_city_plz">请先选择一个城市</string>
+    <string name="choose_city_title">选择城市</string>
+    <string name="choose_pay_type_title">选择支付方式</string>
+    <string name="choose_province_plz">请先选择一个省份</string>
+    <string name="choose_province_title">选择省份</string>
+    <string name="clear_all_records">Clear all conversations？</string>
+    <string name="clear_records">Clear conversation?</string>
+    <string name="common_empty_msg">抱歉，暂未获取到数据!\n请点击屏幕重试~</string>
+    <string name="common_error_msg">抱歉，系统出错了!\n请点击屏幕重试~</string>
+    <string name="common_loading_message">正在加载中...</string>
+    <string name="common_no_network_msg">暂未连接上网络!\n请连接后点击屏幕重试~</string>
+    <string name="complete_card_information">完善卡信息</string>
+    <string name="confirm_forward_to">Confirm to forward to：%1$s ?</string>
+    <string name="confirm_resend">Confirm to resend？</string>
+    <string name="confirm_the_members">Move this member to group blacklist?</string>
+    <string name="confirmpassword">Confirm password</string>
+    <string name="connect_conflict">The same account was loggedin in other device</string>
+    <string name="connect_failuer_toast">Please check the network or try again later</string>
+    <string name="copy">Copy</string>
+    <string name="copy_message">Copy message</string>
+    <string name="count_unit">个</string>
+    <string name="default_money_greeting">恭喜发财，大吉大利！</string>
+    <string name="delete">Delete</string>
+    <string name="delete_conversation">Delete conversation</string>
+    <string name="delete_conversation_messages">Delete conversation and messages</string>
+    <string name="delete_message">Delete message</string>
+    <string name="delete_video">Delete video</string>
+    <string name="delete_voice">Delete voice</string>
+    <string name="deleting">Deleting..</string>
+    <string name="detail_money_sign">￥%1$s</string>
+    <string name="diagnose">Diagnose</string>
+    <string name="dialog_title_pay">支付</string>
+    <string name="dialog_title_tips">提示</string>
+    <string name="did_not_answer">did not answer</string>
+    <string name="direct_call">Direct</string>
+    <string name="dismiss_group">Dismiss group</string>
+    <string name="dissolution_group_hint">The group will be dismissed after exiting</string>
+    <string name="dl_cancel">Cancel</string>
+    <string name="dl_msg_local_upload">Local Upload</string>
+    <string name="dl_msg_take_photo">Task Photo</string>
+    <string name="dl_ok">OK</string>
+    <string name="dl_title_upload_photo">Upload Photo</string>
+    <string name="dl_update_nick">update nickname</string>
+    <string name="dl_update_photo">update photo</string>
+    <string name="dl_waiting">waiting...</string>
+    <string name="document_add_bankcard">添加一张银行储蓄卡</string>
+    <string name="document_add_bankcard_verify_identity">添加一张银行储蓄卡以验证身份</string>
+    <string name="document_add_pay_bankcard">添加一张可用于支付的银行储蓄卡</string>
+    <string name="document_recover_pwd">请重新验证银行卡以找回密码</string>
+    <string name="downwaiting">Downloading the file, please try again later</string>
+    <string name="dynamic_expression">[Dynamic expression]</string>
+    <string name="ease_user_remove">This user has been removed</string>
+    <string name="easemob_red_packet">Easemob Red Packet</string>
+    <string name="ed_search_word">请输入关键词</string>
+    <string name="edit_bankcard_hint">请输入您本人的银行卡卡号</string>
+    <string name="edit_card_name_hint">持卡人姓名</string>
+    <string name="edit_id_card_number_hint">请输入18位的身份证号码</string>
+    <string name="edit_phone_number_hint">银行预留手机号</string>
+    <string name="error_is_bankcard_number">银行卡号不正确</string>
+    <string name="error_is_id_card_number">身份证号不正确</string>
+    <string name="error_is_phone_number">手机号不正确</string>
+    <string name="error_name_isnull">姓名不能为空</string>
+    <string name="error_not_net_connect">未连接到网络,请稍后重试</string>
+    <string name="error_send_invalid_content">The message content is not allowed to be sent!</string>
+    <string name="error_send_not_in_the_group">You already were not in the group</string>
+    <string name="exit_group">Exit</string>
+    <string name="exit_group_hint">The group messages will not be received after exiting the group</string>
+    <string name="expression">[expression]</string>
+    <string name="failed_to_load_data">Failed to load data, please check network or try again later</string>
+    <string name="failed_to_move_into">Failed to move to the blacklist, please check the network or try again later</string>
+    <string name="file">[file]</string>
+    <string name="forget_pay_pwd">忘记支付密码?</string>
+    <string name="forget_pwd_title">找回密码</string>
+    <string name="forward">Forward</string>
+    <string name="get_failed_please_check">Failed to retrieve, please check the network or try again later</string>
+    <string name="give_up_add_bankcard">放弃银行卡添加吗?</string>
+    <string name="give_up_recover_pwd">放弃找回密码?</string>
+    <string name="give_up_set_pay_pwd">放弃支付密码设置吗?</string>
+    <string name="go_real_name">去实名</string>
+    <string name="gorup_not_found">Can not find this group</string>
+    <string name="greetings_hint">打赏你哒!</string>
+    <string name="group_change_normal">改为普通红包</string>
+    <string name="group_change_random">改为拼手气红包</string>
+    <string name="group_chat">Group chat</string>
+    <string name="group_id">Group ID</string>
+    <string name="group_is_blocked">Blocking the group..</string>
+    <string name="group_member_count">本群共%1$s人</string>
+    <string name="group_money_available_receiver">领取%1$s/%2$s个</string>
+    <string name="group_money_available_sender">已领取%1$s/%2$s个，共%3$s/%4$s元</string>
+    <string name="group_money_count">红包个数</string>
+    <string name="group_money_every">单个金额</string>
+    <string name="group_money_expired">%1$s个红包共%2$s元，红包已过期</string>
+    <string name="group_money_total">总金额</string>
+    <string name="group_money_unavailable_avg_receiver">%1$s个红包</string>
+    <string name="group_money_unavailable_avg_sender">%1$s个红包共%2$s元</string>
+    <string name="group_money_unavailable_rand_receiver">%1$s个红包，%2$s被抢光</string>
+    <string name="group_money_unavailable_rand_sender">%1$s个红包共%2$s元，%3$s被抢光</string>
+    <string name="group_name">Group name</string>
+    <string name="group_not_existed">The group does not exist</string>
+    <string name="group_of_shielding">Group of shielding failure, please check the network or try again later</string>
+    <string name="group_rule_tips_normal">当前为普通红包，</string>
+    <string name="group_rule_tips_random">当前为拼手气红包，</string>
+    <string name="group_search_failed">Search failed</string>
+    <string name="hang_up">Hang up</string>
+    <string name="hanging_up">Hanging up..</string>
+    <string name="have_connected_with">Connected to the peer and waiting for the peer to accept</string>
+    <string name="have_you_removed">Have you removed from his buddy list</string>
+    <string name="hint_money_amount">填写金额</string>
+    <string name="hint_money_count">填写个数</string>
+    <string name="hint_title">提示</string>
+    <string name="id_card">身份证号</string>
+    <string name="id_card_digit">0123456789X</string>
+    <string name="illegal_user_name">Illegal user name</string>
+    <string name="input_change_pwd">请输入零钱支付密码</string>
+    <string name="input_money_amount">请输入红包金额</string>
+    <string name="input_money_limited">单个红包金额不能超过%1$s元</string>
+    <string name="input_money_limited_minimum">单个红包金额不能少于0.01元</string>
+    <string name="input_money_zero">红包金额不能为0</string>
+    <string name="input_new_nick_hint">Input a new nick</string>
+    <string name="input_pay_pwd">请输入支付密码</string>
+    <string name="input_sms_captcha">输入短信验证码</string>
+    <string name="input_sms_code">请输入您%1$s手机号收到的验证码</string>
+    <string name="insurance_agreement_hint">因账户被盗导致的资金损失由太平洋保险提供赔付保障</string>
+    <string name="is_down_please_wait">Downloading video, please try again later</string>
+    <string name="is_modify_the_group_name">Modifying the group name..</string>
+    <string name="is_quit_the_group_chat">Exiting group</string>
+    <string name="jd_limit_msg">零钱不足。%1$s尾号%2$s京东支付今日剩余额度%3$s元，请修改红包金额。</string>
+    <string name="jd_pay">京东支付-%1$s(尾号%2$s)</string>
+    <string name="jd_pay_agreement_hint">银行卡付款业务由京东支付支持</string>
+    <string name="jd_pay_title">京东支付</string>
+    <string name="join_public_group">Join public group</string>
+    <string name="limit_hint_title">支付超限</string>
+    <string name="list_is_for">Retrieving the groups and contacts</string>
+    <string name="load_more_end">没有更多了</string>
+    <string name="loading_msg">加载中...</string>
+    <string name="location_message">The location information</string>
+    <string name="location_prefix">[my location]</string>
+    <string name="location_recv">[%1$s location]</string>
+    <string name="login">Login</string>
+    <string name="login_failure_failed">Logon failure: failed to retrieve contacts or groups</string>
+    <string name="logout">Logout</string>
+    <string name="logout_hint">Logout will never clear the chat history, this account can be used on next login</string>
+    <string name="money_amount">金额</string>
+    <string name="money_detail_money_unit">%1$s元</string>
+    <string name="money_detail_nickname">%1$s的红包</string>
+    <string name="money_detail_use">已存入零钱，可用于发红包或提现</string>
+    <string name="money_expired_str">超过1天未领取，红包已过期</string>
+    <string name="money_is_out">手慢了，红包派完了</string>
+    <string name="money_is_out_avg">该红包已被领取</string>
+    <string name="money_msg_someone_take_money">%1$s got your Red Packet</string>
+    <string name="money_msg_take_money">You got your own Red Packet</string>
+    <string name="money_msg_take_someone_money">You got Red Packet from %1$s</string>
+    <string name="money_qa_title">帮助</string>
+    <string name="money_received">收到红包</string>
+    <string name="money_received_text">收到的红包</string>
+    <string name="money_record_status">已领取%1$s/%2$s个</string>
+    <string name="money_record_status_all">已领完%1$s/%2$s个</string>
+    <string name="money_record_title">收到的红包</string>
+    <string name="money_send">发出红包</string>
+    <string name="money_send_text">发出的红包</string>
+    <string name="money_status_expired">超过1天未被领取，金额%1$s元已退至您的零钱</string>
+    <string name="money_status_no_taken">1个红包共%1$s元，等待对方领取</string>
+    <string name="money_status_taken">1个红包共%1$s元，已被对方领取</string>
+    <string name="money_unit">元</string>
+    <string name="money_username_format">%1$s的红包</string>
+    <string name="move_out_backlist">Remove from blacklist</string>
+    <string name="move_up_to_cancel">Finger up to cancel sending</string>
+    <string name="msg_captcha_has_sent">验证码已发送</string>
+    <string name="msg_error_page_hint">糟糕，好像哪里出了点问题！</string>
+    <string name="msg_error_retry">点此重试</string>
+    <string name="msg_no_receive_captcha_hint">短信验证码已发送至银行预留手机\n如未收到：\n1.请确认当时使用的号码是否为银行预留手机号。\n2.请检查短信是否被安全软件拦截。</string>
+    <string name="msg_phone_hint">银行预留手机号是您在办理该银行卡时所填的手机号。\n没有预留、已停用或忘记手机号码，请拨打银行客服电话更新处理。</string>
+    <string name="msg_withdraw_success">提现申请已受理</string>
+    <string name="msg_you_are_exit">是否确定退出?</string>
+    <string name="mute">Mute</string>
+    <string name="my_change">我的零钱-余额%1$s元</string>
+    <string name="my_money">我的红包</string>
+    <string name="my_money_records">我的红包记录</string>
+    <string name="name_str_format_received">%1$s共收到</string>
+    <string name="name_str_format_send">%1$s共发出</string>
+    <string name="network_anomalies">Network is not available, please check the network!</string>
+    <string name="network_isnot_available">The network is not available</string>
+    <string name="network_unavailable">The network connection is not available, please check the network</string>
+    <string name="newchat">Create new group</string>
+    <string name="newnotify">Receiving a new message</string>
+    <string name="nickname">NickName</string>
+    <string name="nickname_description">Once this nick is set, this nick will be used in push notification (by default this is HuanXin ID ) when the receiver is using the IOS device.</string>
+    <string name="no_more_messages">no more messages</string>
+    <string name="no_network_conected">未连接到网络，请稍后重试</string>
+    <string name="not_add_myself">"Can't add myself"</string>
+    <string name="not_connect_to_server">Not connect to server, please try again later</string>
+    <string name="not_delete_myself">Cannot delete myself</string>
+    <string name="not_download">Did not download:</string>
+    <string name="notify">New message notification</string>
+    <string name="now_refresh_list">Refreshing contact list</string>
+    <string name="ok">OK</string>
+    <string name="operation_tpy_agreement">我愿意免费投保太平洋保险《个人账户资金损失保险》，保险费用由环信承担</string>
+    <string name="operation_user_agreement">该操作代表我同意《环信用户服务协议》</string>
+    <string name="password">Password</string>
+    <string name="pay_bank_card">支付银行卡</string>
+    <string name="pay_no_pwd">本次交易免密码</string>
+    <string name="people">people</string>
+    <string name="phone_number">手机号码</string>
+    <string name="picture">[Picture]</string>
+    <string name="please_check">key validation error!Please on AndroidManifest.xml file check the key set</string>
+    <string name="please_set_the_current">"Please set the current user's nickname \ n to ios offline push not userid but Nick, see comments"</string>
+    <string name="prompt">Prompt</string>
+    <string name="push_nick">IOS offline push nick</string>
+    <string name="real_name">真实姓名</string>
+    <string name="receive_the_passthrough">Receive cmd message : action：</string>
+    <string name="recoding_fail">The recording failure, please try again！</string>
+    <string name="recording_video">Record video</string>
+    <string name="red_money">红包</string>
+    <string name="refreshing_group_list">Refreshing group list</string>
+    <string name="register">Register</string>
+    <string name="registration_failed_without_permission">Registration failed, without permission!</string>
+    <string name="relay_call">Relay</string>
+    <string name="release_to_cancel">Finger release to cancel sending</string>
+    <string name="remove_group_of">Remove group of shielding failure, please check the network or try again later</string>
+    <string name="resend">Resend</string>
+    <string name="resend_sms_code">重新获取</string>
+    <string name="retry_str">"%1$s 秒后重试"</string>
+    <string name="robot_chat">Robot chat</string>
+    <string name="save">Save</string>
+    <string name="save_new_nickname">Save new nickname</string>
+    <string name="sd_card_does_not_exist">"SD card does not exist, can't take pictures"</string>
+    <string name="search">Search</string>
+    <string name="search_header">Search</string>
+    <string name="search_new">Search</string>
+    <string name="search_pubic_group">Search public group</string>
+    <string name="searching">searching</string>
+    <string name="select_contacts">Select the contact</string>
+    <string name="send_fail">Send failed</string>
+    <string name="send_failure_please">Send failure, please test whether the server connection</string>
+    <string name="send_money_bottom_text">未领取的红包，将于24小时后发起退款</string>
+    <string name="send_money_title">发红包</string>
+    <string name="send_successful">Request was sent, waiting for the peer to accept</string>
+    <string name="send_the_request_is">The request was sent and waiting for owner approval</string>
+    <string name="send_you_money">给你发了个红包</string>
+    <string name="server_response_error">服务器响应错误</string>
+    <string name="server_time_out">服务器太忙或网络延迟</string>
+    <string name="session">Conversation</string>
+    <string name="set">Settings</string>
+    <string name="set_pay_password">设置支付密码</string>
+    <string name="set_pay_pwd_for_safe">为了账户安全，请设置支付密码</string>
+    <string name="setting">Settings</string>
+    <string name="setting_nickname">Setting nickname</string>
+    <string name="shake">Shake</string>
+    <string name="single_limit_msg">单日红包发出金额超限，剩余额度%1$s元，请修改红包金额。</string>
+    <string name="single_out_msg">单日红包发出金额已达上限。</string>
+    <string name="small_change">零钱</string>
+    <string name="small_change_balance">剩余%1$s元</string>
+    <string name="sms_error_msg">重新输入，或者等倒计时结束后重新获取一个再试。</string>
+    <string name="sms_error_title">验证码输入错误</string>
+    <string name="str_add_bank_hint">完善银行卡信息，以便提现更快捷到账</string>
+    <string name="str_forget_pay_pwd">忘记支付密码?</string>
+    <string name="str_format_send_sms">已发送到尾号%1$s的手机上</string>
+    <string name="str_input_sms_code">请输入短信验证码</string>
+    <string name="str_me_agreement">我同意</string>
+    <string name="str_my_change">我的零钱</string>
+    <string name="str_open_bank_name">开户行名称</string>
+    <string name="str_select_city">选择市</string>
+    <string name="str_select_province">选择省</string>
+    <string name="str_send_sms_code">验证码已发送</string>
+    <string name="str_set_psd_success">设置密码成功</string>
+    <string name="str_withdraw">提现</string>
+    <string name="str_your_withdraw_cash_card">您的提现银行卡信息</string>
+    <string name="sure_to_empty_this">Clear all messages?</string>
+    <string name="temporary_does_not">Currently the video size greater than 10M is not supported!</string>
+    <string name="text_ack_msg">Read</string>
+    <string name="text_delivered_msg">Delivered</string>
+    <string name="the_current_group">The current group has been dismissed</string>
+    <string name="the_current_network">The current network is not available, please check the network Settings</string>
+    <string name="tip_money_count_limit">一次最多发100个红包</string>
+    <string name="tip_money_count_zero">请输入红包个数</string>
+    <string name="title_add_bankcard">添加银行卡</string>
+    <string name="title_amount_agreement">个人账户资金损失保险</string>
+    <string name="title_change_withdraw">零钱提现</string>
+    <string name="title_close">关闭</string>
+    <string name="title_common_problem">常见问题</string>
+    <string name="title_factory_agreement">服务协议</string>
+    <string name="title_forget_pay_pwd">忘记支付密码</string>
+    <string name="title_normal_money">给你发了个红包</string>
+    <string name="title_random_money">发了一个红包，金额随机</string>
+    <string name="title_set_pay_pwd">设置支付密码</string>
+    <string name="title_small_change">零钱</string>
+    <string name="title_user_profile">User Profile</string>
+    <string name="toast_nick_not_isnull">nick cannot be empty!</string>
+    <string name="toast_no_support">No Support!</string>
+    <string name="toast_updatenick_fail">update nickname fail!</string>
+    <string name="toast_updatenick_success">update nickname success!</string>
+    <string name="toast_updatephoto_fail">update photo fail!</string>
+    <string name="toast_updatephoto_success">update photo success!</string>
+    <string name="tv_not_receive_message">收不到手机验证码?</string>
+    <string name="tv_password_hint_one">请输入6位数字支付密码(1/2)</string>
+    <string name="tv_password_hint_two">请再次输入6位数字支付密码(2/2)</string>
+    <string name="two_password_not">两次密码输入不一致，请重新输入</string>
+    <string name="unable_to_connect">Unable to connect to the server</string>
+    <string name="unable_to_get_loaction">Unable to get to your location information!</string>
+    <string name="user_card">Business card</string>
+    <string name="user_name">User name</string>
+    <string name="video">[Video]</string>
+    <string name="video_call">[Video call]</string>
+    <string name="voice">Voice</string>
+    <string name="voice_call">[Voice call]</string>
+    <string name="voice_prefix">[Voice]</string>
+    <string name="were_mentioned">You were montioned</string>
+    <string name="withdraw_amount">提现金额</string>
+    <string name="withdraw_bankcard">到账银行卡</string>
+    <string name="withdraw_bankcard_name">%1$s(%2$s)</string>
+    <string name="withdraw_change_balance">零钱余额￥%1$s，</string>
+    <string name="withdraw_money_not_max_change">提现金额不能大于零钱余额</string>
+    <string name="withdraw_money_not_max_five_thousand">提现金额单笔不能超过5000</string>
+    <string name="withdraw_money_not_null">提现金额不能为空</string>
+    <string name="withdraw_money_not_zero">提现金额不能为零</string>
+    <string name="withdraw_not_psd_msg">为了你的账户安全，需要通过一张银行卡验证你的身份信息。</string>
+    <string name="yangshengqi">Use speaker</string>
+    <string name="you_are_group">You have been kicked off from the group</string>
+    <style name="AddBankCardTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:textColor">@color/text_light_grey</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:background">@color/background_white</item>
+        <item name="android:drawableRight">@drawable/rp_arrow_forward</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+    <style name="AnimFade" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/hold</item>
+        <item name="android:activityCloseExitAnimation">@anim/fade_out</item>
+    </style>
+    <style name="AnimFade2" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_to_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_to_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_from_left</item>
+    </style>
+    <style name="AnimHead" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/head_in</item>
+        <item name="android:windowExitAnimation">@anim/head_out</item>
+    </style>
+    <style name="AnimTop" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_top_in</item>
+        <item name="android:windowExitAnimation">@anim/push_top_out</item>
+    </style>
+    <style name="AnimTop2" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_top_in2</item>
+        <item name="android:windowExitAnimation">@anim/push_top_out2</item>
+    </style>
+    <style name="Anim_style" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowAnimationStyle">@style/AnimFade</item>
+    </style>
+    <style name="Anim_style2" parent="android:Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/AnimFade</item>
+    </style>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+    <style name="AvatarIconStyle">
+        <item name="android:layout_width">@dimen/size165px</item>
+        <item name="android:layout_height">@dimen/size165px</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/size129px</item>
+    </style>
+    <style name="BindBankCardBottomStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/font36px</item>
+        <item name="android:textColor">@color/text_light_grey</item>
+    </style>
+    <style name="BindBankCardEditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textColorHint">@color/text_light_grey</item>
+    </style>
+    <style name="BindBankCardHintStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_grey</item>
+        <item name="android:textSize">@dimen/font42px</item>
+    </style>
+    <style name="BindBankCardRLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:background">@color/money_white</item>
+    </style>
+    <style name="BindBankCardTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/text_grey</item>
+        <item name="android:textSize">@dimen/font42px</item>
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
+    <style name="ChangeButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/button_blue</item>
+        <item name="android:textSize">@dimen/font39px</item>
+    </style>
+    <style name="ChooseRecordStyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/rp_top_in</item>
+        <item name="android:windowExitAnimation">@anim/rp_top_out</item>
+    </style>
+    <style name="DialogButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/text_blue</item>
+        <item name="android:textSize">@dimen/font51px</item>
+    </style>
+    <style name="DialogClosedButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginLeft">@dimen/size45px</item>
+        <item name="android:textSize">@dimen/font51px</item>
+        <item name="android:background">@drawable/rp_closed_icon</item>
+    </style>
+    <style name="DialogPayTypeRightArrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginRight">@dimen/size45px</item>
+        <item name="android:src">@drawable/rp_arrow_forward</item>
+    </style>
+    <style name="DialogPayTypeStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginLeft">@dimen/size24px</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">@dimen/font45px</item>
+    </style>
+    <style name="DialogTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">@dimen/font51px</item>
+    </style>
+    <style name="DividerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/divider_color</item>
+    </style>
+    <style name="DividerStyleNoHead" parent="DividerStyle">
+        <item name="android:layout_marginLeft">@dimen/size45px</item>
+    </style>
+    <style name="EMDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/dialog_animation</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="GridPasswordStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/size129px</item>
+        <item name="android:layout_marginBottom">@dimen/size51px</item>
+        <item name="android:layout_marginLeft">@dimen/size45px</item>
+        <item name="android:layout_marginRight">@dimen/size45px</item>
+        <item name="android:layout_marginTop">@dimen/size75px</item>
+        <item name="gpvGridColor">@color/money_white</item>
+        <item name="gpvLineColor">@color/divider_color</item>
+        <item name="gpvLineWidth">1px</item>
+        <item name="gpvPasswordLength">6</item>
+        <item name="gpvPasswordType">numberPassword</item>
+        <item name="gpvTextColor">@color/text_black</item>
+        <item name="gpvTextSize">@dimen/size51px</item>
+    </style>
+    <style name="GridPasswordView"/>
+    <style name="GridPasswordView.Divider">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+    </style>
+    <style name="GridPasswordView.EditText" parent="GridPasswordView.TextView">
+        <item name="android:cursorVisible">false</item>
+    </style>
+    <style name="GridPasswordView.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="HeadScale" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/AnimHead</item>
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+    </style>
+    <style name="LoadingProgressStyle" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@anim/rp_progress_loading</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:layout_width">@dimen/size84px</item>
+        <item name="android:layout_height">@dimen/size84px</item>
+        <item name="android:indeterminate">false</item>
+    </style>
+    <style name="MyAlertDialog" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="MyDialogStyleBottom" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+    </style>
+    <style name="MyDialogStyleTop" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/AnimTop2</item>
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+    </style>
+    <style name="PayTypeIconStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginLeft">@dimen/size45px</item>
+    </style>
+    <style name="ReceivedMoneyStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">@dimen/font132px</item>
+    </style>
+    <style name="RecordReceivedCountStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font105px</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/text_light_grey</item>
+    </style>
+    <style name="RecordReceivedCountTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/size36px</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/text_light_grey</item>
+        <item name="android:textSize">@dimen/font36px</item>
+    </style>
+    <style name="RedPacketCheckStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignBaseline">@id/iv_money_icon</item>
+        <item name="android:layout_below">@id/tv_money_greeting</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_toRightOf">@id/iv_money_icon</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="RedPacketGreetingStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_toRightOf">@id/iv_money_icon</item>
+        <item name="android:layout_marginTop">14dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:maxLength">10</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="RedPacketIconStyle">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+    <style name="RedPacketSponsorIconStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+    <style name="RedPacketSponsorStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">#9e9e9e</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginTop">3dp</item>
+    </style>
+    <style name="SendMoneyBottomTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font39px</item>
+        <item name="android:textColor">@color/text_light_grey</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginBottom">@dimen/size39px</item>
+    </style>
+    <style name="SendMoneyButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:background">@drawable/rp_btn_selector</item>
+        <item name="android:textColor">@color/money_white</item>
+        <item name="android:textSize">@dimen/font51px</item>
+    </style>
+    <style name="SendMoneyEditTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="SendMoneyGreetingsStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">62dp</item>
+        <item name="android:background">@color/money_white</item>
+        <item name="android:gravity">top</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">14dp</item>
+    </style>
+    <style name="SendMoneyGroupRuleTipsStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@color/money_red_light</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="SendMoneyLeftTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="SendMoneyRLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:background">@color/money_white</item>
+    </style>
+    <style name="SendMoneyRightTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginRight">14dp</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="UserNameStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/size27px</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">@dimen/font45px</item>
+    </style>
+    <style name="YzhMoneyIconStyle">
+        <item name="android:layout_width">@dimen/size75px</item>
+        <item name="android:layout_height">@dimen/size96px</item>
+        <item name="android:layout_marginLeft">@dimen/size30px</item>
+        <item name="android:layout_marginTop">@dimen/size45px</item>
+    </style>
+    <style name="bottom_line_edit_text_style" parent="@android:style/Widget.EditText">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">6.0dip</item>
+        <item name="android:paddingTop">6.0dip</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:paddingBottom">6.0dip</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:background">@drawable/ease_edit_text_bg</item>
+    </style>
+    <style name="chat_content_date_style">
+        <item name="android:minHeight">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:background">#bfbfbf</item>
+    </style>
+    <style name="chat_text_date_style">
+        <item name="android:paddingTop">1dip</item>
+        <item name="android:paddingBottom">1dip</item>
+        <item name="android:paddingLeft">7dip</item>
+        <item name="android:paddingRight">7dip</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@drawable/ease_timestampe_bg</item>
+    </style>
+    <style name="chat_text_name_style">
+        <item name="android:textColor">#818181</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="devide_line_eee">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1.5dp</item>
+        <item name="android:background">#eee</item>
+    </style>
+    <style name="dialog_animation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/rp_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/rp_fade_out</item>
+    </style>
+    <style name="horizontal_slide" parent="android:Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/AnimFade2</item>
+    </style>
+    <style name="nornal_style" parent="android:Theme.NoTitleBar"/>
+</resources>

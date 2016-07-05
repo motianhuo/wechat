@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hyphenate="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chat_menu_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical" >
+
+    <!-- <com.hyphenate.easeui.widget.EaseChatPrimaryMenu
+        android:id="@+id/primary_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" /> -->
+    
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/primary_menu_container"
+        >
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/extend_menu_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:visibility="gone" >
+
+        <com.hyphenate.easeui.widget.EaseChatExtendMenu
+            android:id="@+id/extend_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="9dp"
+            hyphenate:numColumns="4" />
+
+        <FrameLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emojicon_menu_container"
+            ></FrameLayout>
+    </FrameLayout>
+
+</LinearLayout>

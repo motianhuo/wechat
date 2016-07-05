@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/money_white"
+              android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/iv_avatar"
+        style="@style/AvatarIconStyle"
+        android:src="@drawable/rp_avatar"
+        android:background="@drawable/rp_bg_circular"
+        />
+
+    <TextView
+        android:id="@+id/tv_username"
+        style="@style/UserNameStyle"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_received_money_amount"
+        style="@style/ReceivedMoneyStyle"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size81px"
+        android:visibility="visible"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size174px"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_received_count"
+                style="@style/RecordReceivedCountStyle"
+                />
+
+            <TextView
+                style="@style/RecordReceivedCountTextStyle"
+                android:text="@string/money_received"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/size174px"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_best_count"
+                style="@style/RecordReceivedCountStyle"
+                />
+
+            <TextView
+                style="@style/RecordReceivedCountTextStyle"
+                android:text="@string/best_count"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        style="@style/DividerStyle"
+        android:layout_marginTop="@dimen/size81px"
+        />
+
+</LinearLayout>

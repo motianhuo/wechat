@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+	 
+	<FrameLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<LinearLayout
+			android:layout_gravity="center"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:background="@color/windows_color">
+			<ListView
+				android:id="@+id/lv_listview"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:divider="@null"
+				android:fadingEdge="none"
+				android:scrollbars="none"
+				android:dividerHeight="0dp"
+				android:listSelector="@color/transparent"
+				android:cacheColorHint="@color/transparent"/>
+		</LinearLayout>
+		
+		<com.allenjuns.wechat.widget.SideBar
+			android:id="@+id/sideBar"
+			android:layout_height="wrap_content"
+			android:layout_width="30dp"
+			android:layout_marginTop="30dp"
+			android:layout_gravity="right|center_vertical" /> 
+	</FrameLayout>
+</LinearLayout>

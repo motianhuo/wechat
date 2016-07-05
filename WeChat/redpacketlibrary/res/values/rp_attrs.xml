@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="app">
+        <attr name="RPmytitle" format="string" />
+        <attr name="RPleftImage" format="reference" />
+        <attr name="RPrightImage" format="reference" />
+        <attr name="RPrightText" format="string" />
+        <attr name="RPrightTextColor" format="reference|color" />
+        <attr name="RPrightTextSize" format="dimension" />
+        <attr name="RPtitleTextColor" format="reference|color" />
+        <attr name="RPtitleTextSize" format="dimension" />
+        <attr name="RPtitleBackground" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="gridPasswordView">
+
+        <attr name="gpvTextColor" format="color|reference" />
+        <attr name="gpvTextSize" format="dimension" />
+
+        <attr name="gpvLineColor" format="color" />
+        <attr name="gpvGridColor" format="color" />
+        <attr name="gpvLineWidth" format="dimension" />
+
+        <attr name="gpvPasswordLength" format="integer" />
+        <attr name="gpvPasswordTransformation" format="string" />
+
+        <attr name="gpvPasswordType" format="enum">
+            <enum name="numberPassword" value="0" />
+            <enum name="textPassword" value="1" />
+            <enum name="textVisiblePassword" value="2" />
+            <enum name="textWebPassword" value="3" />
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="RecyclerView">
+        <!-- Class name of the Layout Manager to be used.
+        <p/>
+        The class must extend android.support.v7.widget.RecyclerView$LayoutManager
+        and have either a default constructor or constructor with the signature
+        (android.content.Context, android.util.AttributeSet, int, int).
+         <p/>
+         If the name starts with a '.', application package is prefixed.
+         Else, if the name contains a '.', the classname is assumed to be a full class name.
+         Else, the recycler view package name (android.support.v7.widget) is prefixed. -->
+        <attr name="layoutManager" format="string" />
+
+        <!-- ============================= -->
+        <!-- Attributes for Layout Manager -->
+        <!-- ============================= -->
+        <eat-comment />
+
+        <attr name="android:orientation" />
+        <attr name="spanCount" format="integer" />
+        <attr name="reverseLayout" format="boolean" />
+        <attr name="stackFromEnd" format="boolean" />
+    </declare-styleable>
+
+</resources>

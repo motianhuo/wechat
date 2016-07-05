@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:drawable="@drawable/rp_load_dark_1" android:duration="100"/>
+    <item android:drawable="@drawable/rp_load_dark_2" android:duration="100"/>
+    <item android:drawable="@drawable/rp_load_dark_3" android:duration="100"/>
+    <item android:drawable="@drawable/rp_load_dark_4" android:duration="100"/>
+    <item android:drawable="@drawable/rp_load_dark_5" android:duration="100"/>
+    <item android:drawable="@drawable/rp_load_dark_6" android:duration="100"/>
+    <item android:drawable="@drawable/rp_load_dark_7" android:duration="100"/>
+    <item android:drawable="@drawable/rp_load_dark_8" android:duration="100"/>
+    <item android:drawable="@drawable/rp_load_dark_9" android:duration="100"/>
+    <item android:drawable="@drawable/rp_load_dark_10" android:duration="100"/>
+    <item android:drawable="@drawable/rp_load_dark_11" android:duration="100"/>
+    <item android:drawable="@drawable/rp_load_dark_12" android:duration="100"/>
+
+</animation-list>

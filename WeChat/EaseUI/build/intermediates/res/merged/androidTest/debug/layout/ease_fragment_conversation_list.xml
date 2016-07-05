@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hyphenate="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    android:orientation="vertical">
+
+	<com.hyphenate.easeui.widget.EaseTitleBar 
+	    android:id="@+id/title_bar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    hyphenate:titleBarTitle="@string/session"
+	    />
+    
+    <include
+        android:id="@+id/search_bar_view"
+        layout="@layout/ease_search_bar" />
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fl_error_item"
+        >
+    </FrameLayout>
+
+
+    <com.hyphenate.easeui.widget.EaseConversationList
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        hyphenate:cvsListPrimaryTextSize="16sp"
+         />
+
+</LinearLayout>

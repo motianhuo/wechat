@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/swipe_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lv_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:fadingEdge="none"
+            android:listSelector="@color/transparent"
+            android:scrollbars="none" />
+    </RelativeLayout>
+
+    <!--底部栏 输入框-->
+    <LinearLayout
+        android:id="@+id/bar_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ECECEC"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_vol"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:textColor="@color/white"
+                android:background="@drawable/fab_background"
+                android:text="语音" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:background="@drawable/search_ba" />
+
+            <Button
+                android:id="@+id/btn_smail"
+                android:layout_width="55dp"
+                android:textColor="@color/white"
+                android:background="@drawable/fab_background"
+                android:layout_height="55dp"
+                android:text="表情" />
+
+            <Button
+                android:id="@+id/btn_tools"
+                android:layout_width="55dp"
+                android:textColor="@color/white"
+                android:background="@drawable/fab_background"
+                android:layout_height="55dp"
+                android:text="工具" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+            <!-- 语音 -->
+            <LinearLayout
+                android:id="@+id/ll_vole"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#9c4398"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+            </LinearLayout>
+            <!-- 表情图片 -->
+            <LinearLayout
+                android:id="@+id/ll_face_container"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#8c5e5e"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/vPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <!-- 表情图片 -->
+            <LinearLayout
+                android:id="@+id/ll_btn_container"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#43869c"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/view_layout_title" />
+</RelativeLayout>

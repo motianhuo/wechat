@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="SendMoneyLeftTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="SendMoneyEditTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="SendMoneyRightTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginRight">14dp</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="SendMoneyButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:background">@drawable/rp_btn_selector</item>
+        <item name="android:textColor">@color/money_white</item>
+        <item name="android:textSize">@dimen/font51px</item>
+    </style>
+
+    <style name="SendMoneyGreetingsStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">62dp</item>
+        <item name="android:background">@color/money_white</item>
+        <item name="android:gravity">top</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">14dp</item>
+    </style>
+
+    <style name="SendMoneyRLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:background">@color/money_white</item>
+    </style>
+
+    <style name="SendMoneyGroupRuleTipsStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@color/money_red_light</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="BindBankCardRLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:background">@color/money_white</item>
+    </style>
+
+    <style name="BindBankCardEditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textColorHint">@color/text_light_grey</item>
+    </style>
+
+    <style name="BindBankCardTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/text_grey</item>
+        <item name="android:textSize">@dimen/font42px</item>
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
+
+    <style name="BindBankCardHintStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_grey</item>
+        <item name="android:textSize">@dimen/font42px</item>
+    </style>
+
+    <style name="BindBankCardBottomStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/font36px</item>
+        <item name="android:textColor">@color/text_light_grey</item>
+    </style>
+
+    <style name="AddBankCardTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:textColor">@color/text_light_grey</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:background">@color/background_white</item>
+        <item name="android:drawableRight">@drawable/rp_arrow_forward</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+
+    <style name="DividerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/divider_color</item>
+    </style>
+
+    <style name="DividerStyleNoHead" parent="DividerStyle">
+        <item name="android:layout_marginLeft">@dimen/size45px</item>
+    </style>
+
+    <style name="DialogClosedButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginLeft">@dimen/size45px</item>
+        <item name="android:textSize">@dimen/font51px</item>
+        <item name="android:background">@drawable/rp_closed_icon</item>
+    </style>
+
+    <style name="DialogTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">@dimen/font51px</item>
+    </style>
+
+    <style name="YzhMoneyIconStyle">
+        <item name="android:layout_width">@dimen/size75px</item>
+        <item name="android:layout_height">@dimen/size96px</item>
+        <item name="android:layout_marginLeft">@dimen/size30px</item>
+        <item name="android:layout_marginTop">@dimen/size45px</item>
+    </style>
+
+    <style name="AvatarIconStyle">
+        <item name="android:layout_width">@dimen/size165px</item>
+        <item name="android:layout_height">@dimen/size165px</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/size129px</item>
+    </style>
+
+    <style name="ReceivedMoneyStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">@dimen/font132px</item>
+    </style>
+
+    <style name="RecordReceivedCountStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font105px</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/text_light_grey</item>
+    </style>
+
+
+    <style name="UserNameStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/size27px</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">@dimen/font45px</item>
+    </style>
+
+    <style name="RecordReceivedCountTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/size36px</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/text_light_grey</item>
+        <item name="android:textSize">@dimen/font36px</item>
+    </style>
+
+    <style name="EMDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/dialog_animation</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="dialog_animation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/rp_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/rp_fade_out</item>
+    </style>
+
+    <style name="LoadingProgressStyle" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@anim/rp_progress_loading</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:layout_width">@dimen/size84px</item>
+        <item name="android:layout_height">@dimen/size84px</item>
+        <item name="android:indeterminate">false</item>
+    </style>
+
+    <style name="DialogPayTypeStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginLeft">@dimen/size24px</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">@dimen/font45px</item>
+    </style>
+
+    <style name="DialogPayTypeRightArrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginRight">@dimen/size45px</item>
+        <item name="android:src">@drawable/rp_arrow_forward</item>
+    </style>
+
+    <style name="GridPasswordStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/size129px</item>
+        <item name="android:layout_marginBottom">@dimen/size51px</item>
+        <item name="android:layout_marginLeft">@dimen/size45px</item>
+        <item name="android:layout_marginRight">@dimen/size45px</item>
+        <item name="android:layout_marginTop">@dimen/size75px</item>
+        <item name="gpvGridColor">@color/money_white</item>
+        <item name="gpvLineColor">@color/divider_color</item>
+        <item name="gpvLineWidth">1px</item>
+        <item name="gpvPasswordLength">6</item>
+        <item name="gpvPasswordType">numberPassword</item>
+        <item name="gpvTextColor">@color/text_black</item>
+        <item name="gpvTextSize">@dimen/size51px</item>
+    </style>
+
+    <style name="DialogButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/text_blue</item>
+        <item name="android:textSize">@dimen/font51px</item>
+    </style>
+
+    <style name="GridPasswordView"/>
+
+    <style name="GridPasswordView.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="GridPasswordView.EditText" parent="GridPasswordView.TextView">
+        <item name="android:cursorVisible">false</item>
+    </style>
+
+    <style name="GridPasswordView.Divider">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+    </style>
+
+    <style name="SendMoneyBottomTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font39px</item>
+        <item name="android:textColor">@color/text_light_grey</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginBottom">@dimen/size39px</item>
+    </style>
+
+    <style name="ChangeButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/button_blue</item>
+        <item name="android:textSize">@dimen/font39px</item>
+    </style>
+
+    <style name="PayTypeIconStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginLeft">@dimen/size45px</item>
+    </style>
+
+    <style name="ChooseRecordStyle" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/rp_top_in</item>
+        <item name="android:windowExitAnimation">@anim/rp_top_out</item>
+    </style>
+</resources>

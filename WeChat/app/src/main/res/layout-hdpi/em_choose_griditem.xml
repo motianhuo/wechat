@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="2dip"
+     >
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#fff"
+        >
+         <com.allenjuns.wechat.chatuidemo.widget.RecyclingImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+     <ImageView 
+        android:id="@+id/video_icon"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="center"
+        android:clickable="false"
+        android:src="@drawable/ease_video_download_btn_nor"
+        android:visibility="gone"
+        />
+         
+    </RelativeLayout>
+    
+    
+    
+    
+	<LinearLayout 
+	    android:id="@+id/video_data_area"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:gravity="bottom"
+	    android:orientation="horizontal"
+	    android:visibility="visible"
+	    android:background="@drawable/ease_chat_video_mask_to"
+	    >
+	    <TextView 
+	        android:id="@+id/chatting_size_iv"
+	        android:layout_width="0.0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+	        android:textColor="@android:color/white"
+	        android:textSize="12.0sp"
+	        />
+	    <TextView 
+	        android:id="@+id/chatting_length_iv"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="right"
+	        android:textColor="@android:color/white"
+	        android:textSize="12.0sp"
+	        />
+	</LinearLayout>
+     
+</FrameLayout>

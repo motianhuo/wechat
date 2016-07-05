@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="18dp"
+    android:layout_marginLeft="18dp"
+    android:layout_marginRight="18dp"
+    android:background="@drawable/bg_card">
+
+    <ImageView
+        android:contentDescription="@null"
+        android:id="@+id/portrait"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_marginTop="3px"
+        android:layout_marginBottom="3dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="150dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:padding="12dp" >
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#565656"
+            android:textSize="16sp"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/education"
+            android:layout_below="@id/txt_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#565656"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:text=""/>
+        <TextView
+            android:id="@+id/city"
+            android:layout_alignTop="@id/education"
+            android:layout_toLeftOf="@id/education"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#565656"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:text=""/>
+        <TextView
+            android:id="@+id/work_year"
+            android:layout_alignTop="@id/education"
+            android:layout_toRightOf="@id/education"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#565656"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/favorite"
+            android:layout_below="@id/city"
+            android:layout_centerHorizontal="true"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:background="@color/green"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:text=""/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main-->
+    <string name="app_name">微信</string>
+    <string name="contacts">通讯录</string>
+    <string name="me">我</string>
+    <string name="discover">发现</string>
+    <string name="recommended_friends">新的朋友</string>
+    <string name="group_chats">群聊</string>
+    <string name="official_accounts">公众号</string>
+    <string name="no_msg">暂时没有新消息</string>
+    <string name="search">搜索</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="menu_groupchat">发起群聊</string>
+    <string name="menu_addfriend">添加朋友</string>
+    <string name="menu_qrcode">扫一扫</string>
+    <string name="menu_money">微信钱包</string>
+
+    <!-- Login-->
+    <string name="countries_and_areas">国家和地区</string>
+    <string name="login_txt_china">中国</string>
+    <string name="login_txt_yourphone">你的手机号码</string>
+    <string name="login_hint_code">输入验证码</string>
+    <string name="login_txt_code">验证码</string>
+    <string name="login_btn_sendcode">发送验证码</string>
+    <string name="login_txt_86">+86</string>
+    <string name="password">密码</string>
+    <string name="login_txt_inputpwd">填写密码</string>
+    <string name="login_btn_action">登录</string>
+    <string name="login_btn_register">注册</string>
+    <string name="login_txt_qustion">登录遇到问题？</string>
+    <string name="login_tip_tel_error">请输入正确的手机号！</string>
+    <string name="login_tip_loginerror">登录失败</string>
+
+    <!-- profile-->
+    <string name="profile_txt_album">相册</string>
+    <string name="profile_txt_collect">收藏</string>
+    <string name="profile_txt_money">钱包</string>
+    <string name="profile_txt_card">卡包</string>
+    <string name="profile_txt_smail">表情</string>
+    <string name="profile_txt_setting">设置</string>
+    <string name="profile_txt_username">Allen Juns</string>
+    <string name="profile_txt_userid">微信号：dada2012625</string>
+    <string name="profile_txt_mycode">我的二维码</string>
+
+    <!-- Dicover-->
+    <string name="discover_txt_pengyouquan">朋友圈</string>
+    <string name="discover_txt_saoyisao">扫一扫</string>
+    <string name="discover_txt_yaoyiyao">摇一摇</string>
+    <string name="discover_txt_nearby">附近的人</string>
+    <string name="discover_txt_piaoliuping">漂流瓶</string>
+    <string name="discover_txt_shop">购物</string>
+    <string name="discover_txt_game">游戏</string>
+
+    <!-- default -->
+    <string name="def_empty_data_text">空空如也，神马都没有</string>
+    <string name="def_empty_button_retry">重试</string>
+    <string name="def_net_error_text">网络不给力</string>
+    <string name="def_data_loading">加载中&#8230;</string>
+    <string name="def_more">上拉加载更多&#8230;</string>
+    <string name="key_back_msg">再次按返回键退出</string>
+
+    <!-- 钱包 -->
+    <string name="wallet_txt_lingqian">零钱</string>
+    <string name="wallet_txt_yinhangka">银行卡</string>
+    <string name="wallet_txt_cards">3张</string>
+
+    <!-- 设置 -->
+    <string name="setting_txt_usersafe">账号安全</string>
+    <string name="setting_txt_msgtip">新消息通知</string>
+    <string name="setting_txt_yinsi">隐私</string>
+    <string name="setting_txt_tongyong">通用</string>
+    <string name="setting_txt_about">关于微信</string>
+    <string name="setting_btn_exit">退出登录</string>
+</resources>

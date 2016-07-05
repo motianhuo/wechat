@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/money_bg_color"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_withdraw_bankcard_name"
+        style="@style/BindBankCardTextViewStyle"
+        android:text="@string/str_your_withdraw_cash_card" />
+
+    <RelativeLayout
+        android:id="@+id/layout_withdraw_card_no"
+        style="@style/BindBankCardRLayoutStyle"
+        android:layout_below="@id/tv_withdraw_bankcard_name">
+
+        <TextView
+            android:id="@+id/tv_add_bankcard_number"
+            style="@style/SendMoneyLeftTextViewStyle"
+            android:text="@string/bank_card_number" />
+
+        <TextView
+            android:id="@+id/tv_add_bankcard_no"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/size45px"
+            android:layout_toRightOf="@id/tv_add_bankcard_number"
+            android:gravity="center_vertical"
+            android:text="1234455"
+            android:textColor="@color/text_light_grey"
+            android:textSize="@dimen/font45px" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_add_bankcard_name"
+        style="@style/BindBankCardTextViewStyle"
+        android:layout_below="@id/layout_withdraw_card_no"
+        android:text="中国工商银行"
+        android:textColor="@color/text_light_grey"
+        android:textSize="@dimen/font36px" />
+
+    <TextView
+        android:id="@+id/tv_complete_bank_hint"
+        style="@style/BindBankCardTextViewStyle"
+        android:layout_below="@id/tv_add_bankcard_name"
+        android:text="@string/str_add_bank_hint" />
+
+    <RelativeLayout
+        android:id="@+id/layout_choose_province"
+        style="@style/BindBankCardRLayoutStyle"
+        android:layout_below="@id/tv_complete_bank_hint">
+
+        <TextView
+            android:id="@+id/tv_choose_province"
+            style="@style/SendMoneyLeftTextViewStyle"
+            android:text="@string/str_select_province" />
+
+        <TextView
+            android:id="@+id/tv_province_name"
+            style="@style/AddBankCardTextViewStyle"
+            android:layout_toRightOf="@id/tv_choose_province" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line_one"
+        android:layout_below="@id/layout_choose_province"
+        style="@style/DividerStyleNoHead" />
+
+    <RelativeLayout
+        android:id="@+id/layout_choose_city"
+        style="@style/BindBankCardRLayoutStyle"
+        android:layout_below="@id/line_one">
+
+        <TextView
+            android:id="@+id/tv_choose_city"
+            style="@style/SendMoneyLeftTextViewStyle"
+            android:text="@string/str_select_city" />
+
+        <TextView
+            android:id="@+id/tv_city_name"
+            style="@style/AddBankCardTextViewStyle"
+            android:layout_toRightOf="@id/tv_choose_city" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line_two"
+        android:layout_below="@id/layout_choose_city"
+        style="@style/DividerStyleNoHead" />
+
+    <RelativeLayout
+        android:id="@+id/layout_choose_branch"
+        android:layout_below="@id/line_two"
+        style="@style/BindBankCardRLayoutStyle">
+
+        <TextView
+            android:id="@+id/tv_choose_branch_name"
+            style="@style/SendMoneyLeftTextViewStyle"
+            android:text="@string/str_open_bank_name" />
+
+        <TextView
+            android:id="@+id/tv_open_bank_name"
+            style="@style/AddBankCardTextViewStyle"
+            android:layout_toRightOf="@id/tv_choose_branch_name" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_complete_ok"
+        style="@style/SendMoneyButtonStyle"
+        android:layout_below="@id/layout_choose_branch"
+        android:background="@drawable/rp_btn_blue_selector"
+        android:text="@string/btn_ok" />
+
+    <LinearLayout
+        android:id="@+id/target_layout"
+        android:layout_width="@dimen/size180px"
+        android:layout_height="@dimen/size180px"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" />
+</RelativeLayout>

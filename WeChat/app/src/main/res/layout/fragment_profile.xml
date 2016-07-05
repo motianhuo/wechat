@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black3" />
+
+            <RelativeLayout
+                android:id="@+id/view_user"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/setting_item_selector"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="60dip"
+                    android:layout_height="60dip"
+                    android:src="@drawable/head"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+
+
+                <TextView
+                    android:id="@+id/tvname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@+id/profile_image"
+                    android:text="@string/profile_txt_username"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tvmsg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvname"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/profile_image"
+                    android:text="@string/profile_txt_userid"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/right" />
+
+                <ImageView
+                    android:id="@+id/iv_sex"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@+id/tvname"
+                    android:src="@drawable/ic_sex_female" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black3" />
+
+
+            <TextView
+                android:id="@+id/txt_album"
+                style="@style/list_txt_Style"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/icon_me_photo"
+                android:text="@string/profile_txt_album" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black3" />
+
+            <TextView
+                android:id="@+id/txt_collect"
+                style="@style/list_txt_Style"
+                android:drawableLeft="@drawable/icon_me_collect"
+                android:text="@string/profile_txt_collect" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black3" />
+
+            <TextView
+                android:id="@+id/txt_money"
+                style="@style/list_txt_Style"
+                android:drawableLeft="@drawable/icon_me_money"
+                android:text="@string/profile_txt_money" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black3" />
+
+            <TextView
+                android:id="@+id/txt_card"
+                style="@style/list_txt_Style"
+                android:drawableLeft="@drawable/icon_me_card"
+                android:text="@string/profile_txt_card" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black3" />
+
+
+            <TextView
+                android:id="@+id/txt_smail"
+                style="@style/list_txt_Style"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/icon_me_smail"
+                android:drawablePadding="10dp"
+                android:text="@string/profile_txt_smail" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black3" />
+
+            <TextView
+                android:id="@+id/txt_setting"
+                style="@style/list_txt_Style"
+                android:drawableLeft="@drawable/icon_me_setting"
+                android:text="@string/profile_txt_setting" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.3dp"
+                android:background="@color/black3" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

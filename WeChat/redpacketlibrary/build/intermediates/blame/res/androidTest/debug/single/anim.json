@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/rp_bottom_out.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/anim/rp_bottom_out.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/rp_progress_loading.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/anim/rp_progress_loading.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/voice_from_icon.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/anim/voice_from_icon.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/fade_out.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/anim/fade_out.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/rp_scale_in.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/anim/rp_scale_in.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/push_top_out2.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/anim/push_top_out2.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/head_in.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/anim/head_in.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/hold.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/anim/hold.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/slide_in_from_right.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/anim/slide_in_from_right.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/slide_out_to_right.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/anim/slide_out_to_right.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/rp_bottom_in.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/anim/rp_bottom_in.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/rp_left_in.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/anim/rp_left_in.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/push_bottom_in.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/anim/push_bottom_in.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/rp_right_in.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/anim/rp_right_in.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/slide_in_from_left.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/anim/slide_in_from_left.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/rp_fade_out.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/anim/rp_fade_out.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/fade_in.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/anim/fade_in.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/rp_right_out.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/anim/rp_right_out.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/rp_left_out.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/anim/rp_left_out.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/rp_fade_in.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/anim/rp_fade_in.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/push_top_in2.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/anim/push_top_in2.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/push_top_out.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/anim/push_top_out.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/rp_top_out.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/anim/rp_top_out.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/rp_top_in.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/anim/rp_top_in.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/push_top_in.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/anim/push_top_in.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/voice_to_icon.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/anim/voice_to_icon.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/slide_out_to_left.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/anim/slide_out_to_left.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/push_bottom_out.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/anim/push_bottom_out.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/rp_scale_out.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/bundles/debug/res/anim/rp_scale_out.xml"
+    },
+    {
+        "merged": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/res/merged/androidTest/debug/anim/head_out.xml",
+        "source": "/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build/intermediates/exploded-aar/WeChat/EaseUI/unspecified/res/anim/head_out.xml"
+    }
+]

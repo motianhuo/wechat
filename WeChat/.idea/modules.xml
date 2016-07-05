@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EaseUI/EaseUI.iml" filepath="$PROJECT_DIR$/EaseUI/EaseUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeChat.iml" filepath="$PROJECT_DIR$/WeChat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redpacketlibrary/redpacketlibrary.iml" filepath="$PROJECT_DIR$/redpacketlibrary/redpacketlibrary.iml" />
+    </modules>
+  </component>
+</project>

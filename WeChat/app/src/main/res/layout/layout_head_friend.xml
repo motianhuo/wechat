@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/layout_search"
+        layout="@layout/view_head_search" />
+
+    <LinearLayout
+        android:id="@+id/layout_addfriend"
+        style="@style/MMListItem"
+        android:layout_height="50dip"
+        android:background="@drawable/setting_item_selector"
+        android:paddingLeft="15dip">
+
+        <ImageView
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:src="@drawable/icon_addfriend" />
+
+        <TextView
+            style="@style/MMFontTitleInList"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            android:text="@string/recommended_friends"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/black3" />
+
+    <LinearLayout
+        android:id="@+id/layout_group"
+        style="@style/MMListItem"
+        android:layout_height="50dip"
+        android:background="@drawable/setting_item_selector"
+        android:paddingLeft="15dip">
+
+        <ImageView
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:src="@drawable/icon_qunliao" />
+
+        <TextView
+            style="@style/MMFontTitleInList"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            android:text="@string/group_chats"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/black3" />
+
+    <LinearLayout
+        android:id="@+id/layout_public"
+        style="@style/MMListItem"
+        android:layout_height="50dip"
+        android:background="@drawable/setting_item_selector"
+        android:paddingLeft="15dip">
+
+        <ImageView
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:src="@drawable/icon_public" />
+
+        <TextView
+            style="@style/MMFontTitleInList"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            android:text="@string/official_accounts"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="money_msg_take_money">You got your own Red Packet</string>
+    <string name="money_msg_take_someone_money">You got Red Packet from %1$s</string>
+    <string name="money_msg_someone_take_money">%1$s got your Red Packet</string>
+    <string name="easemob_red_packet">Easemob Red Packet</string>
+    <string name="attach_red_packet">Red Packet</string>
+    <string name="change">Change</string>
+
+</resources>

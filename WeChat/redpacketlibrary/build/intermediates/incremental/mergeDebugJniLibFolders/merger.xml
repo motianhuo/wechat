@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/libs"><file name="redpacket2.0.jar" path="/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/libs/redpacket2.0.jar"/></source></dataSet><dataSet config="debug"><source path="/Users/yangjian/JUNS/MianCode/WeChat/redpacketlibrary/build-types/debug/jniLibs"/></dataSet></merger>

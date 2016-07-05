@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rp_shape_corner"
+    >
+
+    <RelativeLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size132px"
+        >
+
+        <ImageButton
+            android:id="@+id/ib_pay_closed"
+            style="@style/DialogClosedButtonStyle"
+            />
+
+        <TextView
+            style="@style/DialogTitleStyle"
+            android:text="@string/dialog_title_pay"
+            />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divider"
+        style="@style/DividerStyle"
+        android:layout_below="@id/layout_title"
+        />
+
+    <TextView
+        android:id="@+id/tv_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider"
+        android:layout_marginTop="@dimen/size60px"
+        android:gravity="center"
+        android:text="@string/red_money"
+        android:textColor="@color/text_light_grey"
+        android:textSize="@dimen/font42px"
+        />
+
+    <TextView
+        android:id="@+id/tv_pay_money_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_subtitle"
+        android:layout_marginTop="@dimen/size21px"
+        android:gravity="center"
+        android:text="￥200"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/font90px"
+        />
+
+    <View
+        android:id="@+id/divider2"
+        style="@style/DividerStyleNoHead"
+        android:layout_below="@id/tv_pay_money_amount"
+        android:layout_marginTop="@dimen/size60px"
+        />
+
+    <RelativeLayout
+        android:id="@+id/layout_pay"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size132px"
+        android:layout_below="@id/divider2"
+        >
+
+        <ImageView
+            android:id="@+id/iv_pay_icon"
+            style="@style/PayTypeIconStyle"
+            android:src="@drawable/rp_change_icon"
+            />
+
+        <TextView
+            android:id="@+id/tv_pay_type_text"
+            style="@style/DialogPayTypeStyle"
+            android:layout_toRightOf="@id/iv_pay_icon"
+            android:text="@string/my_change"
+            />
+
+        <ImageView
+            android:id="@+id/iv_arrow_right"
+            style="@style/DialogPayTypeRightArrow"
+            />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divider3"
+        style="@style/DividerStyleNoHead"
+        android:layout_below="@id/layout_pay"
+        />
+
+    <TextView
+        android:id="@+id/tv_pwd_type_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider3"
+        android:layout_marginLeft="@dimen/size45px"
+        android:layout_marginRight="@dimen/size45px"
+        android:layout_marginTop="@dimen/size42px"
+        android:text="@string/input_change_pwd"
+        android:textColor="@color/text_grey"
+        android:textSize="@dimen/font36px"
+
+        />
+
+    <com.easemob.redpacketui.gridpasswordview.GridPasswordView
+        android:id="@+id/et_pay_pwd"
+        style="@style/GridPasswordStyle"
+        android:layout_below="@id/tv_pwd_type_title"
+        android:layout_marginBottom="@dimen/size42px"
+        android:layout_marginTop="@dimen/size27px"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_pay_pwd"
+        android:layout_marginBottom="@dimen/size42px"
+        >
+
+        <Button
+            android:id="@+id/btn_forget_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size57px"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:textColor="@color/text_blue"
+            android:textSize="@dimen/font42px"
+            />
+
+        <Button
+            android:id="@+id/btn_resend_code"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size57px"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:textColor="@color/text_blue"
+            android:textSize="@dimen/font42px"
+            />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/target_layout"
+        android:layout_width="@dimen/size180px"
+        android:layout_height="@dimen/size180px"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        />
+
+</RelativeLayout>

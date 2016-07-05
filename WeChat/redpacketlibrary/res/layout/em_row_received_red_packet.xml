@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              android:paddingTop="13dp"
+    >
+
+    <TextView
+        android:id="@+id/timestamp"
+        style="@style/chat_text_date_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_chat_activity"
+        >
+
+        <ImageView
+            android:id="@+id/iv_userhead"
+            android:layout_width="@dimen/size_avatar"
+            android:layout_height="@dimen/size_avatar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/margin_chat_activity"
+            android:src="@drawable/ease_default_avatar"
+            />
+
+        <RelativeLayout
+            android:id="@+id/bubble"
+            android:layout_width="210dp"
+            android:layout_height="90dp"
+            android:layout_below="@+id/tv_userid"
+            android:layout_marginLeft="@dimen/margin_chat_activity"
+            android:layout_toRightOf="@id/iv_userhead"
+            android:background="@drawable/em_red_packet_chatfrom_bg"
+            >
+
+            <ImageView
+                android:id="@+id/iv_money_icon"
+                style="@style/RedPacketIconStyle"
+                android:src="@drawable/em_red_packet_icon"
+                />
+
+            <TextView
+                android:id="@+id/tv_money_greeting"
+                style="@style/RedPacketGreetingStyle"
+                android:text="恭喜发财，大吉大利！"
+                />
+
+            <TextView
+                style="@style/RedPacketCheckStyle"
+                android:text="查看红包"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_alignParentBottom="true"
+                >
+
+                <TextView
+                    android:id="@+id/tv_sponsor_name"
+                    style="@style/RedPacketSponsorStyle"
+                    />
+
+                <ImageView
+                    style="@style/RedPacketSponsorIconStyle"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_userid"
+            style="@style/chat_text_name_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/chat_nick_margin_left"
+            android:layout_toRightOf="@id/iv_userhead"
+            android:textSize="@dimen/chat_nick_text_size"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

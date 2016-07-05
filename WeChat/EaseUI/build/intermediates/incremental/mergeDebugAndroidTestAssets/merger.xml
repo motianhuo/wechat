@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="23.1.1"><source path="/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/assets"/></dataSet><dataSet config="debug"><source path="/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/build/intermediates/bundles/debug/assets"/></dataSet><dataSet config="main"><source path="/Users/yangjian/JUNS/MianCode/WeChat/EaseUI/src/androidTest/assets"/></dataSet></merger>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/money_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size216px"
+            android:background="@drawable/rp_packet_group_detail_bg" />
+
+        <ImageView
+            android:id="@+id/iv_avatar"
+            style="@style/AvatarIconStyle"
+            android:src="@drawable/rp_avatar"
+            android:background="@drawable/rp_bg_circular"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size27px"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_money_sender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Max的红包"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/font45px" />
+
+        <ImageView
+            android:id="@+id/iv_group_random"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/size18px"
+            android:src="@drawable/rp_random_icon"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_greeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/size42px"
+        android:layout_marginTop="@dimen/size18px"
+        android:text="打赏你哒"
+        android:textColor="@color/text_light_grey"
+        android:textSize="@dimen/font36px" />
+
+    <TextView
+        android:id="@+id/tv_money_amount"
+        style="@style/ReceivedMoneyStyle"
+        android:text="￥200.00" />
+
+    <TextView
+        android:id="@+id/tv_money_use"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/size30px"
+        android:layout_marginTop="@dimen/size18px"
+        android:text="@string/money_detail_use"
+        android:textColor="@color/text_light_grey"
+        android:textSize="@dimen/font36px" />
+
+    <LinearLayout
+        android:id="@+id/status_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/money_bg_color"
+        android:orientation="vertical">
+
+        <!--<View-->
+        <!--style="@style/DividerStyle"-->
+        <!--/>-->
+
+        <TextView
+            android:id="@+id/tv_money_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size48px"
+            android:layout_marginTop="@dimen/size45px"
+            android:text="@string/money_status_no_taken"
+            android:textColor="@color/text_light_grey"
+            android:textSize="@dimen/font36px" />
+
+        <View
+            style="@style/DividerStyle"
+            android:layout_marginTop="@dimen/size24px" />
+    </LinearLayout>
+
+</LinearLayout>

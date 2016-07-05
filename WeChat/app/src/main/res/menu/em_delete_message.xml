@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/delete_conversation"
+        android:title="@string/delete_conversation"/>
+    
+    <item
+        android:id="@+id/delete_message"
+        android:title="@string/delete_conversation_messages"/>
+    
+</menu>

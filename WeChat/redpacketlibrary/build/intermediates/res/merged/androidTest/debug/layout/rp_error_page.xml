@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_light_grey"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_error_hint"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/size51px"
+        android:src="@drawable/rp_error_page_icon" />
+
+    <TextView
+        android:id="@+id/tv_error_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout_error_retry"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/size144px"
+        android:text="@string/msg_error_page_hint"
+        android:textColor="@color/text_dark_grey"
+        android:textSize="@dimen/font45px" />
+<LinearLayout
+    android:id="@+id/layout_error_retry"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_centerInParent="true">
+    <TextView
+        android:id="@+id/tv_error_retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/size18px"
+        android:paddingBottom="@dimen/size18px"
+        android:paddingLeft="@dimen/size66px"
+        android:paddingRight="@dimen/size66px"
+        android:layout_marginTop="@dimen/size60px"
+        android:background="@drawable/rp_btn_retry_normal_shape"
+        android:text="@string/msg_error_retry"
+        android:textColor="@color/button_blue"
+        android:textSize="@dimen/font51px" />
+</LinearLayout>
+
+</RelativeLayout>

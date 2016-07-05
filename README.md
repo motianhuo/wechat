@@ -31,7 +31,7 @@ Image
 ===
  
 
-Download Apk
+Download APK
 ===
 
 <a href="https://raw.githubusercontent.com/motianhuo/wechat/master/WeChat/bin/WeChat.apk">

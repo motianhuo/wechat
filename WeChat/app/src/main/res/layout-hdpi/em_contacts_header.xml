@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.allenjuns.wechat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_search"
+        android:layout_width="fill_parent"
+        android:layout_height="33dp"
+        android:drawableLeft="@drawable/search_icon"
+        android:background="@drawable/search_ba"
+        android:layout_margin="15dp"
+        android:paddingLeft="20dp"
+        android:text="@string/search"
+        android:drawablePadding="10dp"
+        android:textColor="@color/black2"
+        android:gravity="center|left"
+        android:singleLine="true" />
+
+    <com.allenjuns.wechat.chatuidemo.widget.ContactItemView
+        android:id="@+id/application_item"
+        android:layout_width="match_parent"
+        android:layout_height="55.0dip"
+        app:contactItemImage="@drawable/icon_head_addfriend"
+        app:contactItemName="@string/recommended_friends" />
+
+    <com.allenjuns.wechat.chatuidemo.widget.ContactItemView
+        android:id="@+id/group_item"
+        android:layout_width="match_parent"
+        android:layout_height="55.0dip"
+        app:contactItemImage="@drawable/icon_head_group"
+        app:contactItemName="@string/group_chats" />
+
+    <com.allenjuns.wechat.chatuidemo.widget.ContactItemView
+        android:id="@+id/chat_room_item"
+        android:layout_width="match_parent"
+        android:layout_height="55.0dip"
+        app:contactItemImage="@drawable/icon_head_public"
+        app:contactItemName="@string/official_accounts" />
+
+
+</LinearLayout>
