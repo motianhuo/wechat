@@ -13,21 +13,22 @@ This project is a high copy WeChat, and based on WeChat, due to some experience 
 ** If you are interested in this project, please feel free to join our big open-source family! **
  
 
-Screenshots
+Image
 ===
-<img   src="http://ww3.sinaimg.cn/bmiddle/6705567egw1et8fc3m0htj20m80zktbd.jpg" />
+<a href="https://github.com/motianhuo/wechat/tree/wechat2.0" alt="高仿微信2.0">
+<img   src="https://raw.githubusercontent.com/motianhuo/wechat/wechat2.0/pic_hd.jpg" />
+</a>
+<a href="https://github.com/motianhuo/wechat/tree/wechat2.0" alt="高仿微信2.0">
+高仿微信2.0 点击图片进入
+</a>
+
+
 ===
-<img   src="http://ww4.sinaimg.cn/bmiddle/6705567egw1etggaa9ukfj20m80zk0vr.jpg" />
-===
-  <img   src="http://ww4.sinaimg.cn/bmiddle/6705567egw1etggabfdurj20m80zktb5.jpg" />
-===
-  <img   src="http://ww3.sinaimg.cn/bmiddle/6705567egw1esyv3c1r6yj20m80zkq5c.jpg" />
-===
-  <img   src="http://ww2.sinaimg.cn/bmiddle/6705567egw1esyv3ld96kj20m80zkjtk.jpg" />
-===
- <img   src="http://ww3.sinaimg.cn/bmiddle/6705567egw1et8f8o8tkpj20m80zkdi7.jpg" />
-===
- 
+
+
+
+
+
 
 Download APK
 ===
