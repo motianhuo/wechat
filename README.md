@@ -24,7 +24,7 @@ Image
 
 Contact Me
 ===
-<img src="http://worktests.oss-cn-hangzhou.aliyuncs.com/news/20180823153907.jpg" width="100" hegiht="100" align=center />
+<img src="http://worktests.oss-cn-hangzhou.aliyuncs.com/news/20180823153907.jpg" width="200" hegiht="200" align=center />
 
 Download APK
 ===
