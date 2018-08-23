@@ -22,13 +22,9 @@ Image
 高仿微信2.0 点击图片进入
 </a>
 
-
+Contact Me
 ===
-
-
-
-
-
+<img src="http://worktests.oss-cn-hangzhou.aliyuncs.com/news/20180823153907.jpg" width="100" hegiht="100" align=center />
 
 Download APK
 ===
